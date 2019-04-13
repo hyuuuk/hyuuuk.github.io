@@ -40,6 +40,5 @@ $(function () {
             "left": "290px"
         });
     });
-    $('.swiper-wrapper').addClass( "disabled" );
 
 });
