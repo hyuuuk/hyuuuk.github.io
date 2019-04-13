@@ -1142,6 +1142,12 @@ button {
 }
 
 @media (max-width: 1180px) {
+    .main-con2 > .swiper-container> .swiper-wrapper{
+        display: block;
+    }
+    .main-con2 .swiper-slide{
+        width: 100% !important;
+    }
     .main .container {
         margin-top: 0;
     }
