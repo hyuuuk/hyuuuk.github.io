@@ -501,11 +501,11 @@
                     </div>
                     <script>
                         var swiper = new Swiper('.swiper-container07', {
+                            touchEdnabled: false,
                             slidesPerView: 4,
                             spaceBetween: 0,
                             loop: true,
                             direction: 'vertical',
-                            noSwiping: true,
                             autoplay: {
                                 delay: 2500,
                                 disableOnInteraction: false,
@@ -514,7 +514,7 @@
                                 1180: {
                                     loop: false,
                                     autoplay: false,
-                                    noSwipingClass: 'swiper-no-swiping'
+                                    touchRatio: 0,
                                 }
                             }
                         });
