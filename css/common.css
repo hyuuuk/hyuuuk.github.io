@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.owl-item .item {
+    height: 100vh;
+    position: relative;
+}
+
+.owl-item .item .img-wrap {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    transform: translate(-50%, -50%);
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+}
+
+.owl-item .item .img-01 {
+    background-image: url(../img/vis01.jpg);
+}
+
+.owl-item .item .img-02 {
+    background-image: url(../img/vis02_1.jpg);
+}
+
+.owl-item .item .img-03 {
+    background-image: url(../img/vis07.jpg);
+}
+
+.owl-item.active .item .img-wrap {
+    width: 100%;
+    height: 100%;
+}

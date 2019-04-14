@@ -13,6 +13,9 @@ $(function () {
         $('.sideNav .menu>li').removeClass('on');
         $(this).toggleClass('on');
     })
+    $('.sub .sideNav .menu>li').hover(function(){
+        $('.wrapper').toggleClass('on');
+    })
 
     $(".banner1").click(function () {
         $(this).parent().find(".banner2").animate({
