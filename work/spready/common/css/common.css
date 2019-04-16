@@ -1617,6 +1617,49 @@ body.modal-open {
     width: 100% !important;
     padding-left: 0 !important;
 }
+.myInfo-con2 .btn-wrap.ea2{
+    display: flex;
+    justify-content: space-between;
+}
+.myInfo-con2 .btn-wrap.ea2 .btn{
+    min-width: 300px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.buy_04 .desc-2{
+    color: #565a5c;
+}
+.buy_04 .con1{
+    margin-top: 38px;
+    margin-bottom: 48px;
+}
+.buy_04 .con2 {
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.buy_04 .con2 .clb{
+    display: flex;
+    align-items: center;
+}
+.buy_04 .con2 .clb .btn{
+    width: auto;
+    padding: 0 15px;
+}
+.buy_04 .con2 .clb .btn.btn.white{
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #565a5c;
+}
+.buy_04 .con2 .clb .tx{
+    padding: 0 18px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #6f7cff;
+}
+.buy_04 .con3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 @media only screen and (max-width:1024px) {
     .wrap-1024 {
