@@ -1,0 +1,369 @@
+@charset "utf-8";
+
+/*공통 스타일*/
+#container {width:90%; max-width:1132px; margin:0 auto;}
+
+.cfixed:after {display:block; content:""; clear:both;} /*float 속성으로인해 발생하는 문제방지용*/
+#container:after {display:block; content:""; clear:both;} /*float 속성으로인해 발생하는 문제방지용*/
+
+.blind {position:absolute; width:0; height:0; line-height:0; text-indent:-9999px; overflow:hidden;} /*해당 요소를 숨길때 사용목적*/
+
+.sec_title {font-size:42px;color: #3f51b5; font-weight: normal;} /*섹션별 제목 문자 디자인*/
+
+.divider {width:90%; max-width:1132px; height:2px; margin:0 auto; margin-top:77px; margin-bottom:50px; background:#ccc;}
+
+.m-divider {width:20px; height:2px; margin:0 auto; margin-top:77px; margin-bottom:50px; background:#3f51b5;}
+
+
+
+
+/*메인 페이지 PC 버전----------------------------------------------------------------------------------------------------------------*/
+
+	/*헤더 영역*/
+	#header {position:relative; width:90%; max-width:1132px; padding:15px 5%; height:30px; z-index:1000; margin:0 auto;}
+	#header .logo {position:absolute; left:0; top:10px; width:120px; height:30px;}
+	#header .logo a { width:100%; height: 100%; display:block;background:url(../img/s-images/logo_pc.jpg); 	background-repeat:no-repeat; background-size:cover;}
+	
+	
+	
+	#header .gnb {display:block; position:absolute; right:10px; top:10px; overflow:hidden;}
+	#header .gnb li {float:left; margin-left:30px;}
+	#header .gnb li a {color:#000;  font-size:18px; font-weight:700; line-height:30px;}
+	#header .gnb li a:hover {color:#F30; }
+		
+	#header .menu-toggle-btn {display:none !important; float:right; width:30px; margin-top:5px; cursor:pointer;}
+	#header .menu-toggle-btn span {display:block; width:100%; height:3px; background:#3f51b5;}
+	#header .menu-toggle-btn span:nth-child(2) {margin:7px 0;}
+	
+	
+	
+	/*슬라이드 이미지*/
+	#slidervisual img {display:block; width:100%; max-width:100%; height:auto;}
+	
+	
+	
+	/*디스플레이*/
+	
+	#display {margin-top:100px; text-align:left; overflow:hidden;}
+	#display .sec_title {float:left;}
+	#display .disc {float:right; padding-left:20px; position:relative; font-size:1.4em; color:#666; line-height:2;}
+	#display .disc:before {display:block; position:absolute; top:5px; left:0; width:3px; height:55px; background:#ccc; content:"";}
+	
+	
+	
+	/*프로모션*/
+	
+	#promotion {margin-top:80px; padding-top:50px; border-top:1px solid #ccc;}
+	#promotion .promo_list li {width:21%; margin:0 2%; float:left; text-align:center;}
+	#promotion .promo_list li img {height:52px;}
+	#promotion .promo_list li h3 {margin:29px 0 20px 0; color:#3f51b5; font-weight:700;}
+	#promotion .promo_list li p {color:#666; line-height:1.5; font-size:14px;}
+	
+	
+	/*work*/
+	#work {margin-top:70px; padding-top:30px; border-top:1px solid #ccc;}
+	#work .sec_title {width:90%; max-width:1132px; text-align:left;  margin:0 auto; margin-bottom:47px;}
+	#work .work-list li {float:left; width:25%;}
+	#work .work-list li a {display:block; position:relative; width:100%; height:100%;}
+	#work .work-list li a:before {display:block; position:absolute; top:0; left:0; z-index:10; width:100%; height:100%; background:#3f51b5; content:""; opacity:0; transition:all 0.2s;}
+	#work .work-list li a:hover:before {opacity:0.86;}
+	#work .work-list li img {display:block; width:100%; max-width:100%; height:auto;} /*한줄, 가변이미지*/
+	
+	
+	#work .work-list li .info {position:absolute; top:0; left:23px; z-index:20; opacity:0; transition:all 0.3s;}
+	#work .work-list li a:hover .info {transform:translateY(23px); opacity:1;} /*마우스를 오버 했을때 변형속성을 세로 위치 지정*/
+	#work .work-list li .info h3 {margin-bottom:8px; font-size:23px; color:#fff; font-weight:normal;}
+	#work .work-list li .info span {font-size:12px; color:#fff;}
+	
+	
+	
+	/*블로그*/
+	#blog {margin-top:77px; background:#f6f6f6; padding-top:45px; padding-bottom:45px;}
+	#blog .sec_title {float:left; width:25.45%; margin-bottom:0; text-align:left;} /* 288px x 1132px에서 대략 치수 */
+	#blog .blog-list {float:right; width:74.55%; margin-top:0; overflow:hidden;} /* 844px x 1132px에서 대략 치수 */
+	#blog .blog-list li {float:left; width:31%; margin-right:3.5%; margin-top:0;}
+	#blog .blog-list li:first-child {margin-top:0;}
+	#blog .blog-list li:last-child {margin-right:0;}
+	#blog .blog-list li img {display:block; width:100%; max-width:100%; height:auto;} /*한줄, 가변이미지*/
+	#blog .blog-list li time {display:block; margin:11px 0; font-size:11px; color:#999;}
+	#blog .blog-list li h3 {color:#444; font-weight:normal; font-size:14px; line-height:1.6;}
+	
+	
+	
+	/*연락처 Contact*/
+	#contact {margin-top:109px;}
+	#contact .sec_title {float:left; width:25.45%; margin-bottom:47px; text-align:left;}
+	#contact .form_box {float:right; width:74.55%; margin-top:0;}
+	#contact .form_box .personal  {float:left; width:48.6%;margin-right:2.8%;}
+	#contact .form_box .text {float:left; width:48.6%;}
+	
+	#contact .form_box .personal input {padding:13px; margin-bottom:38px; border:none; border-bottom:1px solid #666; box-sizing:border-box;}
+	#contact .form_box .text textarea {height:203px; padding:13px; border:none; border-bottom:1px solid #666; box-sizing:border-box;}
+	#contact .form_box .send_btn {text-align:right;} /*오른쪽 정렬*/
+	#contact .form_box .send_btn button {padding:13px; margin-top:30px; border:0; font-size:12px; color:#fff; background:#3f51b5; cursor:pointer;}
+	#contact .form_box .send_btn button:hover {background:#e79494; }
+	
+	
+	
+	/*푸터영역*/
+	#footer {margin-top:100px;}
+	#footer iframe {width:100%; height:320px;}  /*구글지도*/
+	#footer p {margin:20px 0; text-align:center; color:#666;}
+
+
+
+
+
+/*sub01 페이지 PC버전--------------------------------------------------------*/
+
+	#visual_sub01 {display:block; width:100%; max-width:100%; height:522px; background:url(../img/s-images/sub01_visual.jpg); background-position:center top; background-size:cover; }
+
+	#contents_subarea01 {width:90%; max-width:1132px; min-height:1000px;  margin:60px auto 0 auto; background:#FFFFFF;}
+	#contents_subarea01 h1 {text-align:center; font-size:16px; padding-bottom:25px;}
+	#contents_subarea01 p {text-align:center; font-size:12px; line-height:1.5em; margin-bottom:70px;}
+		#containerintroduce1 {float:left; margin-bottom:50px;}
+		#introduce1 p {margin-top:20px;}
+
+	
+	
+	
+
+
+/*sub02 페이지 PC버전---------------------------------------------------------*/
+	#visual_sub02 {display:block; width:100%; max-width:100%; height:522px; background:url(../img/s-images/sub02_visual.jpg); background-position:center top; background-size:auto; }
+	#visual_sub02 h1 {font-size:10vh; color:#000; font-weight:900; text-align:center; padding-top:200px; text-shadow:0 0 5px #666;}
+	
+
+	#contents_subarea02 {width:90%; max-width:1132px; min-height:1000px;  margin:100px auto 0 auto; background:#ff5;}
+
+
+
+
+
+
+/*sub03 페이지 PC버전----------------------------------------------------------*/
+	#visual_sub03 {display:block; width:100%; max-width:100%; height:522px; background:url(../img/s-images/sub03_visual.jpg); background-position:center top; background-size:auto; }
+	#visual_sub03 h1 {font-size:10vh; color:#fff; font-weight:900; text-align:center;padding-top:200px; text-shadow:0 0 5px #000;}
+	
+
+	#contents_subarea03 {width:90%; max-width:1132px; min-height:1000px;  margin:100px auto 0 auto; background:#5f0;}
+	
+	
+
+
+
+/*sub04 페이지 PC버전----------------------------------------------------------*/
+	#visual_sub04 {display:block; width:100%; max-width:100%; height:522px; background:url(../img/s-images/sub04_visual.jpg); background-position:center top; background-size:auto; }
+	#visual_sub04 h1 {font-size:10vh; color:#ff5; font-weight:900; text-align:center;padding-top:200px; text-shadow:0 0 5px #000;}
+	
+
+	#contents_subarea04 {width:90%; max-width:1132px; min-height:1000px;  margin:100px auto 0 auto; background:#f06;}	
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+/* 미디어쿼리 태블릿 + 모바일 ----------------------------------------------------------------------------------------------------*/
+
+
+/*tablet CSS*/
+@media all and (max-width:1132px) {
+	
+	
+/*메인페이지-------------------------------------------------------------------------------------------*/	
+
+	/*헤더영역*/
+	#header .gnb li a {font-size:16px;}
+	
+	/*디스플레이*/
+	#display {margin-top:100px; text-align:center;}
+	#display .sec_title {float:none; }
+	#display .disc {float:none;  padding-left:0px; font-size:1.2em; padding-bottom:30px;}
+	#display .disc:before {display:none; }
+	
+	
+	/*프로모션*/
+	#promotion {margin-top:70px;}
+	#promotion .promo_list li{width:45%; margin:0 2.5% 50px 2.5%;}
+	
+	
+	/*work*/
+	#work {margin-top:70px;}
+	#work .sec_title {margin-bottom:65px; text-align:center;}
+	#work .work-list li {width:50%;}
+	#work .work-list li .info {left:40px;}
+	
+	
+	/*블로그*/
+	#blog {margin-top:124px;}
+	#blog .sec_title {float:none; width:100%; margin-bottom:76px; text-align:center;}
+	#blog .blog-list {float:none; width:100%;}
+	#blog .blog-list li {float:left; width:31%; margin-right:3.5%; margin-top:0;}
+	#blog .blog-list li:last-child {margin-right:0;}
+	
+	
+	/*연락처*/
+	#contact {margin-top:100px;}
+	#contact .sec_title {float:none; width:100%; margin-bottom:50px; text-align:center;}
+	#contact .form_box {float:none; width:100%; }
+	#contact .form_box .text textarea {height:202px;}
+	#contact .form_box .send_btn {clear:both;} 
+	
+	
+	
+	
+	
+	/*푸터영역*/
+	#footer iframe {height:432px;}/*구글지도*/
+	#footer p {margin:34px 0;}
+	
+	
+	
+	
+	
+
+/*sub01 페이지 태블릿 버전--------------------------------------------------------*/
+
+	#visual_sub01 {height:300px; }
+	#visual_sub01 h1 {font-size:7vh; color:#fff; font-weight:900; padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea01 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#ccc;}
+	
+	
+	
+	
+
+
+/*sub02 페이지 태블릿버전---------------------------------------------------------*/
+	#visual_sub02 {height:300px; }
+	#visual_sub02 h1 {font-size:7vh; color:#000; font-weight:900; padding-top:100px; text-shadow:0 0 5px #666;}
+	
+	#contents_subarea02 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#ff5;}
+
+
+
+
+
+
+/*sub03 페이지 태블릿버전----------------------------------------------------------*/
+	#visual_sub03 {height:300px; }
+	#visual_sub03 h1 {font-size:7vh; color:#fff; font-weight:900; text-align:center;padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea03 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#5f0;}
+	
+	
+
+
+
+/*sub04 페이지 태블릿버전----------------------------------------------------------*/
+	#visual_sub04 {height:300px;}
+	#visual_sub04 h1 {font-size:7vh; color:#ff5; font-weight:900; text-align:center;padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea04 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#f06;}	
+	
+	
+}
+
+
+
+
+
+/*Mobile  CSS*/
+@media all and (max-width:768px) {
+	
+/*메인페이지-------------------------------------------------------------------------------------------*/		
+	
+	/*헤더*/
+	#header .logo {position:absolute; left:10px; top:18px; width:90px; height:22px;}
+	#header .logo a {background:url(../img/s-images/logo_mobile.jpg); }
+	
+	#header .gnb {display:none; position:absolute; top:60px; left:0; width:100%;}
+	#header .gnb li {float:none; margin-left:0px; border-bottom:1px solid #303f9f;}
+	#header .gnb li a {display:block; background:#3f51b5; width:100%; padding:10px 10%; color:#fff; font-size:16px; font-weight:700;}
+	#header .gnb li a:hover {background: #F30; color:#fff; }
+
+    #header .menu-toggle-btn {display:block !important; float:right; width:30px; margin-top:5px; cursor:pointer;}
+	#header .menu-toggle-btn span {display:block; width:100%; height:3px; background:#3f51b5;}
+	#header .menu-toggle-btn span:nth-child(2) {margin:7px 0;}
+	
+	
+	
+	/*디스플레이*/
+	#display {text-align:center;}
+	#display .sec_title {margin-bottom:50px;}
+	
+	
+	/*프로모션*/
+	#promotion .promo_list li{width:90%; margin:0 5% 30px 5%;}
+	
+	
+	/*work*/
+	#work .work-list li {width:100%;}
+	
+	
+	/*블로그*/
+	#blog {padding-top:45px; padding-bottom:45px;}
+	#blog .sec_title {margin-bottom:47px;}
+	#blog .blog-list li {width:100%; margin-top:45px;}
+	
+	
+	/*연락처*/
+	#contact .form_box .personal  {float:none; width:100%;margin-right:0%;}
+	#contact .form_box .text {float:none; width:100%;}
+	
+	
+	
+	
+	
+/*sub01 페이지 모바일 버전--------------------------------------------------------*/
+
+	#visual_sub01 {height:200px; }
+	#visual_sub01 h1 {font-size:7vh; color:#fff; font-weight:900; padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea01 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#ccc;}
+	
+	
+	
+	
+
+
+/*sub02 페이지 모바일버전---------------------------------------------------------*/
+	#visual_sub02 {height:200px; }
+	#visual_sub02 h1 {font-size:7vh; color:#000; font-weight:900; padding-top:100px; text-shadow:0 0 5px #666;}
+	
+	#contents_subarea02 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#ff5;}
+
+
+
+
+
+
+/*sub03 페이지 모바일버전----------------------------------------------------------*/
+	#visual_sub03 {height:200px; }
+	#visual_sub03 h1 {font-size:7vh; color:#fff; font-weight:900; text-align:center;padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea03 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#5f0;}
+	
+	
+
+
+
+/*sub04 페이지 모바일버전----------------------------------------------------------*/
+	#visual_sub04 {height:200px;}
+	#visual_sub04 h1 {font-size:7vh; color:#ff5; font-weight:900; text-align:center;padding-top:100px; text-shadow:0 0 5px #000;}
+	
+	#contents_subarea04 {width:100%; min-height:1000px;  margin:50px auto 0 auto; background:#f06;}	
+	
+	
+	
+}

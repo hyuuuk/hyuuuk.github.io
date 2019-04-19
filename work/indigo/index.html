@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=divice-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> <!--뷰포트설정-->
+<title>반응형웹 사이트 indigo</title>
+
+
+<link rel="stylesheet" type="text/css" href="css/reset.css"> <!--문서초기화 css-->
+<link rel="stylesheet" type="text/css" href="css/style.css"> <!--디자인 css-->
+
+<link rel="shortcut icon" href="img/favicon/favicon.ico"> <!--즐겨찾기 단축키 설정-->
+<link rel="apple-touch-icon-precomposed" href="img/favicon/indigo-touch-icon.png"> 
+<!--아이폰이,아이패드에서 웹페이지를 바탕 화면에 링크설정-->
+
+
+<script src="js/jquery-1.9.1.min.js"></script> <!--제이쿼리 라이브러리 링크-->
+
+<!--(1) 파일 링크-->
+<link rel="stylesheet" href="js/jquery.bxslider.css"> <!--bx슬라이더 CSS 연결-->
+<script src="js/jquery.bxslider.js"></script><!--제이쿼리 bx슬라이더 파일 연결-->
+  
+  
+<!--(3) 제이쿼리 입력-->  
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        auto: true,   //자동실행
+        speed : 2000,
+      });
+    });
+  </script>
+
+
+
+
+<!--제이쿼리로 모바일 버전에서 전체메뉴 아이콘 토글기능 설정 -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".menu-toggle-btn").click(function(){
+		$(".gnb").stop().slideToggle("fast");
+	});
+});
+</script>
+
+</head>
+
+<body>
+<div id="wrap">
+	<header id="header">
+    	<h1 class="logo"><a href="#index.html"><span class="blind">INDIGO</span></a></h1>
+        <nav>
+        	<ul class="gnb">
+            	<li><a href="index.html">HOME</a></li>
+                <li><a href="sub01.html">Brand</a></li>
+                <li><a href="sub02.html">Product</a></li>
+                <li><a href="sub03.html">Store</a></li>
+                <li><a href="sub04.html">Outlet</a></li> 
+            </ul>
+        </nav>
+        
+        <!--모바일 gnb 토글버튼메뉴-->
+        <span class="menu-toggle-btn">
+        	<span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </header><!--//header-->
+    
+    <div id="slidervisual">
+		<div class="slider">
+		<div><img src="img/p-images/slide01.jpg" alt=""></div>
+		<div><img src="img/p-images/slide02.jpg" alt=""></div>
+		<div><img src="img/p-images/slide03.jpg" alt=""></div>
+		</div>
+    </div><!--//slider-->
+    
+    <div id="contents">
+    	<section id="display">
+        	<div id="container">
+            	<h2 class="sec_title">display</h2>
+                <p class="disc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a <br>
+piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+        </section><!--//display-->
+        
+        <section id="promotion">
+        	<div id="container">
+            	<ul class="promo_list">
+                	<li><a href="#">
+                    	<img src="img/s-images/promo01.png" alt="">
+                        <h3>HOME</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </a></li>
+                    
+                    <li><a href="#">
+                    	<img src="img/s-images/promo02.png" alt="">
+                        <h3>WE ARE</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </a></li>
+                    
+                    <li><a href="#">
+                    	<img src="img/s-images/promo03.png" alt="">
+                        <h3>WORK</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </a></li>
+                    
+                    <li><a href="#">
+                    	<img src="img/s-images/promo04.png" alt="">
+                        <h3>BLOG</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </a></li>
+                </ul>
+            </div>
+        </section><!--//promotion-->
+        
+	           
+        <section id="work">
+        	<h3 class="sec_title">WORK</h3>
+            <ul class="work-list">
+            	<li><a href="#">
+                	<div class="info">
+                    	<h3>Running</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work01.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Runby</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work02.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Weight</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work03.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Marathon</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work04.jpg" alt="">
+                </a></li>
+                <!--//row1-->
+                
+                
+                 <li><a href="#">
+                	<div class="info">
+                    	<h3>Boxing</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work05.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Ice Hockey</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work06.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Skate Board</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work07.jpg" alt="">
+                </a></li>
+                
+                <li><a href="#">
+                	<div class="info">
+                    	<h3>Basketball</h3>
+                        <span>WEB/PRINT</span>
+                    </div>
+                    <img src="img/p-images/work08.jpg" alt="">
+                </a></li>
+                <!--//row2-->
+            </ul>
+        </section><!--//work-->
+        
+        
+        <hr class="m-divider">
+        
+        <section id="blog">
+        	<div id="container">
+            	<h2 class="sec_title">BLOG</h2>
+                <ul class="blog-list">
+                	<li><a href="#"><img src="img/p-images/blog01.jpg" alt=""></a>
+                    	<time datetime="2018-01-05">January 05, 2018</time>
+                        <a href="#"><h3>There are many variations of passages of Lorem Ipsum</h3></a>
+                    </li>
+                    
+                    <li><a href="#"><img src="img/p-images/blog02.jpg" alt=""></a>
+                    	<time datetime="2018-01-05">January 05, 2018</time>
+                        <a href="#"><h3>There are many variations of passages of Lorem Ipsum</h3></a>
+                    </li>
+                    
+                    <li><a href="#"><img src="img/p-images/blog03.jpg" alt=""></a>
+                    	<time datetime="2018-01-05">January 05, 2018</time>
+                        <a href="#"><h3>There are many variations of passages of Lorem Ipsum</h3></a>
+                    </li>
+                </ul>
+            </div>
+        </section><!--//blog-->
+        
+       
+        <section id="contact">
+        	<div id="container">
+                	<h2 class="sec_title">CONTACT</h2>
+                    <div class="form_box">
+                        <div class="personal">
+                        <form action="" method="">
+                            <label for="name" class="blind">name</label>
+                            <input type="text" id="name" placeholder="Name">
+                            <label for="phone" class="blind">Phone</label>
+                            <input type="text" id="phone" placeholder="Phone">
+                            <label for="email" class="blind">email</label>
+                            <input type="text" id="email" placeholder="Email Address">
+                        </form>
+                        </div><!--//personal-->
+                        
+                        <div class="text">
+                        <label for="message" class="blind">message</label>
+                        <textarea id="massage" placeholder="Massage"></textarea>
+                        </div><!--//text-->
+                        
+                        <div class="send_btn">
+                         <button id="">Send Massage</button>
+                        </div>
+                        
+                    </div><!--//form_box-->      
+            </div><!--//container-->
+        </section><!--//contact-->
+    </div><!--//contents-->
+    
+    <footer id="footer">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.8757029550443!2d126.92430084756953!3d37.55169193341957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98c43e5ba2b5%3A0x75bd701f5128523a!2z7ZmN7J2164yA7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1515034039359" frameborder="0" style="border:0;" allowfullscreen></iframe>
+    <p class="copyright">2019 Copyright 학번 ㅣ 이름 (C) All rights reserved.</p>
+    </footer><!--//footer-->
+</div><!--//wrap-->
+</body>
+</html>

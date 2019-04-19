@@ -1722,6 +1722,22 @@ body.modal-open {
     .main-browse-con2>.clb>.fll:nth-child(2) {
         max-width: 100%;
     }
+    .myInfo-con2 .fll:nth-child(1){
+        max-width: 100%;
+        display: flex;
+    }
+    .myInfo-con2 .fll:nth-child(1) .box{
+        width: 100%;
+        text-align: center;
+    }
+    .myInfo-con2 .fll:nth-child(1) .box:last-child{
+        margin-left: 20px;
+    }
+    .myInfo-con2 .fll:nth-child(2){
+        width: 100%;
+        padding-bottom: 50px;
+        padding-left: 0;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -1869,6 +1885,18 @@ body.modal-open {
 
     .main-browse-con2>.clb>.fll:nth-child(1) {
         margin-bottom: 20px;
+    }
+    .myInfo-con2 .fll:nth-child(1){
+        display: block;
+    }
+    .myInfo-con2 .fll:nth-child(1) .box:last-child{
+        margin-left: 0;
+    }
+    .myInfo-con1 a{
+        padding: 15px 7px;
+    }
+    .myInfo-con2 .btn-wrap.ea2 .btn{
+        min-width: auto;
     }
 }
 

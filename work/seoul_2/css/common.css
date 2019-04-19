@@ -1103,10 +1103,6 @@ body {
         display: block;
     }
 
-    .sub .sideNav .menu>li.on {
-        background-image: url(../img/icon_bullet04.png);
-    }
-
     .footer .top {
         display: none;
     }
@@ -1336,6 +1332,40 @@ body {
 
     .add_link {
         display: none;
+    }
+}
+@media (max-width: 640px) {
+    .sub .sideNav_2{
+        width: 270px;
+    }
+    .sub .sideNav{
+        max-width: 340px;
+        right: 270px;
+    }
+    .sub .sideNav_2 .drop .top a{
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .sub .header{
+        height: 90px;
+    }
+    .sub .header .logo img{
+        width: 280px;
+    }
+    .header .btn-sideNav-open{
+        width: 40px;
+        height: 36px;
+    }
+    .sideNav .menu>li>a{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .sideNav_2 .drop .top{
+        padding-left: 40px;
+    }
+    .sideNav .btn-sideNav-close{
+        width: 44px;
+        height: 44px;
     }
 }
 
