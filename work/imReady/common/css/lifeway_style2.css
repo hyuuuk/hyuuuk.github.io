@@ -1,0 +1,1046 @@
+.dark{font-size:16px !important; color:#333 !important}
+.fs15{font-size:15px !important}
+.bold{font-family:'NanumSquareB'; font-weight:normal !important}
+.dotTxt2{padding:0 0 5px 10px; background:url('/common/images/icon/dot3x3.gif') no-repeat 0 8px; background-size:3px; color:#555; line-height:24px;letter-spacing:-0.4px;}
+.dotTxt2 > span{display:block}
+.dotTxt2 > span.bold{display:inline; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.memberTxt img{width:648px;}
+.allTerm{padding:16px;text-align:right; border:1px solid #ddd; background:#f7f7f7}
+.allTerm .check img{width:30px; vertical-align:middle}
+.allTerm .check strong{font-size:18px; color:#333; margin-right:6px}
+.joinCom .txt2{margin-top:30px; font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal; text-align:center}
+.btnGry.wide{width:auto; padding:0 20px;}
+.lifeWayDiv3.type2{border-bottom:1px solid #ddd}
+.lifeWayDiv3 .top2{font-size:20px; color:#555; font-family:'NanumSquareB'; font-weight:normal;}
+.codeInput{width:50%}
+.boardType2 td span.essen{font-size:16px; color:#333; padding-left:20px; background:url('/common/images/icon/essential_icon.gif') no-repeat 0 3px; background-size:10px}
+.popBoard{width:100%;border-top:2px solid #bcbcbc}
+.popBoard th{padding:15px 0;border-bottom:1px solid #e5e5e5;background:#f7f7f7}
+.popBoard td{padding:15px 0;border-bottom:1px solid #e5e5e5;text-align: center}
+
+.borTBt{border-top:1px solid #e5e5e5; padding-top:40px; margin-top:40px; text-align:right}
+.boTN{border-top:0 !important}
+.verM{vertical-align:middle !important}
+.chngSrvDiv .cont1 .txt .type1 .cPurple{color:#364d8e}
+.disChange{display:inline}
+
+.cardImg{width:100%}
+
+.quick{position:fixed; bottom:0; left:0; width:100%; text-align:center; background:#efefef; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding:10px 0 9px;}
+
+.termBox .txt table{border-top:2px solid #bcbcbc}
+.termBox .txt th{padding:15px 0; background:#f7f7f7; color:#333; border-bottom:1px solid #e3e2f4; border-left:1px solid #e3e2f4;}
+.termBox .txt th:first-child{border-left:0}
+.termBox .txt td{padding:15px 20px; border-bottom:1px solid #e3e2f4; line-height:24px; vertical-align:top; border-left:1px solid #e3e2f4;word-break: keep-all;}
+.termBox .txt td:first-child{border-left:0}
+.termBox .txt td strong{color:#333}
+.termBox .txt td a{color:#364d8e; text-decoration:underline}
+.primeLife{position:relative; overflow:hidden; width:100%}
+.primeLife p img{width:100%}
+.primeLife .tit{position:absolute; top:50px; left:50px; color:#fff; font-size:53px; font-family:'NanumSquareB'; font-weight:normal}
+.primeLife .txt{position:absolute; top:40px; left:50px; color:#fff; font-size:16px; line-height:22px; font-family:'NanumSquareB'; font-weight:normal} /* 2016-12-23 �섏젙 */
+.primeLife .txtBlue{position:absolute; top:40px; left:50px; color:#6781b0; font-size:16px; line-height:25px; font-family:'NanumSquareB'; font-weight:normal} /* 2016-08-25 異붽� */
+.primeLife .bottom{position:absolute; overflow:hidden; bottom:0; left:0; width:100%; /*background:url('/common/images/icon/bottom_bg6.png') repeat 0 0;*/ background-color:rgba(37,46,99,0.7); padding:23px 0 20px 40px}
+.primeLife .bottom p{float:left; font-size:16px; font-family:'NanumSquareB'; font-weight:normal; color:#c9ccbe}
+.primeLife .bottom p > span{display:block; font-size:30px; margin-top:10px; color:#fff}
+.primeLife .bottom p > span span{font-size:16px; font-family:'NanumSquareR'; font-weight:normal}
+.primeLife .bottom p.once{padding-right:30px; margin-right:30px} /* 2017-01-13 �섏젙 */
+.primeLife .bottom p.once2{margin-left:-17px;} /* 2019-02-22 異붽�  */
+/* 2017-01-13 異붽� */
+.primeLife .bottom1{width:800px; height:70px; border-bottom:1px solid #c9ccbe; padding-bottom:5px; overflow:hidden} /* 2017-01-16 �섏젙 */
+.primeLife .bottom{letter-spacing:-1px}
+.primeLife .bottom .bottomTit{font-size:20px; color:#fff; width:250px}
+.primeLife .bottom .bottomTxt{font-size:16px; font-family:'NanumSquareB'; font-weight:normal; color:#c9ccbe; margin-top:20px}
+.primeLife .bottom2{height:50px; overflow:hidden}
+.primeLife .bottom3{margin-top:20px}
+.primeLife .bottom3 .once{margin-top:20px}
+.primeLife .bottom3 .month{margin-top:20px}
+.primeLife .bottom .hide{display:none}
+.tableTit{font-size:18px; color:#333 !important; padding-bottom:20px; font-weight:bold}
+.table_desc{
+	margin-bottom:20px;
+	color:red;
+	    display: block;
+}
+/* //2017-01-13 異붽� */
+
+
+.primeLife.type2 .tit{color:#fff}
+.primeLife.type2 .txt{color:#fff}
+.primeLife.type2 .bottom{background:url('/common/images/icon/bottom_bg2.png') repeat 0 0}
+.primeLife.type2 .bottom p{color:#ccb3a8}
+
+.primeLife.type3 .tit{color:#fff}
+.primeLife.type3 .txt{color:#fff}
+.primeLife.type3 .bottom{background:url('/common/images/icon/bottom_bg3.png') repeat 0 0}
+.primeLife.type3 .bottom p{color:#c1bbb8}
+
+.primeLife.type4 .tit{color:#526993}
+.primeLife.type4 .txt{top:32px; color:#6781b0; background:none} /* 2016-12-23 �섏젙 */
+.primeLife.type4 .txt .innerTxt{display:block; margin-top:17px; font-size:14px; line-height:19px; text-indent:-15px; margin-left:15px; color:#364d8e} /* 2016-12-23 �섏젙 */
+.primeLife.type4 .txt .innerTxt span{display:block; margin-left:15px}
+.primeLife.type4 .bottom{background:url('/common/images/icon/bottom_bg4.png') repeat 0 0}
+.primeLife.type4 .bottom p{color:#b1bdd4}
+
+.primeLife.type5 .tit{color:#ad1947}
+.primeLife.type5 .txt{color:#d23b6a; background:url('/common/images/icon/bar39x1_5.gif') no-repeat 0 bottom}
+.primeLife.type5 .txt .innerTxt{display:block; margin-top:17px; font-size:14px; line-height:19px; text-indent:-15px; margin-left:15px;}
+.primeLife.type5 .txt .innerTxt span{display:block; margin-left:15px}
+.primeLife.type5 .bottom{background:url('/common/images/icon/bottom_bg5.png') repeat 0 0}
+.primeLife.type5 .bottom p{color:#da97ac}
+
+.cardArea{width:100%; overflow:hidden; margin-top:60px}
+.cardArea > p{float:left; margin-right:40px;}
+.cardArea > div{float:left}
+.cardArea > div p{color:#555; line-height:20px} /* 2017-05-23 �섏젙 */
+.cardArea > div p.tit{color:#333; font-size:20px; font-family:'NanumSquareB'; font-weight:normal}
+.cardArea > div p a{text-decoration:underline; color:#364d8e}
+.dotList li{color:#555; padding-left:10px; background:url('/common/images/icon/dot3x3.gif') no-repeat 0 9px; line-height:24px; font-family:'NanumSquareR'; font-weight:normal}
+.benefit{border-top:2px solid #333; padding-top:40px}
+.benefit > p{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:50px}
+.benefit > div{overflow:hidden; border-top:1px solid #ddd; padding-top:40px; margin-top:40px}
+.benefit > div.bf1{margin-top:0;padding-top:0;border-top:0}
+.benefit > div.bf1 div{margin-top:28px}
+.benefit > div.bf2 .icon{margin-top:70px}
+.benefit > div.bf3 div{margin-top:15px}
+.benefit > div.bf4 .icon{margin-top:40px}
+.benefit > div.bf4.prime_399_bf4 .icon,
+.benefit > div.bf4.prime_499_bf4 .icon,
+.benefit > div.bf4.prime_297_bf4 .icon{
+	margin-top: 0;
+}
+.benefit > div.bf5{margin-top:0;padding-top:0;border-top:0}
+.benefit > div.bf5 .icon{margin-top:7px}
+.benefit > div.bf5 .icon.type2{margin-top:0}
+.benefit div .icon{float:left; margin-right:40px}
+.benefit > div > div{float:left}
+.benefit > div .bf5Txt{width:790px}
+.benefit div div > p{color:#555}
+.benefit div div > p.tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:15px; letter-spacing:-0.2px}
+
+.benefit div div > p.tit .bdTxt {color:#364d8e}
+
+.benefit div div > p.txt{line-height:25px}
+
+.benefit .product{overflow:hidden;}
+.product > .pTit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:20px}
+.product > .pTit span{font-family:'NanumSquareR'; font-weight:normal;}
+.product > .pTxt{padding-left:10px; background:url('/common/images/icon/dot3x3.gif') no-repeat 0 7px; background-size:3px; color:#555; margin-bottom:20px}
+.product .pdDiv{width:290px; float:left; margin-right:40px; min-height:410px; margin-bottom:40px}
+.product div .img{width: 100%;height: 290px;text-align: center;line-height: 290px;}
+.product div .img img{     width: auto;
+    max-height: 100%;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;vertical-align: middle;}
+.product .txt{width:100%; margin-top:10px}
+.product .txt p{width:100%; text-align:center; color:#777; line-height:18px}
+.product .txt p.pName{font-size:15px; color:#555; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:5px}
+
+/* 2016-12-23 異붽� */ 
+.benefit p.tit{line-height:30px !important}
+.benefit2{border-top:1px dotted #ddd; padding-top:40px}
+.benefit2 > p{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:50px}
+.benefit2 > div{overflow:hidden; border-top:1px solid #ddd; padding-top:40px; margin-top:40px}
+.benefit2 > div.bf1{margin-top:0;padding-top:0;border-top:0}
+.benefit2 > div.bf1 div{margin-top:28px}
+.benefit2 > div.bf2 .icon{margin-top:70px}
+.benefit2 > div.bf3 div{margin-top:15px}
+.benefit2 > div.bf4 .icon{margin-top:40px}
+.benefit2 > div.bf5{margin-top:0;padding-top:0;border-top:0}
+.benefit2 > div.bf5 .icon{margin-top:7px}
+.benefit2 > div.bf5 .icon.type2{margin-top:0}
+.benefit2 div .icon{float:left; margin-right:40px}
+.benefit2 > div > div{float:left}
+.benefit2 > div .bf5Txt{width:790px}
+.benefit2 div div > p{color:#555}
+.benefit2 div div > p.tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:15px; letter-spacing:-0.2px}
+.benefit2 div div > p.txt{line-height:25px}
+.benefit2 .product2{overflow:hidden;}
+.product2{border-top:none !important; margin-top:0px !important; padding-top:20px !important}
+.product2 > .pTit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:20px}
+.product2 > .pTit span{font-family:'NanumSquareR'; font-weight:normal;}
+.product2 > .pTxt{padding-left:10px; background:url('/common/images/icon/dot3x3.gif') no-repeat 0 7px; background-size:3px; color:#555; margin-bottom:20px}
+.product2 .pdDiv{width:290px; float:left; margin-right:40px; margin-bottom:40px}
+.product2 div .img{width:100%}
+.product2 div .img img{width:100%}
+.benefit2 .blackTit{font-size: 20px; color: #333; font-family: 'NanumSquareB'; font-weight: normal; margin-bottom:20px;}
+.benefit2 .grayTit{font-family:'NanumSquareR'; color:#5c5c5c; font-size:18px !important}
+.product2 .txt{width:100%; margin-top:10px}
+.product2 .txt p{width:100%; text-align:center; color:#777; line-height:18px}
+.product2 .txt p.pName{font-size:15px; color:#555; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:5px}
+.benefit2 > p.warn{font-size:14px; font-family:'NanumSquareR'; font-weight:normal; line-height:20px; letter-spacing:-0.4px}
+.benefit2 > p.warn.mb10{margin-bottom:10px}
+.product2 .warn{line-height:20px}
+/* //2016-12-23 異붽� */
+
+.benefit > p.warn{font-size:14px; font-family:'NanumSquareR'; font-weight:normal; line-height:20px; letter-spacing:-0.4px}
+.benefit > p.warn.mb10{margin-bottom:10px}
+
+.redBtn{display:inline-block; font-size:13px; background:#364d8e; color:#fff; padding:4px 20px 4px;border-radius:20px}
+.tabTxt{font-size:16px; color:#333; line-height:25px; text-align:center}
+p.warning{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:0}
+p.warning2{font-size:14px; font-family:'NanumSquareR'; font-weight:normal; margin-bottom:0}
+
+.allyTxt{font-size:16px; line-height:24px; font-family:'NanumSquareB'; font-weight:normal; color:#555}
+.allyTxt2{color:#555}
+.allyTxt3{font-size:18px; color:#333; text-align:center}
+.allyTxt4{font-size:24px; color:#333; text-align:center; font-family:'NanumSquareB'; font-weight:normal}
+.allyTxt4 > span{display:block}
+.medalDiv{border:1px solid #ddd; padding:40px 0 40px 180px; overflow:hidden}
+.medalDiv > p{float:left}
+.medalDiv div{float:left; font-family:'NanumSquareB'; font-weight:normal; color:#333; font-size:20px; padding-top:38px; margin-left:20px} /* 2016-08-25 �섏젙 */
+
+.joinIntro{width:950px; margin:0 auto; overflow:hidden;}
+.joinIntro a{display:block; overflow:hidden; position:relative; width:465px; height:230px; float:left; margin:0 20px 20px 0; padding:50px 0 20px; text-align:center}
+.joinIntro a span{display:block}
+.joinIntro a > span.over{display:block; position:absolute; top:100%; left:0; width:100%; height:204px; padding:76px 0 20px; text-align:center; color:#fff; opacity:0.75; background:#ddd;}
+.joinIntro a > span.over span{font-family:'NanumSquareB'; font-weight:normal; font-size:24px; line-height:30px}
+.joinIntro a > span.over span.bottomTxt{font-family:'NanumSquareR'; font-weight:normal; font-size:16px; line-height:20px; padding-top:26px; margin-top:26px; background:url("/common/images/icon/wbar1x45.gif") no-repeat center 0}
+.joinIntro a .tit{font-size:24px; font-family:'NanumSquareB'; font-weight:normal; margin-top:25px}
+.joinIntro a .txt{font-size:16px; color:#333; padding-top:26px; margin-top:25px; line-height:22px}
+.joinIntro .join1{background:url("/common/images/icon/join_bg.gif") no-repeat 0 0}
+
+.joinIntro .freetour .tit{color:#d2081e}
+.joinIntro .deamyung .tit{color:#009546}
+
+.joinIntro .freetour{background:url("/common/images/icon/freetour_bg.jpg") no-repeat center 0}
+.joinIntro .deamyung{background:url("/common/images/icon/deamyung_bg.jpg") no-repeat center 0;margin-right: 0;}
+
+.joinIntro .freetour > span.over{background-color:#e2776b;}
+.joinIntro .deamyung > span.over{background-color:#8bc796;}
+.joinIntro .freetour > span.over span,
+.joinIntro .deamyung > span.over span{font-size:20px;}
+
+.joinIntro .join1 .tit{color:#1428a0}
+/*.joinIntro .join1 .txt{background:url("/common/images/icon/jbar1x45.gif") no-repeat center 0}*/
+.joinIntro .join1 > span.over{background:#0c4f9f}
+.joinIntro .join2 {background:url("/common/images/icon/join_bg2.gif") no-repeat 0 0; margin:0 0 20px 0}
+.joinIntro .join2 .tit{color:#aa1239}
+/*.joinIntro .join2 .txt{background:url("/common/images/icon/jbar1x45_5.gif") no-repeat center 0}*/
+.joinIntro .join2 > span.over{background:#aa1239}
+.joinIntro .join3{background:url("/common/images/icon/join_bg3.gif") no-repeat 0 0}
+.joinIntro .join3 .tit{color:#F9B000}
+/*.joinIntro .join3 .txt{background:url("/common/images/icon/jbar1x45_3.gif") no-repeat center 0}*/
+.joinIntro .join3 > span.over{background:#F9B000;}
+/*
+.joinIntro .join2{background:url("/common/images/icon/join_bg2.gif") no-repeat 0 0; margin:0 0 20px 0}
+.joinIntro .join2 .tit{color:#ed1941}
+.joinIntro .join2 .txt{background:url("/common/images/icon/jbar1x45_2.gif") no-repeat center 0}
+.joinIntro .join2 > span.over{background:#ed1941}
+
+.joinIntro .join3{background:url("/common/images/icon/join_bg3.gif") no-repeat 0 0}
+.joinIntro .join3 .tit{color:#ec068d}
+.joinIntro .join3 .txt{background:url("/common/images/icon/jbar1x45_3.gif") no-repeat center 0}
+.joinIntro .join3 > span.over{background:#ec068d}
+*/
+.joinIntro .join4{background:url("/common/images/icon/join_bg4.gif") no-repeat 0 0; margin:0 0 20px 0}
+.joinIntro .join4 .tit{color:#f15922}
+/*.joinIntro .join4 .txt{background:url("/common/images/icon/jbar1x45_4.gif") no-repeat center 0}*/
+.joinIntro .join4 > span.over{background:#f15922}
+.joinIntro .join5{background:url("/common/images/icon/join_bg5.gif") no-repeat 0 0; margin:0 0 20px 0} /* 2016-08-25 �섏젙 */
+.joinIntro .join5 .tit{color:#0c9983} /* 2016-08-25 �섏젙 */
+/*.joinIntro .join5 .txt{background:url("/common/images/icon/jbar1x45_4.gif") no-repeat center 0} 2016-08-25 �섏젙 */
+.joinIntro .join5 > span.over{background:#0c9983} /* 2016-08-25 �섏젙 */
+/* 2016-11-09 異붽� */
+.joinIntro .join6 {background:url("/common/images/icon/join_bg6.gif") no-repeat 0 0; margin:0 0 20px 20px}
+.joinIntro .join6 .tit{color:#2b2767}
+/*.joinIntro .join6 .txt{background:url("/common/images/icon/jbar1x45_5.gif") no-repeat center 0}*/
+.joinIntro .join6 > span.over{background:#aa1239}
+/* // 2016-11-09 異붽� */
+.joinIntro .join7{background:url("/common/images/icon/join_bg7.png") no-repeat 0 0; margin:0 0 20px 0} 
+.joinIntro .join7 .tit{color:#0c9983}
+.joinIntro .join7 > span.over{background:#0c9983}
+
+.allyDiv{position:relative; overflow:hidden; width:100%; margin-top:40px}
+.allyDiv img{width:100%}
+.allyDiv .whiteBg{position:absolute; bottom:0; left:0; width:100%; height:48px; background:#fff; opacity:0.8}
+.allyDiv p{position:absolute; bottom:14px; right:1.3%; font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.allyCon{margin-top:50px}
+.allyCon .tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.allyCon .con1{overflow:hidden}
+.allyCon .con1 .img{float:left; margin-right:40px}
+.allyCon .con1 .txt{float:left; width:650px; line-height:24px; color:#555}
+.allyCon .con1 .txt > span{display:block}
+.allyCon .con2{overflow:hidden}
+.allyCon .con2 .img{float:left; margin-right:40px}
+.allyCon .con2 .txt{float:left; color:#555; width:68.4%; letter-spacing:-0.4px}
+.allyCon .con3{overflow:hidden; width:100%}
+.allyCon .con3 > div{float:left; width:315px; padding:30px 0 27px; border:1px solid #ddd; border-left:0; border-bottom:0}
+.allyCon .con3 .in1{border-left:1px solid #ddd}
+.allyCon .con3 .in4{border-left:1px solid #ddd; border-bottom:1px solid #ddd}
+.allyCon .con3 .in5{border-bottom:1px solid #ddd}
+.allyCon .con3 .in6{border-bottom:1px solid #ddd}
+.allyCon .con3 .num{color:#555; font-family:'NanumSquareB'; font-weight:normal; text-align:center}
+.allyCon .con3 .txtArea{overflow:hidden; margin-top:9px}
+.allyCon .con3 .txtArea p.icon{float:left; margin-right:10px; margin-left:50px}
+.allyCon .con3 .txtArea p.txt{float:left; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-top:9px;}
+.allyCon .con3 .txtArea p.txt.type2{margin-top:18px}
+.allyCon .con3 .txtArea p.txt.type3{margin-top:3px}
+.allyCon .con4{overflow:hidden; width:100%}
+.allyCon .con4 > div{float:left; width:474px; padding:30px 0 27px; border:1px solid #ddd; border-left:0; border-bottom:0}
+.allyCon .con4 .in1{border-left:1px solid #ddd; width:473px}
+.allyCon .con4 .in2{}
+.allyCon .con4 .in3{border-left:1px solid #ddd; border-bottom:1px solid #ddd; width:473px}
+.allyCon .con4 .in4{border-bottom:1px solid #ddd}
+.allyCon .con4 .num{color:#555; font-family:'NanumSquareB'; font-weight:normal; text-align:center}
+.allyCon .con4 .txtArea{overflow:hidden; margin-top:9px}
+.allyCon .con4 .txtArea p.icon{float:left; margin-right:10px; margin-left:115px}
+.allyCon .con4 .txtArea p.txt{float:left; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin:9px 0 0 3%; width:58%;}
+.allyCon .con4 .txtArea p.txt.type2{margin-top:18px}
+.allyCon .con4 .txtArea p.txt.mt4{margin-top:4px}
+.allyBottom{overflow:hidden}
+.allyBottom .txt{float:left; line-height:35px}
+.allyBottom .btn{float:right}
+.allyBottom2{color:#555; border-bottom:1px dashed #ddd; padding-bottom:10px}
+
+.charVis{position:relative; width:100%}
+.charVis img{width:100%}
+.charVis p{position:absolute; top:20%; left:5%; font-size:43px; letter-spacing:-0.4px; color:#fff; font-family:'NanumSquareB'; font-weight:normal}
+.charVis p.type2{color:#333}
+.charTit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-top:50px}
+.charTxt{font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.charDiv{overflow:hidden; margin-top:40px; padding-bottom:40px; border-bottom:1px solid #ddd}
+.charDiv .icon{float:left; margin-right:40px}
+.charDiv .txtArea{float:left}
+.charDiv .txtArea .tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:10px}
+.charDiv .txtArea .dotTxt2{letter-spacing:-0.4px}
+
+.charBox{border:1px solid #ddd; padding:30px 29px 30px; margin-top:20px}
+.charBox .redTit{font-size:16px; color:#364d8e; font-family:'NanumSquareB'; font-weight:normal; margin-bottom:15px}
+.charBox .txt{color:#555; line-height:22px}
+.charBox .img{width:100%; text-align:center; margin-top:25px}
+.charBox .dotTxt span{display:block; text-indent:-9px; margin-left:9px}
+
+.step{overflow:hidden; margin-top:20px}
+.step .stepIn{float:left; padding-right:40px; background:url("/common/images/icon/arrow_icon.gif") no-repeat 97% 50%;}
+.step .stepIn > div{border:1px solid #ddd}
+.step .stepIn.last{padding-right:0}
+.step .stepIn .img{border-bottom:1px solid #ddd}
+.step .stepIn .txtBox{height:64px; padding:20px 4% 30px}
+.step .stepIn .txtBox .tit{font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.step .stepIn .txtBox .tit span{font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif; font-weight:bold; font-size:14px}
+.step .stepIn .txtBox .txt{color:#555; margin-top:10px}
+.step .stepIn .txtBox .txt span{display:block}
+
+.mannerTit{font-size:20px; color:#333; text-align:center; font-family:'NanumSquareB'; font-weight:normal}
+.mannerTxt{font-size:16px; letter-spacing:-0.4px; line-height:26px; color:#333; text-align:center; padding-bottom:30px; border-bottom:1px solid #ddd; margin-bottom:40px; font-family:'NanumSquareB'; font-weight:normal}
+.manner{color:#555; border-bottom:1px solid #ddd; padding-bottom:40px; margin-bottom:30px}
+.manner .img{text-align:center;}
+.manner .bowImg{border:1px solid #ddd}
+.manner .bowImg img{width:100%}
+.manner .tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.manner .txt{line-height:24px}
+.manner .subTit{font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal}
+.manner .subTxt{text-indent:-9px; margin-left:27px; line-height:24px}
+.manner .numTxt{line-height:24px}
+.manner .tip{padding-left:44px; background:url("/common/images/icon/tip_icon.gif") no-repeat left 0; font-size:18px; color:#333; font-family:'NanumSquareB'; font-weight:normal; line-height:35px}
+.ch{display:inline !important;font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif;font-size:13px}
+
+.tabDiv{position:relative; overflow:hidden;}
+.tabDiv.charTab{text-align:center}
+.tabDiv .tabBtn2{display:inline-block; font-size:20px; font-family:'NanumSquareB'; font-weight:normal; padding-left:22px;padding-right:20px; background:url("/common/images/icon/bar1x19.gif") no-repeat left 50%;}
+.tabDiv .tabBtn2.fir{padding-left:0;background:none}
+.tabDiv .tabBtn2.on{color:#364d8e}
+.tabDiv2{position:absolute}
+.tabDiv2 .txt{font-size:15px; color:#333; line-height:24px; text-align:left}
+.tabDiv2 .txt span.ch{font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif;font-size:14px}
+.tabDiv2 .tit{font-size:20px; color:#333; font-family:'NanumSquareB'; font-weight:normal; text-align:left}
+.tabDiv2 .tit2{font-size:16px; color:#333; font-family:'NanumSquareB'; font-weight:normal; text-align:left}
+.tabDiv2 .tit2 .ch{font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif; font-weight:bold; font-size:15px}
+.tabDiv2 .txt2{color:#555; line-height:24px; text-align:left;text-indent:-25px; margin-left:25px;}
+.tabDiv2 .txt3{color:#555; line-height:24px; text-align:left}
+
+.accoBoard li a{display:block; padding:20px 0; padding-left:20px; border:1px solid #ddd; border-top:0; border-left:0; border-right:0; font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif; font-size:18px; color:#333; font-weight:bold; background:url("/common/images/icon/open_icon.png") no-repeat 98% 50%}
+.accoBoard li a.on{background:url("/common/images/icon/open_icon_on.png") no-repeat 98% 50%}
+.accoBoard li:first-child a{border-top:1px solid #ddd}
+.accoBoard li .accoBox{padding:30px 3%; background:#f7f7f7; border-bottom:1px solid #ddd}
+.accoBoard li .accoBox .refer{font-family:'NanumSquareB'; font-weight:normal; color:#333}
+.accoBoard .accoTit{padding:17px 0 20px; padding-left:20px; border:1px solid #ddd; border-top:1px solid #ddd; border-left:0; border-right:0; font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif; font-size:18px; color:#333; font-weight:bold;}
+
+.boardType9{width:100%; margin-bottom:30px} /* 2017-01-09 �섏젙 */
+.boardType9 th{font-size:15px; color:#333; text-align:center; background:#eaeaea; border:1px solid #ddd; border-left:0; border-right:0; line-height:20px}
+.boardType9 td{border:1px solid #ddd; border-right:0; padding:13px 2%; color:#555}
+
+/* tab */
+.tab1.two{width:100%; height:48px; overflow:hidden; background:url('/common/images/icon/tabline.gif') no-repeat 0 0; background-size:1px 48px;}
+.tab1.two a{display:block; width:50%; height:16px; float:left; font-size:15px; color:#777; padding:15px 0; background:url('/common/images/icon/tabline.gif') no-repeat right 0; background-size:1px 48px; border-top:1px solid #ddd;  border-bottom:1px solid #ddd;text-align:center}
+.tab1.two a.on{width:50%; height:15px; color:#364d8e; font-family:'NanumSquareB'; font-weight:normal; padding:15px 0; border-top:2px solid #364d8e; border-bottom:1px solid #fff;}
+
+/* 硫붿씤 �덈룄�고뙘�� */
+.winPop{position:relative; overflow:hidden; width:100%; height:150px}
+.winPop .rollImg{width:100%; height:150px; position:absolute; top:0; left:0;}
+.winPop .rollImg a{display:block; width:1170px; height:150px; position:absolute; left:50%; top:0; margin-left:-585px}
+.winPop .rollImg a img {display:none !important}
+.winPop .popDiv{position:absolute; top:0; left:50%; margin-left:-600px; width:1200px; height:150px}
+.winPop .popDiv .prev{position:absolute; top:50%; left:0; margin-top:-12px; z-index:5}
+.winPop .popDiv .next{position:absolute; top:50%; right:0; margin-top:-12px; z-index:5}
+.winPop .popDiv .close{line-height:25px; position:absolute; right:0; bottom:10px; z-index:5}
+.winPop .popDiv .close label{font-size:13px; color:#000}
+.winPop .popDiv .close a img{vertical-align:middle}
+
+/* 2016-09-05 異붽� */
+.subHead {background:url('/common/images/icon/event_bg_img.png')no-repeat center top;padding-bottom:50px;}
+.subTitH {font-size:55px; color:#364d8e; text-align:center;padding-top:65px; }
+.subTitH span {font-size:70px; font-weight:bold}
+.subExH {font-size:15px; color:#666; text-align:center;line-height:25px;padding-top:30px}
+.whiteBgArea {padding:50px 122px; background:rgba(255, 255, 255, 0.78); width:956px; margin:50px auto 0; height:356px; overflow:hidden;} /* width:1200px; height:456px; */
+
+.areaTit {font-size:50px; color:#364d8e;float:left;}
+.areaTit span {font-weight:bold;}
+span.blackTxt {font-size:18px; color:#282828;line-height:27px; display:block;padding-top:30px}
+.proListH {width:485px; height:205px; background:url('/common/images/icon/pro_list_img.png')no-repeat center right; padding-left:34px;float:left;text-indent:-9999px;}
+.exEventH {color:#364d8e;float:left;padding-top:28px;font-weight:bold}
+.exEventH li {font-size:14px; color:#364d8e !important; padding-left:118px;padding-top:12px; line-height:23px;}
+.exEventH li span {color:#666;}
+li.eventBtn01 {background:url('/common/images/icon/event_banner_img01.png')no-repeat left 10px;}
+li.eventBtn02 {background:url('/common/images/icon/event_banner_img02.png')no-repeat left 10px;}
+li.eventBtn03 {background:url('/common/images/icon/event_banner_img03.png')no-repeat left 10px;}
+.eventBtn {float:left;overflow:hidden; width:503px}
+.eventBtn .eventBtnH {color:#333; font-size:18px; border:1px solid #333; padding:18px 48px;float:right; margin-top:100px;font-weight:bold;}
+.btnRedH{display:inline-block; background:#364d8e; color:#fff; padding:0 55px; height:40px; line-height:40px; text-align:center; font-family:'NanumSquareB'; font-weight:normal; vertical-align:middle}
+.btnGryH{display:inline-block; background:#fff; color:#364d8e; width:100px; height:38px; line-height:40px; text-align:center; font-family:'NanumSquareB'; font-weight:normal; vertical-align:middle;border:1px solid #364d8e}
+.btnGryH.wide{width:auto; padding:0 20px;}
+#subConH{position:relative; width:950px; min-height:500px; float:left; padding:0 10% 100px; border-left:1px solid #ddd}
+#subConH h2{font-size:36px; color:#333; line-height:36px; margin-bottom:50px; font-family:'NanumSquareB'; font-weight:normal;}
+#subConH .path{position:absolute; top:15px; right:0;}
+#subConH .path span{padding-left:19px; margin-left:15px; background:url('/common/images/icon/path_arrow.gif') no-repeat 0 center}
+#subConH .path span.home{padding-left:0px; margin-left:0px; background:none}
+
+.marSpe{text-align:center}
+.marSpe p{display:inline-block; margin:0 6px}
+/*2018-01-24 蹂몄씤�몄쬆 �덉씠�댄뙘��*/
+.accreditPop{ 
+	position:fixed;
+	display:table;
+	background-color:rgba(0,0,0,0.6);
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+    z-index: 1000;
+}
+.accreditPop .accreditCenter{ 
+	display:table-cell;
+    vertical-align: middle;
+}
+.accreditPop .accreditCenter h3,
+.accreditPop .accreditCenter .accreditDiv{ 
+	width:600px;
+    margin: 0 auto;
+    border: 1px solid #222;
+	box-sizing:border-box;
+}
+.accreditPop .accreditCenter h3{ 
+	overflow:hidden;
+	background:#fff; 
+    border-bottom: 1px solid #a0a0a0;
+	padding:10px;
+}
+.accreditPop .accreditCenter h3 > span{ 
+	float:left;
+}
+.accreditPop .accreditCenter h3 > img{ 
+	float:right;
+	cursor:pointer;
+}
+.accreditPop .accreditCenter .accreditDiv{ 
+	border-top:0 none;
+}
+/*//2018-01-24 蹂몄씤�몄쬆 �덉씠�댄뙘��*/
+/*2017-07-18 異붽�*/
+.noPointer {cursor:default;}
+@media all and (min-width:1200px) {	
+	.benefit .product{
+		width: 990px;
+	}
+}
+/* �뚮툝由� 媛�濡� �댁긽�� */
+@media all and (max-width:1199px) and (min-width:801px) {	
+	.primeLife.type4 .txt{padding-bottom:0}
+	.benefit div .icon{float:left; margin-right:40px}
+	.benefit > div > div{float:left}
+	.benefit > div.bf5 > div{width:77%}
+	.product > .pdDiv{width:33.3%; text-align:center; float:left; margin-right:0; margin-bottom:40px}
+	.product2 > .pdDiv{width:33.3%; text-align:center; float:left; margin-right:0; margin-bottom:40px} /* 2016-12-27 異붽� */
+
+	.joinIntro{width:98%; margin:0 auto; overflow:hidden;padding-left:2%}
+	.joinIntro a{display:block; overflow:hidden; position:relative; width:48%; float:left; margin:0 20px 20px 0; padding:50px 0 20px; text-align:center}
+	.joinIntro .join1{background-size:130%}
+	.joinIntro .join2{background-size:130%}
+	.joinIntro .join3{background-size:130%}
+	.joinIntro .join4{background-size:130%}
+	.joinIntro .join5{background-size:130%} /* 2016-08-25 異붽� */
+	.joinIntro .deamyung{background-size:130%}
+	.joinIntro .freetour{background-size:130%}
+	.joinIntro a > span.over span{font-size:20px; line-height:26px}
+	.joinIntro a > span.over span.bottomTxt{font-size:14px; line-height:20px; padding-top:16px; margin-top:16px}
+
+	.allyCon .con1 .img{margin-right:5%; width:25%; text-align:center;}
+	.allyCon .con1 .img img{width:100%}
+	.allyCon .con1 .txt{margin-top:10px; width:70%}
+	.allyCon .con1 .txt > span{display:inline}
+	.allyCon .con2 .img{margin-right:5%; width:25%; text-align:center}
+	.allyCon .con2 .img img{width:100%}
+	.allyCon .con2 .txt{float:left; color:#555; width:70%; letter-spacing:-0.4px; margin-top:10px}
+
+	.allyCon .con3 > div{float:left; width:49%; padding:30px 0.4% 27px; border:1px solid #ddd; border-left:0; border-bottom:0}
+	.allyCon .con3 .in1{border-left:1px solid #ddd}
+	.allyCon .con3 .in3{border-left:1px solid #ddd}
+	.allyCon .con3 .in4{border-left:0; border-bottom:0}
+	.allyCon .con3 .in5{border-left:1px solid #ddd; border-bottom:1px solid #ddd}
+	.allyCon .con3 .in6{border-bottom:1px solid #ddd}
+	.allyCon .con3 .txtArea p.icon{margin-left:25%}
+
+	.allyCon .con4 > div{float:left; width:49%; padding:30px 0.4% 27px; border:1px solid #ddd; border-left:0; border-bottom:0}
+	.allyCon .con4 .in1{border-left:1px solid #ddd; width:49%}
+	.allyCon .con4 .in3{border-left:1px solid #ddd; border-bottom:1px solid #ddd;width:49%}
+	.allyCon .con4 .in4{border-bottom:1px solid #ddd}
+	.allyCon .con4 .txtArea p.icon{float:left; margin-right:10px; margin-left:14%}
+
+	.charDiv .icon{float:left; margin-right:5%; width:13%}
+	.charDiv .icon img{width:100%}
+	.charDiv .txtArea{float:left; width:80%}
+
+	.step .stepIn{float:left; margin-top:20px; width:29%}
+	.step .stepIn .img img{width:100%}
+	.step .stepIn .txtBox{padding:20px 2% 30px}
+	.step .stepIn .txtBox .txt{font-size:12px}
+	.step .stepIn .txtBox .txt span{display:inline}
+
+	/* 2016-09-05 異붽� */
+	.subHead {background:url('/common/images/icon/m_event_bg_img.png')no-repeat center top;padding-bottom:50px;background-size:100% 100%;}
+	.subTitH {font-size:55px; color:#364d8e; text-align:center;padding-top:65px; }
+	.subTitH span {font-size:70px; font-weight:bold}
+	.subExH {font-size:15px; color:#666; text-align:center;line-height:25px;padding-top:30px}
+	.whiteBgArea {padding:0; background:rgba(255, 255, 255, 0.78); width:93%; margin:50px auto 0;height:auto; overflow:hidden;} /* width:1200px; height:456px; */
+
+	.areaTit {font-size:50px; color:#364d8e;float:none;padding-left:50px; padding-top:50px;}
+	.areaTit span {font-weight:bold;}
+	span.blackTxt {font-size:18px; color:#282828;line-height:27px; display:block;padding-top:15px}
+	.proListH {width:485px; height:205px; background:url('/common/images/icon/pro_list_img.png')no-repeat center right; padding-left:34px;float:none;margin-top:20px;text-indent:-9999px;}
+	.exEventH {color:#364d8e;float:none;padding-top:28px;font-weight:bold; padding-left:50px}
+	.exEventH li {font-size:14px; color:#364d8e !important; padding-left:118px;padding-top:12px; line-height:23px;}height
+	.exEventH li span {color:#666;}
+	li.eventBtn01 {background:url('/common/images/icon/event_banner_img01.png')no-repeat left 10px;}
+	li.eventBtn02 {background:url('/common/images/icon/event_banner_img02.png')no-repeat left 10px;}
+	li.eventBtn03 {background:url('/common/images/icon/event_banner_img03.png')no-repeat left 10px;}
+	.eventBtn {float:none;overflow:hidden; width:503px}
+	.eventBtn .eventBtnH {color:#333; font-size:18px; border:1px solid #333; padding:18px 48px;float:right; margin-top:50px;font-weight:bold;margin-bottom:35px;}
+	.eventTitA {display: block !important;}
+	#subConH{width:100%; float:none; padding:0 0 100px 0; margin:auto; border-left:none}
+	#subConH h2{font-size:36px; color:#333; line-height:36px;}
+	#subConH .path{position:absolute; top:15px; right:0;}
+	#subConH .path span{padding-left:19px; margin-left:15px; background:url('/common/images/icon/path_arrow.gif') no-repeat 0 center}
+	#subConH .path span.home{padding-left:0px; margin-left:0px; background:none}
+
+	.marSpe{text-align:center}
+	.marSpe p{display:inline-block; margin:0 6px; width:20%;}
+	.marSpe p img{width:100%;}
+}
+/* 2018-05-16 硫붿씤 留곹겕 */
+.hidden {display:none !important}
+.main_visual_m{ 
+	display:none; 
+}
+.main_visual{ 
+	position:relative;
+	overflow:hidden;
+	height:978px;
+	text-align:center;
+}
+.main_visual .link_area{ 
+	position:absolute;
+    width: 100%;
+	text-align:center;
+}
+.main_visual .link_area .center{ 
+	overflow:hidden;
+	width:1920px;
+       margin: 458px auto 0;
+    padding: 0 314px 0 0;
+	box-sizing:border-box;
+}
+.main_visual .link_area .center a{ 
+	float:right;
+	display:block;
+	width:100px;
+	height:50px;
+	background:#000;
+	line-height:50px;
+	color:#fff;
+}
+.main_visual .link_area .center a + a{ 
+	margin-right:10px;
+}
+.main_visual .link_area .center a.btn_brand_story{ 
+	display:block;
+	width:164px;
+	height:156px;
+    background: transparent;
+}
+.main_visual .link_area .center a.btn_coupon{ 
+	display:block;
+	width: 200px;
+    height: 200px;
+    background: transparent;
+}
+.layer_pop {
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0, 0, 0, 0.7);
+	z-index:9990;
+
+}
+.layer_pop #imageArea img{
+	width: 100%;
+	height: auto;
+}
+.layer_pop .btn_popup_close{
+	display: block;
+	height: 40px;
+    line-height: 40px;
+   
+    overflow: hidden;
+}
+
+.layer_pop .btn_popup_close li{
+	float:left; width: 50%;;
+	text-align: center;
+	box-sizing:border-box
+}
+.layer_pop .btn_popup_close.btn_popup_close_alone li{
+	width: 100%;	
+}
+.layer_pop .btn_popup_close.btn_popup_close_alone li.today_close{
+	display:none
+}
+
+.layer_pop .btn_popup_close.btn_popup_close_alone li{
+	width: 100%;	
+}
+.layer_pop .btn_popup_close li a{ 
+	display: block;
+}
+.layer_pop .btn_popup_close li + li{
+	border-left:1px solid #eee
+}
+
+.layer_pop .btn_popup_close li img{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.layer_pop > div{
+	position:absolute;
+	top:50%;
+	left:50%;
+	background: #fff;
+    padding: 10px 10px 0 10px;
+}
+.layer_pop > div .btn_x{
+	position: absolute;
+	top:6px;
+	right: -36px;
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url('/common/images/main/btn_x.png') no-repeat center center;
+	cursor:pointer;
+}
+
+.layer_pop > div .btn_x.btn_x_md{
+	top: -60px;
+    right: 0;
+	width: 44px;
+	height: 44px;
+	background: url('/common/images/main/btn_x_md.png') no-repeat center center;
+}
+.pop_youtube #id_youtube{
+	width:900px;
+	height:500px;
+	border:0 none;
+}
+.pop_img > div{
+	
+	    transform: translate(-50%,-55%);
+}
+.pop_youtube > div{
+	width:900px;
+	height:506px;
+	margin:-253px 0 0 -450px;
+}
+/* .pop_youtube > div{
+	width: 500px;
+    height: 506px;
+    margin: -253px 0 0 -250px;
+}
+
+
+.pop_youtube > div img{
+	    width: 100%;
+    max-width: 500px;
+} */
+
+
+@media all and (max-width:1920px) { 
+	#id_youtube_pc{ 
+		display:none; 
+	}
+	#id_youtube_mo{ 
+		display:block; 
+	}
+	.main_visual .link_area .center{ 
+		width:100%;
+	}
+	.pop_youtube{
+		position:fixed;
+		width:100%;
+		height:100%;
+		background-color:rgba(0, 0, 0, 0.7);
+		z-index:9990;
+	}
+	.pop_youtube > div{
+		position: static;
+		top: 0;
+		left: 0;
+		display: table;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+	}
+	.pop_youtube .center{ 
+		display: table-cell;
+	    vertical-align: middle;
+		text-align:center;
+	}
+	.pop_youtube > div .btn_x{
+		float:right;
+		display: block;		
+	    top: 30px;
+		right: 0;
+		width: 30px;
+		height: 30px;
+		padding:1%;
+		background: url('/common/images/main/btn_x.png') no-repeat center center;
+	}
+	.pop_youtube #id_youtube{
+		/*width:100%;*/
+		margin:0 auto;
+	}
+}
+
+/* // 2018-05-16 硫붿씤 留곹겕 */
+/* 2017-01-13 異붽� */
+/* �뚮툝由� �몃줈 �댁긽�� */
+@media all and (max-width:980px) {
+	.primeLife .bottom .bottomTit{width:200px}
+	.primeLife .bottom p.once{margin-right:0px}
+	.cardArea > p{float:none; margin:0 0 40px; text-align:center}
+	.main_visual_m{ 
+		display:block; 
+	}
+	.main_visual{ 
+		display:none; 
+	}
+	.pop_youtube #id_youtube{
+	    width: 100%;
+		height: 30%;
+	}
+}
+/* //2017-01-13 異붽� */
+
+/* 紐⑤컮�� �댁긽�� */
+@media all and (max-width:800px) {	
+	.winPop{display:none}
+	.dotTxt2 > span{display:inline}
+	.memberTxt img{width:90%;}
+	.allTerm{padding:8px;text-align:right; border:1px solid #ddd; background:#f7f7f7}
+	.allTerm .check img{width:20px; vertical-align:middle}
+	.allTerm .check strong{font-size:14px; color:#333; margin-right:6px}
+	.btnGry.wide{padding:0 10px;}
+	.lifeWayDiv3 .top2{font-size:14px}
+	.fullImg{width:100%}
+	.cardArea > p{float:none; margin:0 0 40px; text-align:center}
+
+	.quick{padding:5px 0 4px;}
+
+	.borTBt{border-top:1px solid #e5e5e5; padding-top:20px; margin-top:20px; text-align:right}
+
+	.primeLife .tit{top:30px; left:30px; font-size:28px}
+	.primeLife .txt{top:20px; left:20px; font-size:12px !important; line-height:20px}
+	.primeLife .txt2{top:20px !important; left:20px !important; font-size:12px !important; line-height:20px}
+	.primeLife .txtBlue{top:30px; left:30px; font-size:12px; line-height:20px}
+	.primeLife .bottom{padding:10px 0 11px 30px}
+	.primeLife .bottom p{float:left; font-size:11px; font-family:'NanumSquareB'; font-weight:normal}
+	.primeLife .bottom p > span{display:block; font-size:22px; margin-top:10px; color:#fff}
+	.primeLife .bottom p > span span{font-size:11px; font-family:'NanumSquareR'; font-weight:normal}
+	.primeLife .bottom p.once{padding-right:21px;background:none; margin-right:20px; padding-bottom:5px} /* 2017-01-13 �섏젙 */
+	.primeLife .bottom1{width:auto} /* 2017-01-13 異붽� */
+
+	.primeLife.type4 .txt{top:20px}
+	.primeLife.type4 .txt .innerTxt{display:block; margin-top:17px; font-size:11px; line-height:19px; text-indent:-15px; margin-left:15px;}
+	.primeLife.type5 .txt .innerTxt{display:block; margin-top:17px; font-size:11px; line-height:19px; text-indent:-15px; margin-left:15px;}
+
+	.benefit div .icon{float:none; margin-right:0; width:100%; text-align: center; margin-bottom:20px}
+	.benefit > div.bf5 > div{width:100%}
+	.benefit > div > div{max-width:100%}
+	.benefit div .icon.type2{float:none; margin-right:0; width:100%; text-align:center}
+	.boardType9 th{padding:13px 2%; color:#555;text-align:left}
+	.product .pdDiv{width:50%; text-align:center; float:left; margin-right:0; margin-bottom:40px}
+	.product2 .pdDiv{width:50%; text-align:center; float:left; margin-right:0; margin-bottom:40px} /* 2016-12-27 異붽� */
+	 
+	.medalDiv{border:1px solid #ddd; padding:40px 0 40px 40px; overflow:hidden}
+	.medalDiv > p{float:left}
+	.medalDiv div{float:left; font-family:'NanumSquareB'; font-weight:normal; color:#333; font-size:20px; padding-top:24px; margin-left:20px}
+
+	.joinIntro{width:300px; margin:0 auto; overflow:hidden;}
+	.joinIntro a{display:block; overflow:hidden; position:relative; width:300px; height:149px; float:none; margin:0 0 20px 0; padding:24px 0 20px; text-align:center}
+	.joinIntro a span{display:block}
+	.joinIntro a > span.over{display:block; position:absolute; top:100%; left:0; width:100%; height:137px; padding:36px 0 20px; text-align:center; color:#fff; opacity:0.75; background:#ddd;}
+	.joinIntro a > span.over span{font-family:'NanumSquareB'; font-weight:normal; font-size:16px; line-height:17px}
+	.joinIntro a > span.over span.bottomTxt{font-family:'NanumSquareR'; font-weight:normal; font-size:12px; line-height:20px; padding-top:16px; margin-top:16px; background:url("/common/images/icon/wbar1x45.gif") no-repeat center 0}
+	.joinIntro a .logo img{width:}
+	.joinIntro a .tit{font-size:18px; font-family:'NanumSquareB'; font-weight:normal; margin-top:15px}
+	.joinIntro a .txt{font-size:12px; color:#333; padding-top:16px; margin-top:15px}
+	.joinIntro .join1{background:url("/common/images/icon/join_bg.gif") no-repeat 0 0; background-size:100%}
+	.joinIntro .join1 .logo img{width:100px}
+	.joinIntro .join1 .txt{background:url("/common/images/icon/jbar1x45.gif") no-repeat center 0}
+	.joinIntro .join2{background:url("/common/images/icon/join_bg2.gif") no-repeat 0 0; background-size:100%}
+	.joinIntro .join2 .logo img{width:34px}
+	.joinIntro .join2 .txt{background:url("/common/images/icon/jbar1x45_2.gif") no-repeat center 0}
+	.joinIntro .join3{background:url("/common/images/icon/join_bg3.gif") no-repeat 0 0; background-size:100%}
+	.joinIntro .join3 .logo img{width:34px}
+	.joinIntro .join3 .txt{background:url("/common/images/icon/jbar1x45_3.gif") no-repeat center 0}
+	.joinIntro .join4 .logo img{width:54px}
+	.joinIntro .join4{background:url("/common/images/icon/join_bg4.gif") no-repeat 0 0; background-size:100%}
+	.joinIntro .join4 .txt{background:url("/common/images/icon/jbar1x45_4.gif") no-repeat center 0}
+	.joinIntro .join5 .logo img{width:54px} /* 2016-08-25 異붽� */
+	.joinIntro .join5{background:url("/common/images/icon/join_bg4.gif") no-repeat 0 0; background-size:100%} /* 2016-08-25 異붽� */
+	.joinIntro .join5 .txt{background:url("/common/images/icon/jbar1x45_4.gif") no-repeat center 0} /* 2016-08-25 異붽� */
+	.joinIntro .freetour {background:url("/common/images/icon/freetour_bg.jpg") no-repeat 0 0; background-size:100%}
+	.joinIntro .deamyung {background:url("/common/images/icon/deamyung_bg.jpg") no-repeat 0 0; background-size:100%}
+	.allyTxt3{font-size:15px; color:#333; text-align:center}
+	.allyTxt4{font-size:16px; color:#333; text-align:left; margin:0 auto; font-family:'NanumSquareB'; font-weight:normal}
+	.allyTxt4 > span{display:inline-block}
+	.allyDiv .whiteBg{height:42px}
+	.allyDiv p{bottom:12px; font-size:14px}
+	.allyCon .con1 .img{margin-right:0; width:100%; text-align:center;}
+	.allyCon .con1 .img img{width:70%}
+	.allyCon .con1 .txt{width:100%; margin-top:10px}
+	.allyCon .con1 .txt > span{display:inline}
+	.allyCon .con2{overflow:hidden}
+	.allyCon .con2 .img{width:100%; text-align:center; margin-right:0}
+	.allyCon .con2 .img img{width:70%}
+	.allyCon .con2 .txt{float:left; color:#555; width:100%; letter-spacing:-0.4px; margin-top:10px}
+	.allyCon .con3{padding:0}
+	.allyCon .con3 > div{float:left; width:48%; padding:30px 0.4% 27px; border:1px solid #ddd; border-left:0; border-bottom:0}
+	.allyCon .con3 .in1{border-left:1px solid #ddd}
+	.allyCon .con3 .in3{border-left:1px solid #ddd}
+	.allyCon .con3 .in4{border-left:0; border-bottom:0}
+	.allyCon .con3 .in5{border-left:1px solid #ddd; border-bottom:1px solid #ddd}
+	.allyCon .con3 .in6{border-bottom:1px solid #ddd}
+	.allyCon .con3 .txtArea p.icon{margin-left:15%}
+
+	.allyCon .con4 > div{float:none; width:90%; padding:30px 0 27px; border:1px solid #ddd; border-left:0; border-bottom:0; margin:auto}
+	.allyCon .con4 .in1{border-left:1px solid #ddd; width:90%}
+	.allyCon .con4 .in2{border-left:1px solid #ddd}
+	.allyCon .con4 .in3{border-left:1px solid #ddd; border-bottom:0; width:90%}
+	.allyCon .con4 .in4{border-left:1px solid #ddd; border-bottom:1px solid #ddd}
+
+	.allyBottom .txt{float:none; line-height:20px}
+	.allyBottom .btn{float:none;margin-top: 5px;}
+	
+	.charTxt{font-size:14px}
+	.charVis p{font-size:30px}
+	.charDiv .icon{float:none; margin-right:0; margin-bottom:20px; width:100%; text-align:center}
+	.charDiv .icon img{width:30%;}
+	.charDiv{margin-top:20px; padding-bottom:20px}
+	.charDiv .txtArea{float:none; width:100%;}
+	.charTit{font-size:18px; margin-top:20px}
+	.charDiv .txtArea .tit{font-size:18px; margin-top:20px}
+
+	.charBox{padding:30px 5% 30px; margin-top:20px}
+	.charBox .img img{width:80%}
+	.charBox .redTit{font-size:14px}
+	.charBox .txt{font-size:12px; line-height:20px}
+	
+	.step{margin-top:0}
+	.step .stepIn{float:left; padding-right:0; background:none; margin-top:20px; width:48%; margin-right:2%}
+	.step .stepIn:nth-child(2n+2){margin-right:0}
+	.step .stepIn .img img{width:100%}
+
+	.accoBoard li a{padding:10px 3%; font-size:15px; background:url("/common/images/icon/open_icon.png") no-repeat 95% 50%; background-size:10px}
+	.accoBoard li a.on{background:url("/common/images/icon/open_icon_on.png") no-repeat 95% 50%; background-size:10px}
+	.accoBoard li .accoBox{padding:20px 3%;}
+
+	.manner .img img{width:70%}
+
+	.tab1.two a{font-size:14px;}
+
+
+	/* 2016-09-05 異붽� */
+	.subHead {background:url('/common/images/icon/m_event_bg_img.png')no-repeat center top;padding-bottom:50px;background-size:100% 100%;}
+	.subTitH {font-size:35px; color:#364d8e; text-align:center;padding-top:65px; }
+	.subTitH span {font-size:40px; font-weight:bold}
+	.subExH {font-size:15px; color:#666; text-align:center;line-height:25px;padding-top:30px; margin:0 30px;}
+	.whiteBgArea {padding:0; background:rgba(255, 255, 255, 0.78); margin:25px auto 0; width:93%;height:auto; overflow:hidden;} /* width:1200px; height:456px; */
+
+	.areaTit {font-size:27px; color:#364d8e;float:none;padding:20px 20px 0;}
+	.areaTit span {font-weight:bold;}
+	span.blackTxt {font-size:12px; color:#282828;line-height:19px; display:block;padding-top:15px}
+	.proListH {width:100%; height:auto; background:none; padding:0;float:none;margin-top:20px;text-indent:0;text-align:center}
+	.exEventH {color:#364d8e;float:none;padding-top:28px;font-weight:bold; padding-left:0; margin:0 20px;}
+	.exEventH li {font-size:11px; color:#364d8e !important; padding-left:28%; padding-top:7px; line-height:23px;}
+	.exEventH li span {color:#666;}
+	li.eventBtn01 {background:url('/common/images/icon/event_banner_img01.png')no-repeat left 10px;background-size:62px 16px;}
+	li.eventBtn02 {background:url('/common/images/icon/event_banner_img02.png')no-repeat left 10px;background-size:62px 16px;}
+	li.eventBtn03 {background:url('/common/images/icon/event_banner_img03.png')no-repeat left 10px;background-size:62px 16px;}
+	.eventBtn {float:none;overflow:hidden; width:100%}
+	.eventBtn .eventBtnH {color:#333; font-size:12px; border:1px solid #333; padding:10px 20px;float:none; margin:20px auto 35px;font-weight:bold;display:block; width:
+	90px}
+	.btnRedH{font-size:11px;display:inline-block; background:#364d8e; color:#fff; padding:0 32px; height:40px; line-height:40px; text-align:center; font-family:'NanumSquareB'; font-weight:normal; vertical-align:middle}
+	.btnGryH{font-size:11px;display:inline-block; background:#fff; color:#364d8e; width:100px; height:38px; line-height:40px; text-align:center; font-family:'NanumSquareB'; font-weight:normal; vertical-align:middle;border:1px solid #364d8e}
+	.btnGryH.wide{width:auto; padding:0 10px;}
+	.eventTitA {display: block !important; font-size:22px;}
+	#subConH{width:100%; padding:0 0 50px 0;}
+	#subConH h2{font-size:30px; margin-bottom:30px}
+	#subConH .path{position:absolute; top:15px; right:0;}
+	#subConH .path span{padding-left:19px; margin-left:15px; background:url('/common/images/icon/path_arrow.gif') no-repeat 0 center}
+	#subConH .path span.home{padding-left:0px; margin-left:0px; background:none}
+	.pop_img > div{
+		
+		width:80%;
+		height: auto;
+		transform:translate(-50%,-55%);
+		text-align:center;
+	}
+	.pop_img > div > img{ 
+		width:100%;
+	}
+	.layer_pop > div .btn_x {
+		top: 0;
+		right: 0;
+	}
+	.layer_pop > div .btn_x.btn_x_md{ 
+		top: -10%;
+    right: 10%;
+    width: 7%;
+    height: 7%;
+    background-size: 100% 100%;
+	}
+}
+
+/* 紐⑤컮�� �댁긽��2 */
+@media all and (max-width:680px) {
+	.cardArea > p{width:100%; text-align:center;margin-bottom:40px}
+	.benefit > p{margin-bottom:30px}
+	.benefit div .icon{float:none; margin-right:0; width:100%; text-align: center; margin-bottom:20px}
+	.benefit div .icon img{width:30%}
+	.benefit div .icon.type2{float:none; margin-right:0; width:100%; text-align:center}
+	.benefit > div{margin-top:20px; padding-top:20px}
+	.benefit > div > div{width:100%}
+	.benefit > div.bf1 div{margin-top:0}
+	.benefit > div.bf2 .icon{margin-top:0}
+	.benefit > div.bf3 div{margin-top:0}
+	.benefit > div.bf4 .icon{margin-top:0}
+	.benefit > div.bf5 > div{width:100%}
+	.benefit div div > p.tit{font-size:16px; margin-bottom:10px}
+	.product > .pdDiv{width:50%; text-align:center; margin-right:0; margin-bottom:40px}
+	.product > .pTit span{font-size:14px}
+	.product2 > .pdDiv{width:50%; text-align:center; margin-right:0; margin-bottom:40px} /* 2016-12-27 異붽� */
+	.product2 > .pTit span{font-size:14px} /* 2016-12-27 異붽� */
+	.dotList li{font-size:13px; line-height:20px}
+
+	.allyTxt{font-size:14px; line-height:22px}
+	.allyTxt2{font-size:12px}
+
+	.medalDiv{border:1px solid #ddd; padding:40px 1% 40px 2%; overflow:hidden}
+	.medalDiv > p{float:none; text-align:center}
+	.medalDiv div{float:none;  font-size:14px; padding-top:24px; margin-left:0}
+
+	.allyDiv .whiteBg{height:38px}
+	.allyDiv p{bottom:12px; font-size:12px}
+	.allyCon .con3 > div{float:none; width:90%; padding:30px 0 27px; border:1px solid #ddd; border-bottom:0; margin:0 auto}
+	.allyCon .con3 .in1{}
+	.allyCon .con3 .in4{border-left:1px solid #ddd; border-bottom:0}
+	.allyCon .con3 .in5{border-bottom:0}
+	.allyCon .con3 .in6{border-bottom:1px solid #ddd}
+	.allyCon .con3 .txtArea p.icon{float:left; margin-right:10px; margin-left:13%}
+
+	.allyCon .con4 > div{float:none; width:90%; padding:30px 0 27px; border:1px solid #ddd; border-left:1px solid #ddd; border-bottom:0; margin:0 auto}
+	.allyCon .con4 .in1{width:90%}
+	.allyCon .con4 .in3{border-bottom:0;width:90%}
+	.allyCon .con4 .in4{border-bottom:1px solid #ddd}
+	.allyCon .con4 .txtArea p.icon{float:left; margin-right:10px; margin-left:13%}
+
+	.mannerTxt{font-size:14px; text-align:left}
+	.tabDiv .tabBtn2{font-size:14px;padding-left:12px;padding-right:10px; background-size:1px 14px;}
+	.tabDiv2 .txt{font-size:12px; line-height:20px}
+	.tabDiv2 .txt span.ch{font-size:12px}
+	.tabDiv2 .tit{font-size:14px}
+	.tabDiv2 .tit2{font-size:13px}
+	.tabDiv2 .tit2 .ch{font-family:'Malgun Gothic', dotum, "�뗭�", sans-serif; font-weight:bold; font-size:12px}
+	.tabDiv2 .txt2{font-size:12px; line-height:20px; text-indent:-21px; margin-left:21px}
+	.tabDiv2 .txt3{font-size:12px; line-height:20px}
+	.tabDiv2 p span.ch{font-size:11px}
+
+	.primeLife .txt{position:relative; top:0px; left:0px; font-size:12px; line-height:22px; width:94%; padding:8px 3%; background:url("/common/images/icon/bottom_bg.png") repeat 0 0; color:#fff !important}
+	.primeLife.type8 .txt .title{color:#fff !important}
+	.primeLife .txt2{position:relative !important; top:0px !important; left:0px !important; font-size:12px; line-height:22px; width:94%; padding:8px 3%; background:url("/common/images/icon/bottom_bg.png") repeat 0 0; color:#fff !important}
+	.primeLife .txt2 span.small{color:#fff !important}
+	.primeLife .bottom{position:relative; top:0px; left:0px; padding:9px 3% 7px; width:94%;}
+	.primeLife .bottom p{float:left; font-size:10px; color:#fff !important}
+	.primeLife .bottom p > span{display:block; font-size:15px; margin-top:5px; color:#fff}
+	.primeLife .bottom p > span span{font-size:12px}
+	.primeLife.type7 .txt2 span.comment{color: #8df0ff !important}
+}
+
+@media all and (max-width:600px){
+	.primeLife .tit{top:10%; left:15px; font-size:22px}
+	.primeLife .txtBlue{position:relative; top:0px; left:0px; font-size:12px; line-height:22px; width:94%; padding:8px 3%; background:url("/common/images/icon/bottom_bg.png") repeat 0 0; color:#fff}
+	.primeLife.type2 .txt{background:url("/common/images/icon/bottom_bg2.png") repeat 0 0; color:#fff}
+	.primeLife.type3 .txt{background:url("/common/images/icon/bottom_bg3.png") repeat 0 0; color:#fff}
+	.primeLife.type4 .txt{position:relative; top:0px; left:0px; font-size:12px; line-height:22px; width:94%; padding:8px 3%;  background:url("/common/images/icon/bottom_bg4.png") repeat 0 0; color:#fff}
+	.primeLife.type5 .txt{background:url("/common/images/icon/bottom_bg5.png") repeat 0 0; color:#fff}
+	/* 2017-01-16 異붽� */
+	.primeLife .bottom .bottom1{height:auto}
+	.primeLife .bottom .bottom2{height:auto; border-bottom:1px solid #c9ccbe; padding-bottom:8px}
+	.primeLife .bottom .bottomTit{width:100%; margin-bottom:20px}
+	.primeLife .bottom .hide{display:block}
+	.primeLife .bottom3 .once{margin-top:0}
+	.primeLife .bottom3 .month{margin-top:0}
+	/*// 2017-01-16 異붽� */
+	.primeLife .bottom p.once{padding-right:5%; background:none; margin-right:5%;} /* 2017-01-16 �섏젙 */
+	.primeLife.type4 .txt .innerTxt{display:block; margin-top:10px; font-size:10px; line-height:14px; text-indent:-15px; margin-left:15px;}
+	.primeLife.type5 .tit{top:10%; left:15px; font-size:22px}
+	.primeLife.type5 .txt{position:relative; top:0px; left:0px; font-size:12px; line-height:22px; width:94%; padding:8px 3%; background:url("/common/images/icon/bottom_bg5.png") repeat 0 0; color:#fff}
+	.primeLife.type5 .txt .innerTxt{display:block; margin-top:2px; font-size:9px; line-height:12px; text-indent:-15px; margin-left:15px;}
+
+	.product > .pdDiv{width:100%; text-align:center; margin-right:0; margin-bottom:40px}
+	.product2 > .pdDiv{width:100%; text-align:center; margin-right:0; margin-bottom:40px} /* 2016-12-27 異붽� */
+	.product3 > .pdDiv{width:100% !important; text-align:center; margin-right:0; margin-bottom:40px} /* 2017-04-13 異붽� */
+	.allyDiv{margin-top:20px}
+	.allyDiv .whiteBg{height:30px}
+	.allyDiv p{bottom:8px; font-size:10px}
+	
+	p.warning{font-size:16px}
+	p.warning2{font-size:12px}
+
+	.allyCon .con3 > div{float:none; width:99%; padding:30px 0 27px; border:1px solid #ddd; border-bottom:0; margin:0 auto}
+	.allyCon .con3 .txtArea p.icon{float:left; margin-right:10px; margin-left:8%}
+	.allyCon .con3 .txtArea p.icon img{width:40px; padding:5px 0;}
+	.allyCon .con4 .txtArea p.icon{float:left; margin-right:5px; margin-left:4%}
+	.allyCon .con4 .txtArea{font-size:12px}
+
+	.charVis p{font-size:20px}
+	
+	.step .stepIn{float:left; padding-right:0; background:none; margin-top:20px; width:100%}
+
+	.disChange{display:block; margin-top: 5px;}
+}
+
+@media all and (max-width:350px){
+	.charTit{font-size:16px}
+	.charDiv .txtArea .tit{font-size:16px}
+}
