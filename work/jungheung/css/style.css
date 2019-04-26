@@ -44,6 +44,10 @@
 	border-bottom: 1px solid #b8b9b8;
 }
 
+.header:hover {
+	/* background-color: rgba(255, 255, 255, 0.4); */
+}
+
 .header::after {
 	content: "";
 	height: 280px;
@@ -53,6 +57,15 @@
 	right: 0;
 	z-index: -1;
 	background-color: #f5f8ff;
+	display: none;
+}
+
+.header:hover::after {
+	display: block;
+}
+
+.header:hover .depth02-wrap {
+	display: block;
 }
 
 .header-top {
@@ -78,8 +91,6 @@
 	color: #fff;
 }
 
-.menu-wrap {}
-
 .menu-wrap .depth01-wrap {
 	position: relative;
 	display: inline-block;
@@ -103,6 +114,7 @@
 	top: 100%;
 	left: 0;
 	right: 0;
+	display: none;
 }
 
 .menu-wrap .depth01-wrap:hover .depth02-wrap {
@@ -161,7 +173,237 @@
 	font-weight: 300;
 }
 
+.owl-dots {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+}
 
+.owl-dots .owl-dot {
+	margin: 10px;
+}
 
+.owl-dots .owl-dot span {
+	padding: 5px;
+	border-radius: 100%;
+	display: block;
+}
 
+.owl-dots .owl-dot.active span {
+	border: 1px solid #fff;
+}
+
+.owl-dots .owl-dot span::after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	display: block;
+	background-color: #fff;
+	border-radius: 100%;
+}
+
+.main-title01 {
+	text-align: center;
+	font-size: 44px;
+	font-weight: 500;
+	color: #111;
+}
+
+.main-title02 {
+	margin: 20px 0 50px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 300;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.main-con1 {
+	padding: 100px 0;
+}
+
+.main-con1 .df>a {
+	margin-right: 50px;
+}
+
+.main-con1 .df>a:last-child {
+	margin-right: 0;
+}
+
+.main-con1 .df>a:hover .go {
+	transition: all 0.5s;
+	background-color: #0a99ea;
+}
+
+.main-con1 .df01 {
+	padding: 30px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.main-con1 .tx1 {
+	font-size: 28px;
+}
+
+.main-con1 .tx2 {
+	margin-top: 15px;
+	font-size: 14px;
+	color: #999;
+}
+
+.main-con1 .go {
+	width: 46px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100%;
+	font-size: 18px;
+	font-weight: 700;
+	background-color: #959595;
+	color: #fff;
+}
+
+.bgc-blue {
+	background-color: #e4f1f8;
+}
+
+.main-con2 {
+	padding: 100px 0;
+}
+
+.main-con2 .owl-dots {
+	margin-top: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.owl-dots .owl-dot span::after {
+	background-color: #ccc;
+}
+
+.main-con3 {
+	padding: 100px 0;
+	display: flex;
+}
+
+.main-con3 .item {
+	width: calc(100%/3);
+	margin-right: 30px;
+	position: relative;
+}
+
+.main-con3 .item:last-child {
+	margin-right: 0;
+}
+
+.main-con3 .tx-wrap {
+	margin: 10px 0;
+}
+
+.main-con3 .tx1 {
+	padding-bottom: 30px;
+	font-size: 26px;
+	font-weight: 700;
+	color: #333;
+}
+
+.main-con3 .tx2 {
+	margin-bottom: 8px;
+	font-size: 17px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	color: #555;
+}
+
+.main-con3 .tx3 {
+	color: #888;
+	font-size: 15px;
+}
+
+.main-con3 .blue {
+	color: #0d88e5;
+}
+
+.main-con3 .newNotice>img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.main-con3 .newNotice .poa{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.main-con3 .tx-poa {
+	position: absolute;
+	top: 35px;
+	left: 40px;
+}
+
+.main-con3 .tx-poa .tx1 {
+	position: relative;
+}
+
+.main-con3 .tx-poa .tx1::after {
+	content: "";
+	width: 20px;
+	height: 2px;
+	background-color: #869ba1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.main-con3 .tx-poa .tx3 {
+	margin-top: 20px;
+	line-height: 1.3;
+	color: #999;
+}
+.main-con3 .tx-poa .btn{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	background-color: #66c545;
+}
+.main-con3 .tx-poa .btn.orange{
+	background-color: #ff822f;
+}
+.footer{
+	padding: 30px 0;
+	text-align: center;
+	background-color: #272a2c;
+	color: #bbb;
+	position: relative;
+}
+.footer span{
+	font-weight: 300;
+}
+.footer .link01{
+	font-size: 15px;
+}
+.footer .link02{
+	padding: 20px 0;
+	color: #999;
+}
+.footer .copy{
+	color: #888;
+}
+.footer .poa{
+	position: absolute;
+	top: 50%;
+	right: 70px;
+	transform: translate(0,-50%);
+}
 @media all and (max-width:1024px) {}
