@@ -155,6 +155,9 @@
 .sub-con1 .fc_fff {
     color: #fff;
 }
+.sub-con1 > img{
+    width: 100%;
+}
 
 .sub-con2 {
     padding-bottom: 50px;
@@ -685,4 +688,74 @@
     font-size: 15px;
     line-height: 1.5;
     border: 1px solid #ddd;
+}
+
+@media all and (max-width:1000px) {
+    .sub-con3 .fll{
+        min-height: 260px;
+    }
+    .sub-con5 .fll{
+        width: 100%;
+        text-align: center;
+    }
+    .sub-con8{
+        text-align: center;
+    }
+    .sub-con8 .item{
+        margin-right: 0;
+    }
+    .sub-con3.type03 .fll{
+        width: calc(100%/2);
+    }
+    .sub-con3.type03 .fll:nth-child(3n){
+        border-right: 1px solid #ddd;
+    }
+    .sub-con9>.df{
+        display: block;
+        text-align: center;
+    }
+    .sub-con9>.df .item{
+        margin: 20px 0;
+    }
+    .sub-con12 img{
+            width: 100%;
+    }.sub-con11 .tx1{
+        min-width: 40px;
+    }
+}
+@media all and (max-width:768px) {
+    .sub-con2{
+        display: block;
+    }
+    .sub-con2 .item{
+        margin: 20px auto;
+    }
+    .sub-con3 .fll{
+        width: 100%;
+        min-height: auto;
+    }
+    .sub-con4 .fll{
+        width: 100%;
+    }
+    .sub-con7 .fll:nth-child(1){
+        width: 100%;
+        text-align: center;
+    }
+    .sub-con7 .fll:nth-child(1) img{
+        width: auto;
+    }
+    .sub-con7 .fll:nth-child(2){
+        width: 100%;
+        padding-left: 0;
+    }
+    .sub .sub-title02 .btn{
+        top: -40px;
+    }
+    .sub-con3.type03 .fll{
+        width: 100%;
+    }
+    .sub-con10 .fll{
+        width: 100%;
+        text-align: center;
+    }
 }
