@@ -1,3 +1,6 @@
+.sub{
+    word-break: keep-all;
+}
 .sub .sub-title01 {
     margin: 20px 0;
     font-size: 20px;
@@ -86,11 +89,15 @@
 .sub-con1 .bottom-tx {
     padding-right: 20px;
     line-height: 48px;
-    background-color: #f8fafb;
+    background-color: rgba(255, 255, 255, 0.7);
     font-size: 17px;
     font-weight: bold;
     text-align: right;
     color: #000;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
 }
 
 .sub-con1 .bottom-wrap {
@@ -138,6 +145,9 @@
 .sub-con1 .bottom-wrap .tx2 span {
     font-size: 24px;
     font-weight: normal;
+}
+.sub-con1 .fc_fff{
+    color: #fff;
 }
 
 .sub-con2 {
@@ -421,7 +431,45 @@
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.5);
 }
+.sub-con8.tac{
+    text-align: center;
+}
+.sub-con8 .tx1{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
 .sub-con9 >.df{
     display: flex;
     justify-content: space-between;
+}
+.sub-con99{
+    padding: 40px 30px;
+    background-color: #eeedf9;
+    border: 1px solid #ddd;
+}
+.sub-con99 .df{
+    display: flex;
+    align-items: center;
+}
+.sub-con99 .df > .item:nth-child(2){
+    padding-left: 20px;
+}
+.sub-con99 .tx1{
+    padding: 3px 0;
+    line-height: 1.3;
+}
+
+.df_01{
+    display: flex;
+}
+.df_01 .item:nth-child(2){
+    padding-left: 5px;
+}
+.faq-title{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
 }
