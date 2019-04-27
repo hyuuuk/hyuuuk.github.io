@@ -26,6 +26,9 @@
 	font-weight: 700;
 }
 
+.wrap{
+	overflow-x: hidden;
+}
 .wrap-1920 {
 	max-width: 1920px;
 	width: 100%;
