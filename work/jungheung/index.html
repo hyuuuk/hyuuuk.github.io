@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
     <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
 </head>
@@ -33,8 +35,18 @@
                 </div>
             </div>
             <div class="header-bottom wrap-1200">
-                <a href="#!" class="logo"><img src="img/logo01.png" alt=""></a>
+                <a href="#!" class="logo">
+                    <img src="img/logo01.png" alt="" class="m-hidden">
+                    <img src="img/logo02.png" alt="" class="m-visible">
+                </a>
                 <div class="menu-wrap">
+                    <div class="m-visible top">
+                        <a href="#!"><img src="img/logo03.png" alt=""></a>
+                        <a href="#!" class="btn-menu-close">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
                     <div class="depth01-wrap">
                         <a href="#!" class="depth01">시설물안내</a>
                         <div class="depth02-wrap">
@@ -80,24 +92,34 @@
                         </div>
                     </div>
                 </div>
+                <div class="bg"></div>
+                <a href="#!" class="btn-menu-open">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </div>
         </div>
         <div class="container">
             <div class="main-visual">
                 <div class="owl-carousel owl-carousel01">
-                    <div class="item">
-                        <img src="img/main-visual01.png" alt="">
+                    <div class="item main-vs-con">
                         <div class="tx-wrap">
                             <div class="tx1">중흥 골드스파&리조트</div>
-                            <div class="tx2"><img src="img/tx_enjoy_.png" alt=""></div>
+                            <div class="tx2">
+                                <img src="img/tx_enjoy_01.png" alt="" class="m-hidden">
+                                <img src="img/tx_enjoy_02.png" alt="" class="m-visible">
+                            </div>
                             <div class="tx3">Welcome to Jungheung Gold Spa&Resort</div>
                         </div>
                     </div>
-                    <div class="item">
-                        <img src="img/main-visual01.png" alt="">
+                    <div class="item main-vs-con">
                         <div class="tx-wrap">
                             <div class="tx1">test2test2 test2test2test2</div>
-                            <div class="tx2"><img src="img/tx_enjoy_.png" alt=""></div>
+                            <div class="tx2">
+                                <img src="img/tx_enjoy_01.png" alt="" class="m-hidden">
+                                <img src="img/tx_enjoy_02.png" alt="" class="m-visible">
+                            </div>
                             <div class="tx3">Welcome to Jungheung Gold Spa&Resort</div>
                         </div>
                     </div>
@@ -131,6 +153,35 @@
                         // }
                     })
                 </script>
+                <div class="main-form wrap-1200">
+                    <div class="item">
+                        <label for="datepicker">
+                            <span>Check-In</span>
+                            <input type="text" id="datepicker" value="이용일자">
+                        </label>
+                    </div>
+                    <div class="item">
+                        <label for="">
+                            <span>Choise-Room</span>
+                            <select name="" id="">
+                                <option value="">평형선택</option>
+                                <option value="">option</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="item">
+                        <label for="">
+                            <span>Choise-Day</span>
+                            <select name="" id="">
+                                <option value="">1박</option>
+                                <option value="">2박</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="item btn">
+                        <a href="#!">예약하기</a>
+                    </div>
+                </div>
             </div>
             <div class="main-con1 wrap-1200">
                 <div class="main-title01">주요시설 안내</div>
@@ -170,8 +221,8 @@
             </div>
             <div class="main-con2 bgc-blue">
                 <div class="wrap-1200">
-                    <div class="main-title01">이벤트 안내</div>
-                    <div class="main-title02">Jungheung Gold spa&resort</div>
+                    <div class="main-title01 m-hidden">이벤트 안내</div>
+                    <div class="main-title02 m-hidden">Jungheung Gold spa&resort</div>
                     <div class="owl-carousel owl-carousel02">
                         <div class="item">
                             <a href="#!">
@@ -196,26 +247,29 @@
                     </div>
                     <script>
                         $('.owl-carousel02').owlCarousel({
-                            items: 3,
                             loop: 'loop',
-                            margin: 50,
+                            center: true,
                             nav: false,
                             dots: true,
                             smartSpeed: 700,
                             autoplay: true,
                             autoplayTimeout: 2000,
                             autoplayHoverPause: true,
-                            // responsive: {
-                            //     0: {
-                            //         items: 1
-                            //     },
-                            //     600: {
-                            //         items: 3
-                            //     },
-                            //     1000: {
-                            //         items: 5
-                            //     }
-                            // }
+                            responsive: {
+                                0: {
+                                    items: 1,
+                                    autoWidth: true,
+                                    margin: 30,
+                                },
+                                768: {
+                                    items: 3,
+                                    margin: 30,
+                                },
+                                1200: {
+                                    items: 3,
+                                    margin: 50,
+                                }
+                            }
                         })
                     </script>
                 </div>
@@ -292,7 +346,7 @@
                 <a href="#!">팩스 : 061-339-5007</a>
             </div>
             <div class="copy">Copyright ⓒ Jungheung Gold Spa&Resort. All Rights Reserved.</div>
-            <a href="" class="poa"><img src="img/icon_02.png" alt=""></a>
+            <a href="" class="poa m-hidden"><img src="img/icon_02.png" alt=""></a>
         </div>
     </div>
 </body>

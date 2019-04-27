@@ -1,5 +1,9 @@
 $(function () {
-    $('.btn-form-open').click(function(){
-        $('.main-con4').toggleClass('on');
+    $('.btn-menu-open').click(function () {
+        $('body').addClass('open-menu');
     });
+    $('.btn-menu-close').click(function () {
+        $('body').removeClass('open-menu');
+    });
+    $("#datepicker").datepicker();
 });
