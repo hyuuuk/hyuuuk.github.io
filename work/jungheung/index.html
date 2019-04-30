@@ -157,8 +157,13 @@
                     <div class="item">
                         <label for="datepicker">
                             <span>Check-In</span>
-                            <input type="text" id="datepicker" value="이용일자">
+                            <input type="text" id="datepicker01" value="이용일자" class="datepicker">
                         </label>
+                        <script>
+                            $(function () {
+                                $("#datepicker01").datepicker();
+                            })
+                        </script>
                     </div>
                     <div class="item">
                         <label for="">
@@ -346,7 +351,7 @@
                 <a href="#!">팩스 : 061-339-5007</a>
             </div>
             <div class="copy">Copyright ⓒ Jungheung Gold Spa&Resort. All Rights Reserved.</div>
-            <a href="" class="poa m-hidden"><img src="img/icon_02.png" alt=""></a>
+            <a href="#" class="poa m-hidden btn-scroll-top"><img src="img/icon_02.png" alt=""></a>
         </div>
     </div>
 </body>

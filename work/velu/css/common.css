@@ -214,6 +214,7 @@ ul {
 .con1 .clb {
     width: 863px;
     margin: 0 auto;
+    display: flex;
 }
 
 .con1 .fll {
@@ -222,6 +223,7 @@ ul {
     margin-right: 10px;
     padding: 24px;
     border-radius: 10px;
+    float: none;
     box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     box-sizing: border-box;
@@ -352,11 +354,13 @@ ul {
 .con3 .clb {
     width: 730px;
     margin: 10px auto 0;
+    display: flex;
 }
 
 .con3 .fll {
     width: calc(100%/3 - 50px/3);
     margin-right: 25px;
+    float: none;
 }
 
 .con3 .fll:last-child {
@@ -477,9 +481,10 @@ ul {
 }
 
 .con5 .fll {
-    width: calc(100%/3 - 40px/3);
-    margin-right: 20px;
+    width: 32%;
+    margin-right: 2%;
     margin-top: 30px;
+    box-sizing: border-box;
 }
 
 .con5 .fll:nth-child(3n) {
