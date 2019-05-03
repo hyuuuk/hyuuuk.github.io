@@ -249,6 +249,17 @@ textarea {
     appearance: none;
 }
 
+input::-ms-clear {
+    display: none;
+}
+
+select {
+    background-image: url(../img/sort-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
 select::-ms-expand {
     display: none;
 }

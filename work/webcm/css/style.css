@@ -3,6 +3,7 @@
 * {
 	box-sizing: border-box;
 }
+
 .clb::after {
 	content: "";
 	clear: both;
@@ -155,6 +156,10 @@
 	border: 1px solid #ccc;
 }
 
+.form input:disabled {
+	background-color: #eee;
+}
+
 .form input[type=checkbox],
 .form input[type=radio] {
 	display: none;
@@ -242,7 +247,9 @@
 	.form .col.w25p {
 		width: 50%;
 	}
-	.form input[type=checkbox]+label, .form input[type=radio]+label{
+
+	.form input[type=checkbox]+label,
+	.form input[type=radio]+label {
 		padding: 0 5px;
 	}
 }
