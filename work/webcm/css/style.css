@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+body{
+	
+}
+.clb::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.clb .fll {
+	float: left;
+}
+
+.clb .flr {
+	float: right;
+}
+
+.df {
+	display: flex;
+}
+
+.fw700 {
+	font-weight: 700;
+	display: inline-block;
+}
+
+.tac {
+	text-align: center;
+}
+
+.wrapper {
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 640px;
+	width: 100%;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #fff;
+	border-top: 4px solid #ffff00;
+}
+
+.form .row {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.form>.row {
+	margin: 20px 0;
+}
+
+.form .row.db {
+	display: block;
+	font-size: 0;
+}
+
+.form .col {
+	width: 100%;
+	padding: 5px;
+}
+
+.form .col.w25p {
+	width: 25%;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.form .tx1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.form .tx2 {
+	max-width: 100px;
+	font-size: 16px;
+	line-height: 1.3;
+	position: relative;
+}
+
+.form .tx2.im::before {
+	content: "*";
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	transform: translate(0, -50%);
+}
+
+.form .tx3 {
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.form .btn {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.form .item {
+	width: 100%;
+}
+
+.form select {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+
+.bar {
+	width: 100%;
+	height: 1px;
+	margin: 50px 0;
+	background-color: #000;
+}
+
+.form textarea {
+	height: 150px;
+	padding: 10px;
+}
+
+.form textarea:disabled {
+	background-color: #fff;
+}
+
+.form label {
+	width: 100%;
+	display: inline-block;
+}
+
+.form input {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	border: 1px solid #ccc;
+}
+
+.form input[type=checkbox],
+.form input[type=radio] {
+	display: none;
+}
+
+.form input[type=checkbox]+label,
+.form input[type=radio]+label {
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	text-align: center;
+}
+
+.form input[type=checkbox]:checked+label,
+.form input[type=radio]:checked+label {
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+}
+
+.form .btn-wrap {
+	display: flex;
+}
+
+.form .btn-wrap .btn {
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 18px;
+}
+
+.form .btn-wrap .btn:first-child {
+	background-color: #ffff00;
+}
+
+.form .btn-wrap .btn:last-child {
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+
+.form .tx4 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.form .tx5 {
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 16px;
+}
+
+.form .tx6 {
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.form .tab-header .tab-list {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.form .tab-header .tab-list.on {
+	background-color: #333;
+	color: #fff;
+}
+
+.form .tab-con>.row {
+	margin: 20px 0;
+}
+
+@media all and (max-width:640px) {
+	.form .col.w25p {
+		width: 50%;
+	}
+	.form input[type=checkbox]+label, .form input[type=radio]+label{
+		padding: 0 5px;
+	}
+}

@@ -214,16 +214,14 @@ ul {
 .con1 .clb {
     width: 863px;
     margin: 0 auto;
-    display: flex;
 }
 
 .con1 .fll {
-    width: calc(100%/3 - 20px/3);
+    width: 32%;
     height: 380px;
-    margin-right: 10px;
+    margin-right: 2%;
     padding: 24px;
     border-radius: 10px;
-    float: none;
     box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     box-sizing: border-box;
@@ -354,13 +352,11 @@ ul {
 .con3 .clb {
     width: 730px;
     margin: 10px auto 0;
-    display: flex;
 }
 
 .con3 .fll {
-    width: calc(100%/3 - 50px/3);
-    margin-right: 25px;
-    float: none;
+    width: 32%;
+    margin-right: 2%;
 }
 
 .con3 .fll:last-child {
@@ -532,6 +528,16 @@ ul {
     color: #19cda9;
     font-weight: 800;
 }
+.con5 .fll .df{
+    display: block;
+    overflow: hidden;
+}
+.con5 .fll .df > .fz22{
+    float: left;
+}
+.con5 .fll .df > .fz17{
+    float: left;
+}
 
 .con6 {
     height: 400px;
@@ -608,7 +614,7 @@ ul {
 .con8 .dib a {
     margin: 10px 20px;
     display: inline-block;
-    cursor: initial;
+    cursor: default;
 }
 
 .con9 {
