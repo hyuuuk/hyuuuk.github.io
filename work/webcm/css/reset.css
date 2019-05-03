@@ -241,6 +241,7 @@ textarea {
     border-radius: 0;
     outline: none;
     box-shadow: none;
+    -webkit-appearance:none;
 }
 
 img {
