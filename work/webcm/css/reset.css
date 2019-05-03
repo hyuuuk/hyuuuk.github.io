@@ -249,6 +249,10 @@ textarea {
     appearance: none;
 }
 
+select::-ms-expand {
+    display: none;
+}
+
 img {
     max-width: 100%;
     border: 0;
