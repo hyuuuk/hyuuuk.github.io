@@ -530,4 +530,10 @@
 	.con5.type02 .item:nth-child(2) {
 		margin-top: 20px;
 	}
+	.sub-con3 .item{
+		display: block;
+	}
+	.sub-con3 .item .tx2{
+		margin-top: 15px;
+	}
 }

@@ -32,8 +32,8 @@
 }
 
 .wrapper {
-	padding: 30px 0;
-	background-image: url(../img/back.jpg);
+	padding: 0 0 30px;
+	background-image: url(../img/back2.jpg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	background-size: cover;
@@ -41,17 +41,35 @@
 }
 
 .header {
-	padding: 20px 0;
-	text-align: center;
+	margin-bottom: 100px;
+	border-bottom: 1px solid #eee;
 }
 
 .container {
 	max-width: 640px;
 	width: 100%;
-	margin: 0 auto;
-	padding: 20px;
+	margin-left: 150px;
+}
+
+.con-99 {
+	display: flex;
+	margin-bottom: 50px;
+	padding: 50px 40px;
+	background-color: #28a5c3;
+	color: #fff;
+}
+.con-99 .tx1{
+	margin-right: 40px;
+	font-size: 24px;
+}
+.con-99 .tx2{
+	line-height: 1.5;
+}
+
+.form {
+	padding: 40px;
 	background-color: #fff;
-	border-top: 4px solid #ffff00;
+	border-top: 4px solid #28a5c3;
 }
 
 .form .row {
@@ -112,7 +130,7 @@
 	height: 40px;
 	line-height: 40px;
 	padding: 0 10px;
-	background-color: #333;
+	background-color: #28a5c3;
 	color: #fff;
 	text-align: center;
 }
@@ -178,8 +196,8 @@
 
 .form input[type=checkbox]:checked+label,
 .form input[type=radio]:checked+label {
-	background-color: #333;
-	border: 1px solid #333;
+	background-color: #28a5c3;
+	border: 1px solid #28a5c3;
 	color: #fff;
 }
 
@@ -195,7 +213,8 @@
 }
 
 .form .btn-wrap .btn:first-child {
-	background-color: #ffff00;
+	background-color: #28a5c3;
+	color: #fff;
 }
 
 .form .btn-wrap .btn:last-child {
@@ -235,7 +254,7 @@
 }
 
 .form .tab-header .tab-list.on {
-	background-color: #333;
+	background-color: #28a5c3;
 	color: #fff;
 }
 
@@ -243,7 +262,35 @@
 	margin: 20px 0;
 }
 
-@media all and (max-width:640px) {
+@media all and (max-width:1000px) {
+	.container{
+		margin: 0 auto;
+	}
+}
+@media all and (max-width:768px) {
+	.header {
+		margin-bottom: 0;
+		text-align: center;
+		background-color: #fff;
+	}
+	.container{
+		max-width: 100%;
+	}
+	.con-99{
+		display: block;
+		margin-bottom: 0;
+		background-image: url(../img/back2.jpg);
+		background-repeat: no-repeat;
+		background-position: center 0;
+		background-size: cover;
+	}
+	.con-99 .tx2{
+		margin-top: 20px;
+	}
+	.form {
+		padding: 20px;
+	}
+
 	.form .col.w25p {
 		width: 50%;
 	}
