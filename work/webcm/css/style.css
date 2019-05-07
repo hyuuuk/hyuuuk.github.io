@@ -41,7 +41,7 @@
 }
 
 .header {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	border-bottom: 1px solid #eee;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .form {
-	padding: 40px;
+	padding: 40px 60px;
 	background-color: #fff;
 	border-top: 4px solid #28a5c3;
 }
