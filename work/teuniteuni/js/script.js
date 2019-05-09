@@ -24,4 +24,11 @@ $(function () {
             e.preventDefault();
         });
     });
+    $(".pay01 a").click(function () {
+        $(".pay01 a").removeClass("bg-blue");
+        $(this).addClass("bg-blue");
+    });
+    $(".sub01-title").click(function () {
+        $(this).next().toggleClass("active");
+    });
 });
