@@ -48,6 +48,8 @@
 }
 
 .header {
+	max-width: 800px;
+	margin: 0 auto;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -157,7 +159,7 @@
 	height: 60px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 40%;
+	background-size: 40px;
 }
 
 .main-con2 a:nth-child(1) .img-wrap {
@@ -435,6 +437,8 @@
 }
 
 .footer {
+	max-width: 800px;
+	margin: 0 auto;
 	padding: 10px 0;
 	border-top: 1px solid #eee;
 	background-color: #fff;
