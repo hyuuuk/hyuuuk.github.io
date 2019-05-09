@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=divice-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -66,30 +66,26 @@
                     });
                 </script>
             </div>
-            <div class="main-con2 tab-header">
-                <a href="#tab-01" class="tab-list">
-                    <div class="img-wrap">
-                    </div>
+            <div id='carousel-custom-dots' class='owl-dots main-con2'>
+                <div class='owl-dot'>
+                    <div class="img-wrap"></div>
                     <div class="tx1">타임판매</div>
-                </a>
-                <a href="#tab-02" class="tab-list">
-                    <div class="img-wrap">
-                    </div>
+                </div>
+                <div class='owl-dot'>
+                    <div class="img-wrap"></div>
                     <div class="tx1">공동구매</div>
-                </a>
-                <a href="#tab-03" class="tab-list">
-                    <div class="img-wrap">
-                    </div>
+                </div>
+                <div class='owl-dot'>
+                    <div class="img-wrap"></div>
                     <div class="tx1">한정판매</div>
-                </a>
-                <a href="#tab-04" class="tab-list">
-                    <div class="img-wrap">
-                    </div>
+                </div>
+                <div class='owl-dot'>
+                    <div class="img-wrap"></div>
                     <div class="tx1">0원상품</div>
-                </a>
+                </div>
             </div>
-            <div class="tab-container">
-                <div class="tab-con" id="tab-01">
+            <div class=" owl-carousel owl-carousel100">
+                <div class="item">
                     <div class="main-con3">
                         <div class="owl-carousel owl-carousel96">
                             <div class="item">
@@ -133,24 +129,26 @@
                             </div>
                         </div>
                         <script>
-                            $('.owl-carousel96').owlCarousel({
-                                items: 1,
-                                margin: 0,
-                                loop: false,
-                                center: false,
-                                // nav: true,
-                                autoplay: false,
-                                autoplayTimeout: 3000,
-                                autoplayHoverPause: false,
-                                // mouseDrag: false,
-                                // touchDrag: false,
-                                // animateOut: 'fadeOut',
-                                // animateIn: 'fadeIn',
-                            });
+                            $(function () {
+                                $('.owl-carousel96').owlCarousel({
+                                    items: 1,
+                                    margin: 0,
+                                    loop: false,
+                                    center: false,
+                                    // nav: true,
+                                    autoplay: false,
+                                    autoplayTimeout: 3000,
+                                    autoplayHoverPause: false,
+                                    // mouseDrag: false,
+                                    // touchDrag: false,
+                                    // animateOut: 'fadeOut',
+                                    // animateIn: 'fadeIn',
+                                });
+                            })
                         </script>
                     </div>
                 </div>
-                <div class="tab-con" id="tab-02">
+                <div class="item">
                     <div class="main-con3">
                         <div class="owl-carousel owl-carousel97">
                             <div class="item">
@@ -194,24 +192,26 @@
                             </div>
                         </div>
                         <script>
-                            $('.owl-carousel97').owlCarousel({
-                                items: 1,
-                                margin: 0,
-                                loop: false,
-                                center: false,
-                                // nav: true,
-                                autoplay: false,
-                                autoplayTimeout: 3000,
-                                autoplayHoverPause: false,
-                                // mouseDrag: false,
-                                // touchDrag: false,
-                                // animateOut: 'fadeOut',
-                                // animateIn: 'fadeIn',
-                            });
+                            $(function () {
+                                $('.owl-carousel97').owlCarousel({
+                                    items: 1,
+                                    margin: 0,
+                                    loop: false,
+                                    center: false,
+                                    // nav: true,
+                                    autoplay: false,
+                                    autoplayTimeout: 3000,
+                                    autoplayHoverPause: false,
+                                    // mouseDrag: false,
+                                    // touchDrag: false,
+                                    // animateOut: 'fadeOut',
+                                    // animateIn: 'fadeIn',
+                                });
+                            })
                         </script>
                     </div>
                 </div>
-                <div class="tab-con" id="tab-03">
+                <div class="item">
                     <div class="main-con3">
                         <div class="owl-carousel owl-carousel98">
                             <div class="item">
@@ -255,24 +255,26 @@
                             </div>
                         </div>
                         <script>
-                            $('.owl-carousel98').owlCarousel({
-                                items: 1,
-                                margin: 0,
-                                loop: false,
-                                center: false,
-                                // nav: true,
-                                autoplay: false,
-                                autoplayTimeout: 3000,
-                                autoplayHoverPause: false,
-                                // mouseDrag: false,
-                                // touchDrag: false,
-                                // animateOut: 'fadeOut',
-                                // animateIn: 'fadeIn',
-                            });
+                            $(function () {
+                                $('.owl-carousel98').owlCarousel({
+                                    items: 1,
+                                    margin: 0,
+                                    loop: false,
+                                    center: false,
+                                    // nav: true,
+                                    autoplay: false,
+                                    autoplayTimeout: 3000,
+                                    autoplayHoverPause: false,
+                                    // mouseDrag: false,
+                                    // touchDrag: false,
+                                    // animateOut: 'fadeOut',
+                                    // animateIn: 'fadeIn',
+                                });
+                            })
                         </script>
                     </div>
                 </div>
-                <div class="tab-con" id="tab-04">
+                <div class="item">
                     <div class="main-con3">
                         <div class="owl-carousel owl-carousel99">
                             <div class="item">
@@ -316,24 +318,42 @@
                             </div>
                         </div>
                         <script>
-                            $('.owl-carousel99').owlCarousel({
-                                items: 1,
-                                margin: 0,
-                                loop: false,
-                                center: false,
-                                // nav: true,
-                                autoplay: false,
-                                autoplayTimeout: 3000,
-                                autoplayHoverPause: false,
-                                // mouseDrag: false,
-                                // touchDrag: false,
-                                // animateOut: 'fadeOut',
-                                // animateIn: 'fadeIn',
-                            });
+                            $(function () {
+                                $('.owl-carousel99').owlCarousel({
+                                    items: 1,
+                                    margin: 0,
+                                    loop: false,
+                                    center: false,
+                                    // nav: true,
+                                    autoplay: false,
+                                    autoplayTimeout: 3000,
+                                    autoplayHoverPause: false,
+                                    // mouseDrag: false,
+                                    // touchDrag: false,
+                                    // animateOut: 'fadeOut',
+                                    // animateIn: 'fadeIn',
+                                });
+                            })
                         </script>
                     </div>
                 </div>
             </div>
+            <script>
+                var owl = $('.owl-carousel100').owlCarousel({
+                    items: 1,
+                    loop: false,
+                    margin: 0,
+                    dotsContainer: '#carousel-custom-dots',
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    mouseDrag: false,
+                    touchDrag: false,
+                });
+                $('.owl-dot').click(function () {
+                    owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+                });
+            </script>
             <div class="main-con4">
                 <a href="#!" class="sub-title">
                     <div>트니트니추천</div>

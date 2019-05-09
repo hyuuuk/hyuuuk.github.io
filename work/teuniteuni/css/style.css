@@ -46,13 +46,15 @@
 	padding-bottom: 84px;
 	background-color: #f3f3f3;
 }
-.header{
+
+.header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 2;
 }
+
 .header-top {
 	padding: 10px 15px;
 	border-bottom: 1px solid #e7e7e7;
@@ -143,7 +145,7 @@
 	background-color: #fff;
 }
 
-.main-con2 a {
+.main-con2 .owl-dot {
 	width: 25%;
 	padding: 7px 0;
 	text-align: center;
@@ -151,38 +153,46 @@
 	font-size: 16px;
 }
 
-.main-con2 a .img-wrap {
+.main-con2 .owl-dot .img-wrap {
 	height: 60px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 40%;
 }
-.main-con2 a:nth-child(1) .img-wrap {
+
+.main-con2 .owl-dot:nth-child(1) .img-wrap {
 	background-image: url(../img/icon02_off.png);
 }
-.main-con2 a:nth-child(2) .img-wrap {
+
+.main-con2 .owl-dot:nth-child(2) .img-wrap {
 	background-image: url(../img/icon03_off.png);
 }
-.main-con2 a:nth-child(3) .img-wrap {
+
+.main-con2 .owl-dot:nth-child(3) .img-wrap {
 	background-image: url(../img/icon04_off.png);
 }
-.main-con2 a:nth-child(4) .img-wrap {
+
+.main-con2 .owl-dot:nth-child(4) .img-wrap {
 	background-image: url(../img/icon05_off.png);
 }
-.main-con2 a:nth-child(1).on .img-wrap {
+
+.main-con2 .owl-dot:nth-child(1).active .img-wrap {
 	background-image: url(../img/icon02_on.png);
 }
-.main-con2 a:nth-child(2).on .img-wrap {
+
+.main-con2 .owl-dot:nth-child(2).active .img-wrap {
 	background-image: url(../img/icon03_on.png);
 }
-.main-con2 a:nth-child(3).on .img-wrap {
+
+.main-con2 .owl-dot:nth-child(3).active .img-wrap {
 	background-image: url(../img/icon04_on.png);
 }
-.main-con2 a:nth-child(4).on .img-wrap {
+
+.main-con2 .owl-dot:nth-child(4).active .img-wrap {
 	background-image: url(../img/icon05_on.png);
 }
 
-.main-con2 a.on {
+.main-con2 .owl-dot.active {
 	background-color: #b1e022;
 	color: #fff;
 }
@@ -426,6 +436,7 @@
 
 .footer {
 	padding: 10px 0;
+	border-top: 1px solid #eee;
 	background-color: #fff;
 	display: flex;
 	align-items: center;
@@ -434,6 +445,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	z-index: 2;
 }
 
 .footer a {
