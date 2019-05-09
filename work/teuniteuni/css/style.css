@@ -42,10 +42,18 @@
 .wrapper {
 	max-width: 800px;
 	margin: 0 auto;
+	padding-top: 96px;
+	padding-bottom: 84px;
 	background-color: #f3f3f3;
 }
-
-.header {
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+}
+.header-top {
 	padding: 10px 15px;
 	border-bottom: 1px solid #e7e7e7;
 	display: flex;
@@ -53,7 +61,7 @@
 	background-color: #fff;
 }
 
-.header .search-wrap {
+.header-top .search-wrap {
 	width: 100%;
 	height: 35px;
 	margin-left: 15px;
@@ -65,13 +73,13 @@
 	align-items: center;
 }
 
-.header .search-wrap input {
+.header-top .search-wrap input {
 	line-height: 65px;
 	background: none;
 	border: none;
 }
 
-.header .search-wrap a {
+.header-top .search-wrap a {
 	width: 20px;
 }
 
@@ -122,9 +130,11 @@
 	border-radius: 100%;
 	background-color: #fff !important;
 }
-.main-con1 .owl-dot.active{
+
+.main-con1 .owl-dot.active {
 	background-color: #636363 !important;
 }
+
 .main-con2 {
 	border-top: 3px solid #f3f3f3;
 	border-bottom: 3px solid #b1e022;
@@ -135,7 +145,7 @@
 
 .main-con2 a {
 	width: 25%;
-	padding: 12px 0;
+	padding: 7px 0;
 	text-align: center;
 	color: #595959;
 	font-size: 16px;
@@ -143,16 +153,36 @@
 
 .main-con2 a .img-wrap {
 	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+.main-con2 a:nth-child(1) .img-wrap {
+	background-image: url(../img/icon02_off.png);
+}
+.main-con2 a:nth-child(2) .img-wrap {
+	background-image: url(../img/icon03_off.png);
+}
+.main-con2 a:nth-child(3) .img-wrap {
+	background-image: url(../img/icon04_off.png);
+}
+.main-con2 a:nth-child(4) .img-wrap {
+	background-image: url(../img/icon05_off.png);
+}
+.main-con2 a:nth-child(1).on .img-wrap {
+	background-image: url(../img/icon02_on.png);
+}
+.main-con2 a:nth-child(2).on .img-wrap {
+	background-image: url(../img/icon03_on.png);
+}
+.main-con2 a:nth-child(3).on .img-wrap {
+	background-image: url(../img/icon04_on.png);
+}
+.main-con2 a:nth-child(4).on .img-wrap {
+	background-image: url(../img/icon05_on.png);
 }
 
-.main-con2 a img {
-	width: 30px;
-}
-
-.main-con2 a.active {
+.main-con2 a.on {
 	background-color: #b1e022;
 	color: #fff;
 }
@@ -276,7 +306,7 @@
 .main-con4 .tx3 {
 	font-size: 16px;
 	color: #404040;
-	display: flex;
+	display: block;
 	align-items: center;
 }
 
@@ -298,6 +328,7 @@
 }
 
 .main-con4 .tx3>* {
+	display: inline-block;
 	margin-right: 4px;
 }
 
@@ -394,11 +425,15 @@
 }
 
 .footer {
-	padding: 20px 0;
+	padding: 10px 0;
 	background-color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .footer a {
