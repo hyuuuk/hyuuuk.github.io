@@ -145,7 +145,7 @@
 	background-color: #fff;
 }
 
-.main-con2 .owl-dot {
+.main-con2 a {
 	width: 25%;
 	padding: 7px 0;
 	text-align: center;
@@ -153,46 +153,46 @@
 	font-size: 16px;
 }
 
-.main-con2 .owl-dot .img-wrap {
+.main-con2 a .img-wrap {
 	height: 60px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 40%;
 }
 
-.main-con2 .owl-dot:nth-child(1) .img-wrap {
+.main-con2 a:nth-child(1) .img-wrap {
 	background-image: url(../img/icon02_off.png);
 }
 
-.main-con2 .owl-dot:nth-child(2) .img-wrap {
+.main-con2 a:nth-child(2) .img-wrap {
 	background-image: url(../img/icon03_off.png);
 }
 
-.main-con2 .owl-dot:nth-child(3) .img-wrap {
+.main-con2 a:nth-child(3) .img-wrap {
 	background-image: url(../img/icon04_off.png);
 }
 
-.main-con2 .owl-dot:nth-child(4) .img-wrap {
+.main-con2 a:nth-child(4) .img-wrap {
 	background-image: url(../img/icon05_off.png);
 }
 
-.main-con2 .owl-dot:nth-child(1).active .img-wrap {
+.main-con2 a:nth-child(1).on .img-wrap {
 	background-image: url(../img/icon02_on.png);
 }
 
-.main-con2 .owl-dot:nth-child(2).active .img-wrap {
+.main-con2 a:nth-child(2).on .img-wrap {
 	background-image: url(../img/icon03_on.png);
 }
 
-.main-con2 .owl-dot:nth-child(3).active .img-wrap {
+.main-con2 a:nth-child(3).on .img-wrap {
 	background-image: url(../img/icon04_on.png);
 }
 
-.main-con2 .owl-dot:nth-child(4).active .img-wrap {
+.main-con2 a:nth-child(4).on .img-wrap {
 	background-image: url(../img/icon05_on.png);
 }
 
-.main-con2 .owl-dot.active {
+.main-con2 a.on {
 	background-color: #b1e022;
 	color: #fff;
 }
