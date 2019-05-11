@@ -181,19 +181,19 @@
 }
 
 .main .section01 .visual01 {
-	background-image: url(../img/main-visual01.jpg);
+	background-image: url(../img/main-visual01.png);
 }
 
 .main .section01 .visual02 {
-	background-image: url(../img/main-visual01.jpg);
+	background-image: url(../img/main-visual01.png);
 }
 
 .main .section01 .visual03 {
-	background-image: url(../img/main-visual01.jpg);
+	background-image: url(../img/main-visual01.png);
 }
 
 .main .section01 .visual04 {
-	background-image: url(../img/main-visual01.jpg);
+	background-image: url(../img/main-visual01.png);
 }
 
 .main .section02 .top {
@@ -306,7 +306,7 @@
 
 .sub06 .sub-visual {
 	height: 500px;
-	background-image: url(../img/main-visual01.jpg);
+	background-image: url(../img/main-visual01.png);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
