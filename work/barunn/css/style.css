@@ -172,13 +172,39 @@
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
-
+.no-js .owl-carousel, .owl-carousel.owl-loaded{
+	height: 100%;
+}
+.owl-carousel .owl-stage-outer{
+	height: 100%;
+}
+.owl-carousel .owl-stage{
+	height: 100%;
+}
+.owl-carousel.owl-drag .owl-item{
+	height: 100%;
+}
 .main .section01 .item {
-	height: 100vh;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
-	background-color: red;
+}
+
+.main .section01 .visual01 {
+	background-image: url(../img/main-visual01.png);
+}
+
+.main .section01 .visual02 {
+	background-image: url(../img/main-visual01.png);
+}
+
+.main .section01 .visual03 {
+	background-image: url(../img/main-visual01.png);
+}
+
+.main .section01 .visual04 {
+	background-image: url(../img/main-visual01.png);
 }
 
 .main .section02 .top {
