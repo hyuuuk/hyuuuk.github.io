@@ -247,6 +247,11 @@
 	background-color: #fff;
 }
 
+.main .section04 .owl-carousel,
+.owl-carousel .owl-item {
+	position: static;
+}
+
 .main .section04 .tx-wrap {
 	padding-top: 70px;
 	padding-bottom: 50px;
@@ -260,20 +265,21 @@
 
 .main .section04 .owl-nav {
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	bottom: 40px;
+	left: 100px;
 }
 
-.main .section04 .owl-prev,
-.main .section04 .owl-next {
-	margin-right: 10px;
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+	padding: 10px !important;
 	font-size: 30px !important;
 }
 
 .main .section04 #counter {
 	position: absolute;
-	bottom: 60px;
-	left: 190px;
+	bottom: 58px;
+	left: 220px;
 	font-size: 16px;
 	color: #999;
 }
@@ -415,9 +421,13 @@
 		padding-right: 0;
 	}
 
+	.main .section04 .owl-nav{
+		left: 30px;
+		bottom: 20px;
+	}
 	.main .section04 #counter {
 		left: 140px;
-		bottom: 48px;
+		bottom: 38px;
 	}
 }
 
@@ -503,13 +513,16 @@
 		background-color: #fff;
 		display: block;
 	}
-	.main .section02 .bottom>*{
+
+	.main .section02 .bottom>* {
 		width: 100%;
 	}
+
 	.main .section02 .bottom .sub-title span {
 		display: inline-block;
 	}
-	.main .section02 .bottom .desc{
+
+	.main .section02 .bottom .desc {
 		margin-top: 20px;
 	}
 }
