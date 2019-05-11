@@ -172,18 +172,24 @@
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
-.no-js .owl-carousel, .owl-carousel.owl-loaded{
+
+.main .section01 .no-js .owl-carousel,
+.owl-carousel.owl-loaded {
 	height: 100%;
 }
-.owl-carousel .owl-stage-outer{
+
+.main .section01 .owl-carousel .owl-stage-outer {
 	height: 100%;
 }
-.owl-carousel .owl-stage{
+
+.main .section01 .owl-carousel .owl-stage {
 	height: 100%;
 }
-.owl-carousel.owl-drag .owl-item{
+
+.main .section01 .owl-carousel.owl-drag .owl-item {
 	height: 100%;
 }
+
 .main .section01 .item {
 	height: 100%;
 	background-repeat: no-repeat;
