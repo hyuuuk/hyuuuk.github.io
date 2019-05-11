@@ -44,15 +44,15 @@
 	height: auto !important;
 }
 
-.wrap-1200 {
-	max-width: 1200px;
+.wrap-1100 {
+	max-width: 1100px;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
 }
 
-.wrap-1000 {
-	max-width: 1000px;
+.wrap-800 {
+	max-width: 800px;
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
@@ -162,7 +162,7 @@
 	line-height: 1.8;
 }
 
-.main .section01 .wrap-1200 {
+.main .section01 .wrap-1100 {
 	position: relative;
 }
 
@@ -237,7 +237,7 @@
 	position: relative;
 }
 
-.main .section04 .wrap-1200 {
+.main .section04 .wrap-1100 {
 	max-height: 500px;
 	padding: 80px 100px;
 	position: absolute;
@@ -405,12 +405,12 @@
 	border: 1px solid #666;
 }
 
-@media all and (max-width:1200px) {
-	.wrap-1200 {
+@media all and (max-width:1100px) {
+	.wrap-1100 {
 		width: 90%;
 	}
 
-	.main .section04 .wrap-1200 {
+	.main .section04 .wrap-1100 {
 		max-height: 100%;
 		padding: 40px;
 	}
@@ -421,10 +421,11 @@
 		padding-right: 0;
 	}
 
-	.main .section04 .owl-nav{
+	.main .section04 .owl-nav {
 		left: 30px;
 		bottom: 20px;
 	}
+
 	.main .section04 #counter {
 		left: 140px;
 		bottom: 38px;
