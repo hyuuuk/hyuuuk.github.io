@@ -653,13 +653,126 @@
 	overflow: hidden;
 }
 
+.sub-visual {
+	height: 396px;
+	background-image: url(../img/sub01-visual.png);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	color: #fff;
+	position: relative;
+}
 
+.sub-visual .tx-wrap {
+	padding-top: 180px;
+	text-align: center;
+}
 
+.sub-visual .tx-wrap .tx1 {
+	font-size: 43px;
+}
 
+.sub-visual .tx-wrap .bar {
+	width: 26px;
+	height: 3px;
+	margin: 25px auto;
+	background-color: #fff;
+}
 
+.sub-visual .tx-wrap .tx2 {
+	font-size: 16px;
+	color: #eee;
+}
 
+.sub-visual .tx-wrap .tx3 {
+	margin-top: 10px;
+	font-size: 22px;
+}
 
+.sub01-con1 {
+	margin: 30px auto;
+	text-align: center;
+}
 
+.sub01-con1 a {
+	width: 130px;
+	margin: 0 20px;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	color: #1f1f1f;
+	border-bottom: 3px solid #b2b2b2;
+}
+
+.sub01-con1 a.on {
+	border-bottom: 3px solid #e30613;
+}
+
+.sub-title {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+.sub-title .tx1 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #000;
+}
+
+.sub-title span {
+	margin: 0 15px;
+}
+
+.sub-title .tx2 {
+	color: #4c4c4c;
+}
+
+.sub-title .tx2 .on {
+	color: #313131;
+	font-weight: 500;
+}
+
+.sub01-con2 {
+	padding: 70px 0 40px;
+	display: flex;
+	align-items: center;
+}
+
+.sub01-con2 .tx1 {
+	margin-right: 40px;
+	padding-right: 40px;
+	border-right: 1px solid #969696;
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+.sub01-con2 .tx1 .bold {
+	font-weight: 500;
+	color: #e30613;
+}
+
+.sub01-con2 .tx2 {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #0f0f0f;
+}
+
+.sub01-con2 .tx2 span {
+	font-weight: 500;
+}
+
+.sub01-con3 {
+	padding-bottom: 120px;
+}
+
+.sub-tx1 {
+	font-size: 15px;
+	line-height: 1.5;
+	color: #464646;
+}
 
 
 @media all and (max-width:1550px) {
@@ -685,6 +798,24 @@
 	.wrap-1200 {
 		padding-left: 20px !important;
 		padding-right: 20px !important;
+	}
+
+	.sub01-con2 {
+		display: block;
+		text-align: center;
+	}
+	.sub01-con2{
+		padding-top: 30px;
+	}
+	.sub01-con2 .tx1 {
+		margin-right: 0;
+		margin-bottom: 40px;
+		padding-right: 0;
+		border-right: none;
+		font-size: 38px;
+	}
+	.sub01-con2 .tx2{
+		font-size: 16px;
 	}
 }
 
@@ -945,5 +1076,13 @@
 
 	.footer .link01 span {
 		padding: 0 8px;
+	}
+
+	.sub01-con1 a {
+		width: auto;
+		margin: 0 5px;
+	}
+	.sub-title .tx1{
+		font-size: 24px;
 	}
 }
