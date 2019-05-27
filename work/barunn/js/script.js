@@ -31,4 +31,7 @@ $(function () {
     $(".sub01-title").click(function () {
         $(this).next().toggleClass("active");
     });
+    $(".dropdown .drop").click(function () {
+        $(this).parent().toggleClass("on");
+    });
 });
