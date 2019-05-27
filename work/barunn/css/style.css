@@ -911,19 +911,19 @@
 	font-weight: 500;
 }
 
-.sub04-con1 {
-	padding: 130px 0 180px;
+.sub04 .top-title {
+	display: flex;
+	justify-content: space-between;
 }
 
-.sub04-con1 .df {
-	padding-bottom: 150px;
-	align-items: center;
-	justify-content: space-between;
+.sub04-con1 {
+	padding: 130px 0 180px;
 }
 
 .sub04-con1 .circle-wrap {
 	width: 100%;
 	height: 250px;
+	margin-top: 150px;
 	position: relative;
 }
 
@@ -968,42 +968,98 @@
 	font-weight: 700;
 }
 
-.sub04-con2 {
+.sub04-con2 .top-inner {
 	background-image: url(../img/sub04-img1.png);
 	background-repeat: no-repeat;
 	background-position: center 0;
-	background-size: 100%;
+	background-size: cover;
 }
-.sub04-con2 .sub-title{
-	padding: 200px 0 140px;
+
+.sub04-con3 .top-inner {
+	background-image: url(../img/sub04-img3.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
 }
-.sub04-con2 .img-wrap{
-	margin-top: -40px;
+
+.sub04-con3 .top-title,
+.sub04-con2 .top-title {
+	padding: 200px 0 100px;
+}
+
+.sub04-con2 .img-wrap {
+	margin-top: -30px;
 	text-align: center;
 }
-.sub04-con2 .desc-wrap{
+
+.sub04-con2 .desc-wrap {
 	width: 700px;
 	margin: 0 auto;
 	padding-top: 30px;
 	padding-bottom: 150px;
 }
-.sub04-con2 .desc-wrap .tx{
+
+.sub04-con2 .desc-wrap .tx {
 	margin: 30px 0;
 	display: flex;
 	align-items: center;
 }
-.sub04-con2 .desc-wrap .tx1{
+
+.sub04-con2 .desc-wrap .tx1 {
 	width: 100px;
 	font-size: 35px;
 	font-weight: 700;
 	color: #484848;
 }
 
-.sub04-con2 .desc-wrap .tx2{
+.sub04-con2 .desc-wrap .tx2 {
 	font-size: 25px;
 	color: #484848;
 }
+.sub04 .item-wrap {
+	padding: 20px 0 70px;
+}
 
+.sub04 .item-wrap .item {
+	width: calc(100%/3);
+	min-height: 210px;
+	margin: 50px 0;
+	padding-right: 40px;
+	float: left;
+	color: #484848;
+}
+.sub04 .item-wrap .item .bar{
+	width: 30px;
+	height: 2px;
+	margin: 40px 0 20px;
+	background-color: #000;
+}
+.sub04 .item-wrap .item .tx1{
+	font-size: 25px;
+	font-weight: 700;
+}
+.sub04 .item-wrap .item .tx2{
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.sub04-con4{
+	background-image: url(../img/sub04-img4.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+}
+
+.sub04-con4 .top-title{
+	padding-top: 130px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #9a9a9a;
+}
+.sub04-con5 .top-title{
+	padding-top: 130px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #9a9a9a;
+}
 @media all and (max-width:1100px) {
 	.wrap-1100 {
 		width: 90%;
