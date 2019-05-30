@@ -1177,6 +1177,10 @@
 	padding: 30px 20px;
 }
 
+.tel-form {
+	display: flex;
+}
+
 @media all and (max-width:1100px) {
 	.wrap-1100 {
 		width: 90%;
@@ -1562,5 +1566,45 @@
 	.sub05-con2 {
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.sub04-con8 {
+		padding: 40px 0;
+		flex-direction: column;
+	}
+
+	.sub04-con8 .item {
+		margin: 20px 0;
+		font-size: 24px;
+	}
+
+	.sub04-con8 .icon {
+		display: none;
+	}
+
+	.sub04-con9 {
+		padding-bottom: 80px;
+	}
+
+	.sub04-con9 .fll {
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.tel-form>.col {
+		margin-left: 3px;
+	}
+
+	.sub04 .top-title .wrap-1100 {
+		display: block;
+	}
+
+	.sub04-con7 .tx>.tx1 {
+		font-size: 24px;
+	}
+
+	.sub04-con7 .tx>.tx2 {
+		font-size: 16px;
+		font-weight: 400;
 	}
 }

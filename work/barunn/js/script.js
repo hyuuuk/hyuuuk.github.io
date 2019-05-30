@@ -37,4 +37,7 @@ $(function () {
     $(".dropdown .drop").click(function () {
         $(this).parent().toggleClass("on");
     });
+    setTimeout(function () {
+        $(".video-wrap .tx-wrap").fadeOut();
+    }, 5000);
 });
