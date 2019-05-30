@@ -1181,6 +1181,47 @@
 	display: flex;
 }
 
+.owl-carousel01 .owl-nav {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+}
+
+.owl-carousel01 .owl-nav button.owl-next,
+.owl-carousel01 .owl-nav button.owl-prev {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	font-size: 40px !important;
+	opacity: 0.8;
+	outline: none;
+}
+
+.owl-carousel01 button.owl-dot {}
+
+.owl-carousel01 .owl-nav button.owl-prev {
+	left: 20px;
+}
+
+.owl-carousel01 .owl-nav button.owl-next {
+	right: 20px;
+}
+
+.owl-carousel01 .owl-nav button.owl-next span,
+.owl-carousel01 .owl-nav button.owl-prev span {
+	margin-top: -3px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 @media all and (max-width:1100px) {
 	.wrap-1100 {
 		width: 90%;
