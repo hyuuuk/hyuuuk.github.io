@@ -40,4 +40,14 @@ $(function () {
     setTimeout(function () {
         $(".video-wrap .tx-wrap").fadeOut();
     }, 5000);
+    $('#file-001').change(function() {
+        var filepath = this.value;
+        var m = filepath.match(/([^\/\\]+)$/);
+        var filename = m[1];
+        $('.file-name').html(filename);
+    });
+    $('.sub03-con998').click(function(){
+        $('.sub03-con3').removeClass('no-visible');
+        $(this).hide();
+    });
 });

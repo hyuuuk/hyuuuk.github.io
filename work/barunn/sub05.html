@@ -78,13 +78,8 @@
                         <div class="row">
                             <label for="" class="tx1">전화번호</label>
                             <div class="tel-row">
-                                <div class="form-left">
-                                    <div class="select">
-                                        <select name="" id="">
-                                            <option value=""></option>
-                                            <option value="">02</option>
-                                        </select>
-                                    </div>
+                                <div class="col">
+                                    <input type="text">
                                 </div>
                                 <div class="col">
                                     <input type="text">
@@ -102,7 +97,6 @@
                                 <div class="form-left">
                                     <div class="select">
                                         <select name="" id="">
-                                            <option value=""></option>
                                             <option value="">010</option>
                                         </select>
                                     </div>
@@ -168,7 +162,13 @@
                     <label for="" class="tx1">파일첨부</label>
                     <div class="form-left">
                         <div class="col">
-                            <input type="file">
+                            <div class="file-input">
+                                <input type="file" id="file-001">
+                                <label for="file-001">
+                                    <div class="tx6">파일 선택</div>
+                                    <div class="file-name">선택된 파일 없음</div>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,8 @@
                         <div class="fw-700">[개인정보의 수집목적 및 이용목적]</div>
                         1. 회사는 다음과 같은 목적을 위하여 아래 항목의 개인정보를 수집하고 있습니다.<br>
                         A. 성명, 아이디, 비밀번호: 회원제 서비스 이용에 따른 본인 식별 절차에 이용<br>
-                        B. 이메일주소, 전화번호(일반 및 휴대전화): 고지사항 전달, 본인 의사 확인, 불만 처리 등 원활한 의사소통 경로의 확보, 새로운 서비스/신상품이나 이벤트 정보의 안내<br>
+                        B. 이메일주소, 전화번호(일반 및 휴대전화): 고지사항 전달, 본인 의사 확인, 불만 처리 등 원활한 의사소통 경로의 확보, 새로운 서비스/신상품이나 이벤트 정보의
+                        안내<br>
                         C. 은행계좌정보 및 신용카드정보(입력): 구매대금 결제<br>
                         D. 주소, 전화번호: 상품배송, 청구서, 경품과 쇼핑 물품배송에 대한 정확한 배송지확보<br>
                         E. 생년월일, 주소: 인구통계학적 분석 자료(이용장의 연령별, 성별, 지역별 통계분석)<br>
@@ -195,12 +196,14 @@
                         수집하지 않습니다.<br>
                         <br>
                         <div class="fw-700">[개인정보의 수집항목]</div>
-                        1. 필수항목: 성명, 아이디, 비밀번호, 생년월일, 주소, 전화번호(일반 및 휴대전화), 이메일주소, 예식정보(예식장, 예식일자, 예식일시), 은행계좌정보, 신용카드정보 IP
+                        1. 필수항목: 성명, 아이디, 비밀번호, 생년월일, 주소, 전화번호(일반 및 휴대전화), 이메일주소, 예식정보(예식장, 예식일자, 예식일시), 은행계좌정보, 신용카드정보
+                        IP
                         Address, 방문 일시, 서비스 이용기록<br>
                         2. 선택항목: 신랑이름, 신부이름, 양가부모이름, 인사말 등 청첩장, 감사장, 초대장 제작 시 기입정보 및 기타<br>
                         <br>
                         <div class="fw-700">[개인정보의 보유 및 이용기간]</div>
-                        1. 귀하의 개인정보는 다음과 같이 개인정보의 수집목적 또는 제공받은 목적이 달성되면 파기됩니다. 단, 상법 등 관련법령의 규정에 의하여 다음과 같이 거래 관련 권리 의무 관계의
+                        1. 귀하의 개인정보는 다음과 같이 개인정보의 수집목적 또는 제공받은 목적이 달성되면 파기됩니다. 단, 상법 등 관련법령의 규정에 의하여 다음과 같이 거래 관련 권리 의무
+                        관계의
                         확인 등을 이유로 일정기간 보유하여야 할 필요가 있을 경우에는 일정기간 보유합니다.<br>
                         A. 회원가입정보의 경우, 회원을 탈퇴하거나 회원에서 제명된 경우 등 사전 보유목적, 기간 및 보유하는 개인정보 항목을 명시하여 동의를 구합니다.<br>
                         B. 계약 또는 청약철회 등에 관한 기록: 5년<br>
@@ -272,7 +275,14 @@
                     </div>
                     <div class="right df">
                         <a href="sub05.html">제휴문의</a>
-                        <a href="#!">패밀리사이트 바로가기 <span>+</span></a>
+                        <select name="" id="" onchange="window.open(value,'_blank');">
+                            <option value="">패밀리사이트 바로가기</option>
+                            <option value="http://www.barunsoncard.com">바른손카드</option>
+                            <option value="http://www.bhandscard.com">비핸즈카드</option>
+                            <option value="http://www.thecard.co.kr">더카드</option>
+                            <option value="http://www.premierpaper.co.kr">프리미어페이퍼</option>
+                            <option value="http://www.deardeer.kr">디얼디어</option>
+                        </select>
                     </div>
                 </div>
             </div>
