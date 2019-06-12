@@ -3,9 +3,11 @@
 * {
 	box-sizing: border-box;
 }
-body{
+
+body {
 	letter-spacing: -1px;
 }
+
 .clb::after {
 	content: "";
 	clear: both;
@@ -193,6 +195,7 @@ body{
 	content: "";
 	width: 8px;
 	height: 8px;
+	margin-left: -3px;
 	border: 2px solid #fff;
 	border-radius: 100%;
 	display: inline-block;
@@ -611,7 +614,6 @@ body{
 }
 
 .sub-visual {
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size: cover;
@@ -622,10 +624,11 @@ body{
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	top: 50%;
+	top: 70%;
 	left: 0;
 	transform: translate(0, -50%);
 	color: #fff;
+	display: none;
 }
 
 .sub-visual.video-wrap .tx-wrap .sub-title {
@@ -648,17 +651,17 @@ body{
 	margin-bottom: 20px;
 }
 
-.sub01 .sub-visual {
+/* .sub01 .sub-visual {
 	background-image: url(../img/sub01-visual.jpg);
-}
+} */
 
 .sub02 .sub-visual {
 	background-image: url(../img/sub02-visual.jpg);
 }
 
-.sub03 .sub-visual {
+/* .sub03 .sub-visual {
 	background-image: url(../img/sub03-visual.jpg);
-}
+} */
 
 .sub04 .sub-visual {
 	background-image: url(../img/sub04-visual.png);
@@ -1101,7 +1104,8 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
-.sub04 .top-title .desc{
+
+.sub04 .top-title .desc {
 	min-width: 450px;
 }
 
@@ -1488,7 +1492,8 @@ body{
 .btn-menu {
 	display: none;
 }
-.sub03-con4 iframe{
+
+.sub03-con4 iframe {
 	width: 100%;
 	height: 500px;
 }
@@ -1620,11 +1625,12 @@ body{
 		content: "";
 		width: 5px;
 		height: 5px;
+		margin-left: -2px;
 	}
 
 	.header {
 		text-align: left;
-		padding: 20px 10px;
+		padding: 20px;
 	}
 
 	.menu-wrap span {
@@ -2038,11 +2044,12 @@ body{
 		display: block;
 		line-height: 70px;
 	}
+
 	.sub-visual .desc {
 		font-size: 16px;
 		line-height: 1.6;
 	}
-	
+
 
 	.sub04-con8 .icon {
 		display: none;
@@ -2221,10 +2228,35 @@ body{
 	.sub03-con1 {
 		padding: 100px 0;
 	}
-	.sub02 .sub-visual{
+
+	.sub02 .sub-visual {
 		height: 80vh;
 	}
-	.sub04 .sub-visual{
+
+	.sub04 .sub-visual {
 		height: 80vh;
+	}
+
+	.sub-visual.video-wrap .tx-wrap {
+		width: 90%;
+		margin: 100px auto 40px;
+		display: block;
+		position: relative;
+		top: 0;
+		transform: translate(0, 0);
+		color: #333;
+		text-align: left;
+	}
+
+	.sub-visual.video-wrap .tx-wrap br {
+		display: none;
+	}
+
+	.sub-visual.video-wrap .tx-wrap .sub-title {
+		margin-bottom: 20px;
+		color: #333;
+	}
+	.sub-visual.video-wrap .tx-wrap .sub-title::after{
+		border-color: #333;
 	}
 }

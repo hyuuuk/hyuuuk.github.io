@@ -37,9 +37,9 @@ $(function () {
     $(".dropdown .drop").click(function () {
         $(this).parent().toggleClass("on");
     });
-    setTimeout(function () {
-        $(".video-wrap .tx-wrap").fadeOut();
-    }, 5000);
+    // setTimeout(function () {
+    //     $(".video-wrap .tx-wrap").fadeOut();
+    // }, 5000);
     $('#file-001').change(function() {
         var filepath = this.value;
         var m = filepath.match(/([^\/\\]+)$/);
