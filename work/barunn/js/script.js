@@ -50,4 +50,10 @@ $(function () {
         $('.sub03-con3').removeClass('no-visible');
         $(this).hide();
     });
+    $('.btn-menu').click(function(){
+        $('.menu-wrap').addClass('on');
+    });
+    $('.btn-menu-close').click(function(){
+        $('.menu-wrap').removeClass('on');
+    });
 });

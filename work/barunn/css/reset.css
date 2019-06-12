@@ -315,15 +315,18 @@ ul {
 
 input::placeholder,
 textarea::placeholder {
-    color: #ccc;
+    color: #999;
+    font-weight: 300;
 }
 
 ::-moz-input-placeholder,
 ::-moz-textarea-placeholder {
-    color: #ccc;
+    color: #999;
+    font-weight: 300;
 }
 
 ::-webkit-input-placeholder,
 ::-webkit-textarea-placeholder {
-    color: #ccc;
+    color: #999;
+    font-weight: 300;
 }
