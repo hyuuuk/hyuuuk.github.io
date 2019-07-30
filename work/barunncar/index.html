@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>barunncar</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper main">
+        <div class="header">
+            <div class="wrap-1200">
+                <a href="index.html" class="logo type-1"><img src="img/logo_1.png" alt=""></a>
+                <a href="index.html" class="logo type-2"><img src="img/logo_2.png" alt=""></a>
+                <div class="menu">
+                    <a href="reservation01.html">예약하기</a>
+                    <a href="wedding01.html">WEDDING</a>
+                    <a href="air01.html">AIR</a>
+                    <a href="guide01.html">이용안내</a>
+                    <a href="notice01.html">공지사항</a>
+                    <a href="faq01.html">FAQ</a>
+                </div>
+                <div class="menu-login">
+                    <a href="join01.html">회원가입</a>
+                    <span></span>
+                    <a href="login01.html">로그인</a>
+                </div>
+                <a href="#!" class="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                        <path d="M0 0h24v24H0z" fill="none" /></svg>
+                </a>
+            </div>
+            <div class="m-menu">
+                <a href="reservation01.html">예약하기</a>
+                <a href="wedding01.html">WEDDING</a>
+                <a href="air01.html">AIR</a>
+                <a href="guide01.html">이용안내</a>
+                <a href="notice01.html">공지사항</a>
+                <a href="faq01.html">FAQ</a>
+                <a href="join01.html">회원가입</a>
+                <a href="login01.html">로그인</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-visual">
+                <div class="owl-carousel owl-carousel-1">
+                    <div class="item type-1" data-hash="main-visual-1">
+                        <div class="wrap-1200">
+                            <div class="main-visual-nav">
+                                <a href="#main-visual-1" class="on"></a>
+                                <a href="#main-visual-2"></a>
+                            </div>
+                            <div class="tx1">
+                                생애 단 한 번뿐인 결혼식엔,
+                                <span class="br">바른카 WEDDING</span>
+                            </div>
+                            <div class="tx2">
+                                예식일 스케줄에 딱 맞춘 코스의 웨딩카를 예약하고
+                                <span class="br"></span>
+                                서비스를 이용해보세요.
+                            </div>
+                            <a href="reservation01.html" class="btn">예약하기</a>
+                        </div>
+                    </div>
+                    <div class="item type-2" data-hash="main-visual-2">
+                        <div class="wrap-1200">
+                            <div class="main-visual-nav">
+                                <a href="#main-visual-1"></a>
+                                <a href="#main-visual-2" class="on"></a>
+                            </div>
+                            <div class="tx1">
+                                공항을 오갈 땐,
+                                <span class="br"></span>
+                                바른카 AIR
+                            </div>
+                            <div class="tx2">
+                                합리적인 가격으로 편리하게 이용해보세요!
+                            </div>
+                            <a href="reservation02.html" class="btn">예약하기</a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    $('.owl-carousel-1').owlCarousel({
+                        items: 1,
+                        loop: false,
+                        margin: 0,
+                        nav: true,
+                        dots: false,
+                        navText: ["<img src='img/bullet1.png'>", "<img src='img/bullet2.png'>"],
+                        autoplay: false,
+                        autoplayHoverPause: true,
+                        autoplayTimeout: 5000,
+                        smartSpeed: 600,
+                        mouseDrag: true,
+                        touchDrag: false
+                    })
+                </script>
+            </div>
+            <div class="main-con1 wrap-1200">
+                <div class="tx1 title-1">
+                    결혼, 공항 바른카로 한번에!
+                </div>
+                <img src="img/00/img3.png" alt="">
+                <div class="con1 wrap-1000">
+                    <div class="item">
+                        <img src="img/00/img5.png" alt="">
+                        <div class="tx2">
+                            쾌적한 환경
+                        </div>
+                        <div class="tx3">
+                            편하고 깨끗하게 유지되는 실내
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/00/img6.png" alt="">
+                        <div class="tx2">
+                            합리적인 가격
+                        </div>
+                        <div class="tx3">
+                            예약과 동시에 결제 후
+                            <span class="br">
+                                추가비용 없이 이용 가능
+                            </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/00/img7.png" alt="">
+                        <div class="tx2">
+                            편리한 이용
+                        </div>
+                        <div class="tx3">
+                            원하는 장소에서 24시간 픽업!
+                            <span class="br">
+                                예약정보는 문자로 발송!
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wd-con2 wd-con3 sub-con">
+                <div class="wrap-1200">
+                    <div class="title-1">
+                        바른카 이용방법이 궁금해요
+                        <a href="#" class="use-info">이용안내 자세히 보기</a>
+                    </div>
+                    <div class="con1">
+                        <div class="item">
+                            <img src="img/02/img5.png" alt="">
+                            <div class="tx1">
+                                예약하기
+                            </div>
+                            <div class="tx2">
+                                웹 페이지에서 예식일 일정 입력 후<div class="br"></div>
+                                공휴일 상관없이 24시간 서비스를 예약해보세요!<div class="br"></div>
+                                예약 완료 후 이용 2일 전까지<div class="br"></div>
+                                배차가 완료됩니다!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/02/img6.png" alt="">
+                            <div class="tx1">
+                                확인&결제
+                            </div>
+                            <div class="tx2">
+                                안심하고 결제하세요~<div class="br"></div>
+                                미배차시 전액 환불됩니다.<div class="br"></div>
+                                배차여부는 이용 2일 전까지<div class="br"></div>
+                                문자로 알려드립니다!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img10.png" alt="">
+                            <div class="tx1">
+                                배차&픽업
+                            </div>
+                            <div class="tx2">
+                                배차 완료 후 문자로<div class="br"></div>
+                                예약 내역과 차량 정보를 보내드려요.<div class="br"></div>
+                                이용 당일 예약하신 장소에서 탑승하시고<div class="br"></div>
+                                목적지까지 편안하게 이동하세요!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-con3">
+                <div class="wrap-1200">
+                    <div class="tx1 title-1">
+                        바른카에는 이런 서비스가 있어요!
+                    </div>
+                    <div class="con1">
+                        <div class="item">
+                            <img src="img/00/img11.png" alt="">
+                            <div class="tx2">
+                                공기청정기
+                            </div>
+                            <div class="tx3">
+                                미세먼지가 많은 날에도 끄떡없어요.
+                                바른카에는 미니 공기청정기가
+                                탑재 되어있어요.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img12.png" alt="">
+                            <div class="tx2">
+                                맛있는간식
+                            </div>
+                            <div class="tx3">
+                                출출할 때 드실 수 있도록
+                                작은 간식과 생수를 준비했어요.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img13.png" alt="">
+                            <div class="tx2">
+                                오픈기프트
+                            </div>
+                            <div class="tx3">
+                                공항을 통해 여행 가시는 고객님을 위해
+                                오픈 기념으로 작은 선물을 준비했어요
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img14.png" alt="">
+                            <div class="tx2">
+                                WIFI
+                            </div>
+                            <div class="tx3">
+                                이용 고객님을 위한 무료 WIFI를 준비했어요!
+                                데이터 걱정없이 마음껏 이용해보세요!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img15.png" alt="">
+                            <div class="tx2">
+                                휴대폰충전기
+                            </div>
+                            <div class="tx3">
+                                휴대폰 배터리가 없어도 문제없어요~
+                                차량에 비치된 충전기를 이용하세요!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/00/img16.png" alt="">
+                            <div class="tx2">
+                                잔잔한음악
+                            </div>
+                            <div class="tx3">
+                                이동 도중 편안하게 갈수있도록
+                                잔잔한 클래식 음악을 틀어드립니다!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-con4">
+                <div class="wrap-1200">
+                    <div class="tx1 title-1">
+                        바른카 라인업
+                    </div>
+                    <ul id='owl-custom-dots' class='owl-dots con1'>
+                        <li class='owl-dot'>WEDDING</li>
+                        <li class='owl-dot'>AIR</li>
+                    </ul>
+                    <div class="owl-carousel owl-carousel-2">
+                        <div class="item type-1">
+                            <div class="img">
+                                <img src="img/00/img4.png" alt="">
+                            </div>
+                            <div class="tx-wrap">
+                                <div class="tx2">
+                                    WEDDING
+                                </div>
+                                <div class="tx3">
+                                    바른카 ‘웨딩’ 은 웨딩카 서비스로, 결혼식 당일 스케줄에 맞추어 예약 후
+                                    이용하실 수 있는 상품입니다.<br>
+                                    <br>
+                                    넓은 밴 차량으로 운영되며 청결함은 물론 넓은 내부 환경을 갖추고 있습니다.<br>
+                                    많은 짐을 실을 수 있고 신부의 드레스나 예식 소품이 파손 될 걱정이 없습니다.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item type-2">
+                            <div class="img">
+                                <img src="img/00/img4.png" alt="">
+                            </div>
+                            <div class="tx-wrap">
+                                <div class="tx2">
+                                    AIR
+                                </div>
+                                <div class="tx3">
+                                    바른카 ‘에어’는 공항 밴 서비스로, 지정한 날짜와 시간에 차량을
+                                    왕복 또는 편도로 예약하여 이용하실 수 있는 상품입니다.<br>
+                                    <br>
+                                    24시간 언제든 예약과 승차가 가능하며 출국, 입국 시 모두 이용 가능합니다.<br>
+                                    탑승시간도 내 마음대로! 고객님이 원하는 시간이면 언제든 달려가요!<br>
+                                    <span>(짐이 많거나 이동 시간이 불편할 때 이용하시면 더욱 좋습니다.)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var owl;
+                        owl = $('.owl-carousel-2').owlCarousel({
+                            items: 1,
+                            loop: false,
+                            margin: 0,
+                            nav: true,
+                            dots: true,
+                            dotsContainer: '#owl-custom-dots',
+                            navText: ["<img src='img/bullet3.png'>", "<img src='img/bullet4.png'>"],
+                            autoplay: false,
+                            autoplayHoverPause: true,
+                            autoplayTimeout: 5000,
+                            smartSpeed: 600,
+                            mouseDrag: false,
+                            touchDrag: false
+                        })
+                        $('.main-con4 .owl-dots').on('click', 'li', function (e) {
+                            owl.trigger('to.owl.carousel', [$(this).index(), 500]);
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="main-con5 wrap-1200">
+                <div class="con1">
+                    <a href="#" class="item">
+                        <img src="img/indi1.png" alt="">
+                        <div class="tx-wrap">
+                            <div class="tx2">
+                                CS CENTER
+                            </div>
+                            <div class="tx3">
+                                바른카 고객센터 1234 - 5678<br>
+                                고객센터 운영시간 09:00~18:00 (점심시간 12:00~13:00)
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/indi2.png" alt="">
+                        <div class="tx-wrap">
+                            <div class="tx2">
+                                카카오톡 플러스친구
+                            </div>
+                            <div class="tx3">
+                                1:1 플러스친구 추가하고 카톡으로 상담하기
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrap-1200">
+                <a href="index.html" class="logo">
+                    <img src="img/logo_2.png" alt="">
+                </a>
+                <div class="tx-wrap">
+                    <div class="link">
+                        <a href="#">회사소개</a>
+                        <span></span>
+                        <a href="#">서비스이용약관</a>
+                        <span></span>
+                        <a href="#">개인정보취급방침</a>
+                        <span></span>
+                        <a href="#">자동차대여약관</a>
+                    </div>
+                    <div class="copy">
+                        (주)바른컴퍼니 <span></span> 대표이사 : 박정식 <span></span> 본사 : 경기도 파주시 회동길 219 <span></span> 서울사옥 : 서울 마포구
+                        동교로 99<br>
+                        통신판매업신고번호 : 2007-00940 <span></span> 사업자번호 : 221-81-03108<br>
+                        copyright ⓒ 2019 bareuncar. All right reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
