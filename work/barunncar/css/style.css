@@ -688,6 +688,7 @@ select {
 	height: 15px;
 	margin-right: 5px;
 	border: 3px solid #fff;
+	cursor: initial;
 }
 
 .main-visual-nav a.on {
@@ -889,7 +890,7 @@ select {
 }
 
 .main-con5 {
-	padding: 50px 0 120px;
+	padding: 100px 0 100px;
 }
 
 .main-con5 .con1 {
@@ -901,6 +902,7 @@ select {
 	font-size: 25px;
 	font-weight: 700;
 	letter-spacing: -1.25px;
+	line-height: 1.2;
 }
 
 .main-con5 .tx3 {
@@ -1180,6 +1182,7 @@ select {
 	margin-bottom: 25px;
 	font-size: 50px;
 	font-weight: 700;
+	line-height: 1.2;
 	text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
 }
 
@@ -1233,12 +1236,14 @@ select {
 }
 
 .wd-con3 .title-1 .use-info {
+	width: 180px;
 	height: 35px;
 	padding: 0 20px;
 	line-height: 35px;
 	position: absolute;
-	right: 0;
-	top: 100%;
+	left: 50%;
+	top: 120%;
+	transform: translate(-50%,0);
 	font-size: 16px;
 	font-weight: 400;
 	color: #666;
@@ -1561,6 +1566,10 @@ select {
 
 	.header .logo {
 		width: 100px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
 	}
 
 	.header .menu {
@@ -1573,6 +1582,10 @@ select {
 
 	.header .btn-menu {
 		display: block;
+		position: absolute;
+		left: 20px;
+		top: 50%;
+		transform: translate(0,-50%);
 	}
 
 	.header .btn-menu svg {
@@ -1595,19 +1608,37 @@ select {
 		display: block;
 	}
 
-	.m-menu {
-		width: 100%;
-		position: absolute;
-		top: 100%;
+	.m-menu-bg{
+		display: none;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
 		left: 0;
+		z-index: 9;
+		background-color: rgba(0,0,0,0.5);
+	}
+	.m-menu-bg.on{
+		display: block;
+	}
+	.m-menu {
+		max-width: 240px;
+		width: 100%;
+		display: block;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: -240px;
+		z-index: 10;
 		background-color: #fff;
 		border-top: 1px solid #ccc;
 		color: #000;
-		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+		transition: all 0.4s;
 	}
 
 	.m-menu.on {
-		display: block;
+		left: 0;
 	}
 
 	.m-menu a {
@@ -1617,6 +1648,13 @@ select {
 		display: block;
 		border-bottom: 1px solid #ccc;
 		font-size: 16px;
+	}
+	.m-menu .btn-menu-close{
+		padding: 0;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		border-bottom: none;
 	}
 
 	.main-visual .owl-nav {
@@ -1635,6 +1673,8 @@ select {
 	}
 
 	.main-con4 .item .tx-wrap {
+		max-width: 425px;
+		margin: 0 auto;
 		padding-left: 0;
 		padding-right: 0;
 		text-align: center;
@@ -1693,7 +1733,7 @@ select {
 	}
 
 	.main-visual .btn {
-		margin-top: 40px;
+		margin-top: 100px;
 	}
 
 	.main-visual .item.type-2 {
@@ -1817,17 +1857,21 @@ select {
 
 	.footer .logo {
 		width: 100px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 
 	.footer .link {
+		padding-bottom: 20px;
 		line-height: 1.3;
+		font-size: 12px;
 	}
 
 	.footer .link a {
 		margin: 7px 0;
 	}
-
+	.footer .copy{
+		font-size: 14px;
+	}
 	.br {
 		display: none;
 	}

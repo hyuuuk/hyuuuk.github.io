@@ -75,7 +75,15 @@ $(function () {
         $(this).toggleClass('on');
     });
     $('.btn-menu').click(function () {
-        $(this).toggleClass('on');
-        $('.m-menu').toggleClass('on');
+        $('.m-menu').addClass('on');
+        $('.m-menu-bg').addClass('on');
+    });
+    $('.btn-menu-close').click(function () {
+        $('.m-menu').removeClass('on');
+        $('.m-menu-bg').removeClass('on');
+    });
+    $('.m-menu-bg').click(function () {
+        $(this).removeClass('on');
+        $('.m-menu').removeClass('on');
     });
 });
