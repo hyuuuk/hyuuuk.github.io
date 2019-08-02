@@ -86,4 +86,11 @@ $(function () {
         $(this).removeClass('on');
         $('.m-menu').removeClass('on');
     });
+    $("#check01-1").click(function () {
+        if ($("#check01-1").prop("checked")) {
+            $("input[type=checkbox]").prop("checked", true);
+        } else {
+            $("input[type=checkbox]").prop("checked", false);
+        }
+    })
 });
