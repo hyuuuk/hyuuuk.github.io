@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>barunncar</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper sub">
+        <div class="header on">
+            <div class="wrap-1200">
+                <a href="index.html" class="logo type-1"><img src="img/logo_1.png" alt=""></a>
+                <a href="index.html" class="logo type-2"><img src="img/logo_2.png" alt=""></a>
+                <div class="menu">
+                    <a href="reservation01.html">예약하기</a>
+                    <a href="wedding01.html">WEDDING</a>
+                    <a href="air01.html">AIR</a>
+                    <a href="guide01.html">이용안내</a>
+                    <a href="notice01.html">공지사항</a>
+                    <a href="faq01.html">FAQ</a>
+                </div>
+                <div class="menu-login">
+                    <a href="join01.html" class="on">마이페이지</a>
+                    <span></span>
+                    <a href="login01.html">로그아웃</a>
+                </div>
+                <a href="#!" class="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>
+                </a>
+            </div>
+            <div class="m-menu">
+                <a href="index.html">홈</a>
+                <a href="reservation01.html">예약하기</a>
+                <a href="wedding01.html">WEDDING</a>
+                <a href="air01.html">AIR</a>
+                <a href="guide01.html">이용안내</a>
+                <a href="notice01.html">공지사항</a>
+                <a href="faq01.html">FAQ</a>
+                <a href="join01.html">마이페이지</a>
+                <a href="login01.html">로그아웃</a>
+                <a href="#!" class="btn-menu-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                        <path d="M0 0h24v24H0z" fill="none" /></svg>
+                </a>
+            </div>
+            <div class="m-menu-bg"></div>
+        </div>
+        <div class="container">
+            <div class="mp-con1 wrap-1200 sub-con pb0">
+                <div class="title-1 type-2">마이페이지</div>
+                <div class="title-3">예약내역, 보유쿠폰 확인 및 회원정보 변경을 할수있어요!</div>
+                <div class="con1">
+                    <div class="left">
+                        <div class="tx1">MY 바른카</div>
+                        <div class="box">
+                            <a href="mypage01.html">WEDDING</a>
+                            <a href="mypage03.html" class="on">AIR</a>
+                            <a href="mypage05.html">보유쿠폰</a>
+                            <a href="mypage06.html">회원정보변경</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="top-link">
+                            <a href="mypage03.html">예약내역</a>
+                            <div class="bar"></div>
+                            <a href="mypage04.html" class="on">취소/환불내역</a>
+                        </div>
+                        <div class="con2">
+                            <div class="ing-1">
+                                <div class="tx2-wrap">
+                                    <div class="tx2">
+                                        <div>취소일시</div>
+                                        <span class="red">2019-08-31 / 오후 12:30</span>
+                                    </div>
+                                </div>
+                                <div class="tx5">배차 후 고객 취소 예약 건입니니다.</div>
+                                <div class="tx4-wrap">
+                                    <a href="#!" class="tx4">자세히보기 <img src="img/bullet13.png" alt=""></a>
+                                    <a href="#!" class="tx4">닫기 <img src="img/bullet14.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mp-con2">
+                            <div class="title-3">예약 상세</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이름
+                                    </div>
+                                    <div class="td">
+                                        김혜정
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        휴대폰번호
+                                    </div>
+                                    <div class="td">
+                                        01026983089
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        탑승예약일
+                                    </div>
+                                    <div class="td">
+                                        2019-08-31 / 오후 12:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        출발지
+                                    </div>
+                                    <div class="td">
+                                        서울 마포구 동교로 99
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        도착지
+                                    </div>
+                                    <div class="td">
+                                        인천공항 제1여객터미널
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        인원
+                                    </div>
+                                    <div class="td">
+                                        총 3명
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        수하물
+                                    </div>
+                                    <div class="td">
+                                        기내용 : 2개 / 수하물용 : 0개
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        항공편명
+                                    </div>
+                                    <div class="td">
+                                        OZ6714
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">결제 내역</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        대여 종류
+                                    </div>
+                                    <div class="td">
+                                        단독
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이용 요금
+                                    </div>
+                                    <div class="td">
+                                        44,700
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할증 요금
+                                    </div>
+                                    <div class="td">
+                                        6,700 원 (+10% 할증)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할인 요금
+                                    </div>
+                                    <div class="td">
+                                        -1,500 원 (-10% 할인)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        쿠폰 적용
+                                    </div>
+                                    <div class="td">
+                                        -3,000원 (10% 할인쿠폰)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 금액
+                                    </div>
+                                    <div class="td">
+                                        <div class="tx1">46,900 원</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">환불 정보</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        배차 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-20 / 오후 15:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 사유
+                                    </div>
+                                    <div class="td">
+                                        배차 후 고객취소
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-23 / 오전 11:24
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        환불 수수료
+                                    </div>
+                                    <div class="td">
+                                        - 0 원
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 환불 금액
+                                    </div>
+                                    <div class="td">
+                                        <span class="tx1">415,900 원</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-2">
+                                <div class="tx-t1">자세한 환불규정은 FAQ에서 확인 부탁드립니다.</div>
+                            </div>
+                        </div>
+                        <div class="con2">
+                            <div class="ing-1">
+                                <div class="tx2-wrap">
+                                    <div class="tx2">
+                                        <div>취소일시</div>
+                                        <span class="red">2019-08-31 / 오후 12:30</span>
+                                    </div>
+                                </div>
+                                <div class="tx5">배차 전 취소 예약 건입니다.</div>
+                                <div class="tx4-wrap">
+                                    <a href="#!" class="tx4">자세히보기 <img src="img/bullet13.png" alt=""></a>
+                                    <a href="#!" class="tx4">닫기 <img src="img/bullet14.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mp-con2">
+                            <div class="title-3">예약 상세</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이름
+                                    </div>
+                                    <div class="td">
+                                        김혜정
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        휴대폰번호
+                                    </div>
+                                    <div class="td">
+                                        01026983089
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        탑승예약일
+                                    </div>
+                                    <div class="td">
+                                        2019-08-31 / 오후 12:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        출발지
+                                    </div>
+                                    <div class="td">
+                                        서울 마포구 동교로 99
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        도착지
+                                    </div>
+                                    <div class="td">
+                                        인천공항 제1여객터미널
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        인원
+                                    </div>
+                                    <div class="td">
+                                        총 3명
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        수하물
+                                    </div>
+                                    <div class="td">
+                                        기내용 : 2개 / 수하물용 : 0개
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        항공편명
+                                    </div>
+                                    <div class="td">
+                                        OZ6714
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">결제 내역</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        대여 종류
+                                    </div>
+                                    <div class="td">
+                                        단독
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이용 요금
+                                    </div>
+                                    <div class="td">
+                                        44,700
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할증 요금
+                                    </div>
+                                    <div class="td">
+                                        6,700 원 (+10% 할증)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할인 요금
+                                    </div>
+                                    <div class="td">
+                                        -1,500 원 (-10% 할인)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        쿠폰 적용
+                                    </div>
+                                    <div class="td">
+                                        -3,000원 (10% 할인쿠폰)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 금액
+                                    </div>
+                                    <div class="td">
+                                        <div class="tx1">46,900 원</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">환불 정보</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        배차 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-20 / 오후 15:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 사유
+                                    </div>
+                                    <div class="td">
+                                        배차 후 고객취소
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-23 / 오전 11:24
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        환불 수수료
+                                    </div>
+                                    <div class="td">
+                                        - 0 원
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 환불 금액
+                                    </div>
+                                    <div class="td">
+                                        <span class="tx1">415,900 원</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-2">
+                                <div class="tx-t1">자세한 환불규정은 FAQ에서 확인 부탁드립니다.</div>
+                            </div>
+                        </div>
+                        <div class="con2">
+                            <div class="ing-1">
+                                <div class="tx2-wrap">
+                                    <div class="tx2">
+                                        <div>취소일시</div>
+                                        <span class="red">2019-08-31 / 오후 12:30</span>
+                                    </div>
+                                </div>
+                                <div class="tx5">배차 전 취소 예약 건입니다.</div>
+                                <div class="tx4-wrap">
+                                    <a href="#!" class="tx4">자세히보기 <img src="img/bullet13.png" alt=""></a>
+                                    <a href="#!" class="tx4">닫기 <img src="img/bullet14.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mp-con2">
+                            <div class="title-3">예약 상세</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이름
+                                    </div>
+                                    <div class="td">
+                                        김혜정
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        휴대폰번호
+                                    </div>
+                                    <div class="td">
+                                        01026983089
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        탑승예약일
+                                    </div>
+                                    <div class="td">
+                                        2019-08-31 / 오후 12:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        출발지
+                                    </div>
+                                    <div class="td">
+                                        서울 마포구 동교로 99
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        도착지
+                                    </div>
+                                    <div class="td">
+                                        인천공항 제1여객터미널
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        인원
+                                    </div>
+                                    <div class="td">
+                                        총 3명
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        수하물
+                                    </div>
+                                    <div class="td">
+                                        기내용 : 2개 / 수하물용 : 0개
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        항공편명
+                                    </div>
+                                    <div class="td">
+                                        OZ6714
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">결제 내역</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        대여 종류
+                                    </div>
+                                    <div class="td">
+                                        단독
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        이용 요금
+                                    </div>
+                                    <div class="td">
+                                        44,700
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할증 요금
+                                    </div>
+                                    <div class="td">
+                                        6,700 원 (+10% 할증)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        할인 요금
+                                    </div>
+                                    <div class="td">
+                                        -1,500 원 (-10% 할인)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        쿠폰 적용
+                                    </div>
+                                    <div class="td">
+                                        -3,000원 (10% 할인쿠폰)
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 금액
+                                    </div>
+                                    <div class="td">
+                                        <div class="tx1">46,900 원</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-3 mt30">환불 정보</div>
+                            <div class="table">
+                                <div class="tr">
+                                    <div class="th w250">
+                                        배차 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-20 / 오후 15:30
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 사유
+                                    </div>
+                                    <div class="td">
+                                        배차 후 고객취소
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        취소 일시
+                                    </div>
+                                    <div class="td">
+                                        2019-08-23 / 오전 11:24
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        환불 수수료
+                                    </div>
+                                    <div class="td">
+                                        - 0 원
+                                    </div>
+                                </div>
+                                <div class="tr">
+                                    <div class="th w250">
+                                        총 환불 금액
+                                    </div>
+                                    <div class="td">
+                                        <span class="tx1">415,900 원</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-2">
+                                <div class="tx-t1">자세한 환불규정은 FAQ에서 확인 부탁드립니다.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrap-1200">
+                <a href="index.html" class="logo">
+                    <img src="img/logo_2.png" alt="">
+                </a>
+                <div class="tx-wrap">
+                    <div class="link">
+                        <a href="#">회사소개</a>
+                        <span></span>
+                        <a href="#">서비스이용약관</a>
+                        <span></span>
+                        <a href="#">개인정보취급방침</a>
+                        <span></span>
+                        <a href="#">자동차대여약관</a>
+                    </div>
+                    <div class="copy">
+                        (주)바른컴퍼니 <span></span> 대표이사 : 박정식 <span></span> 본사 : 경기도 파주시 회동길 219 <span></span> 서울사옥 : 서울 마포구
+                        동교로 99<br>
+                        통신판매업신고번호 : 2007-00940 <span></span> 사업자번호 : 221-81-03108<br>
+                        copyright ⓒ 2019 bareuncar. All right reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

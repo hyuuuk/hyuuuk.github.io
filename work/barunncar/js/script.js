@@ -92,5 +92,8 @@ $(function () {
         } else {
             $("input[type=checkbox]").prop("checked", false);
         }
-    })
+    });
+    $('.mp-con1 .tx4-wrap .tx4').click(function () {
+        $(this).closest('.con2').toggleClass('on');
+    });
 });
