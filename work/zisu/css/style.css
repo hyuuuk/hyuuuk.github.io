@@ -1,0 +1,293 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+.clb::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.df {
+	display: flex;
+}
+
+.header {
+	width: 100%;
+	max-width: 1240px;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+	color: #fff;
+}
+
+.header .logo img:nth-child(2) {
+	display: none;
+}
+
+.wrapper.on .header .logo img:nth-child(1) {
+	display: none;
+}
+
+.wrapper.on .header .logo img:nth-child(2) {
+	display: block;
+}
+
+.wrapper.on .header {
+	color: #000;
+}
+
+.header .menu {
+	display: flex;
+}
+
+.header .menu a {
+	margin-left: 76px;
+	font-size: 16px;
+}
+
+.header .menu a:nth-child(1) {
+	margin-left: 0;
+}
+
+.header.bgc-fff {
+	background-color: #fff;
+}
+
+.m-menu {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	z-index: 11;
+	background-color: #fff;
+	transition: all 0.3s;
+}
+
+.m-menu.on {
+	left: 0;
+}
+
+.m-menu .btn-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.m-menu .logo {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.m-menu .tx-wrap {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translate(0, -50%);
+}
+
+.m-menu .tx-wrap {
+	text-align: right;
+	display: flex;
+	flex-flow: column;
+}
+
+.m-menu .tx-wrap a {
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+
+.m-menu .tx-wrap a:last-child {
+	margin-top: 80px;
+	margin-bottom: 0;
+}
+
+.btn-menu {
+	display: none;
+}
+
+.btn-menu img:nth-child(2) {
+	display: none;
+}
+
+.wrapper.on .btn-menu img:nth-child(1) {
+	display: none;
+}
+
+.wrapper.on .btn-menu img:nth-child(2) {
+	display: block;
+}
+
+
+.main-visual {
+	width: 100%;
+	height: 100vh;
+}
+
+.main-visual {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.main-visual.ty1 {
+	background-image: url(../img/main-1.png);
+}
+
+.main-visual.ty2 {
+	background-image: url(../img/main-2.png);
+	background-position: 0 0;
+}
+
+.main-visual.ty3 {
+	background-image: url(../img/main-3.png);
+	background-position: right 0;
+}
+
+.main-visual.ty4 {
+	background-image: url(../img/main-4.png);
+}
+
+.main-visual.ty5 {
+	background-image: url(../img/main-5.png);
+	background-position: left 0;
+}
+
+.main-visual.ty6 {
+	background-image: url(../img/main-6.png);
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+	padding: 10px !important;
+	background-color: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.owl-carousel .owl-prev {
+	left: 20px;
+}
+
+.owl-carousel .owl-next {
+	right: 20px;
+}
+
+.ct-1 {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.ct-1 .tx1 {
+	margin-bottom: 50px;
+	padding-bottom: 4px;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+}
+
+.ct-1 .tx1::after {
+	content: "";
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000;
+}
+
+.ct-1 .tx2.mb110 {
+	margin-bottom: 110px;
+}
+
+.ct-1 .tx2:hover {
+	color: red;
+	transition: all 0.3s;
+}
+
+.ab-1 {
+	width: 100%;
+	max-width: 600px;
+	margin: 220px auto 0;
+	padding-bottom: 50px;
+}
+
+.ab-1 .tx1 {
+	margin-bottom: 70px;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 1.3;
+}
+
+.ab-1 .tx1 .bold {
+	display: inline-block;
+	font-weight: 700;
+}
+
+.ab-1 .tx1 .italic {
+	display: inline-block;
+	font-style: italic;
+}
+
+@media all and (max-width:1240px) {
+	.header {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.header .menu a {
+		margin-left: 30px;
+	}
+}
+
+@media all and (max-width:768px) {
+	.header .menu {
+		display: none;
+	}
+
+	.btn-menu {
+		display: block;
+	}
+
+	.ct-1 {
+		padding-top: 80px;
+	}
+
+	.ab-1 {
+		margin-top: 100px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.ab-1 .tx1 {
+		margin-bottom: 50px;
+	}
+	.main-visual.ty2 {
+		background-image: url(../img/main-2-m.png);
+		background-position: center center;
+	}
+	
+	.main-visual.ty3 {
+		background-image: url(../img/main-3-m.png);
+		background-position: center center;
+	}
+	.main-visual.ty5 {
+		background-image: url(../img/main-5-m.png);
+		background-position: center center;
+	}
+}
