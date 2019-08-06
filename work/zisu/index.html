@@ -86,8 +86,10 @@
                     } else {
                         $('.wrapper').removeClass('on');
                     }
-                    console.log(index);
                 })
+                if ($(window).width() < 769) {
+                    owl.trigger('add.owl.carousel', [$('<div class="main-visual ty7"></div>'), 5]).trigger('refresh.owl.carousel');
+                }
             </script>
         </div>
         <div class="m-menu">

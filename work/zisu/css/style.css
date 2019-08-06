@@ -166,6 +166,10 @@
 .main-visual.ty6 {
 	background-image: url(../img/main-6.png);
 }
+.main-visual.ty7 {
+	background-image: url(../img/main-7-m.png);
+	background-position: center top;
+}
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
