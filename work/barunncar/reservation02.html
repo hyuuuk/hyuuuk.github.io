@@ -21,7 +21,7 @@
 
 <body>
     <div class="wrapper sub">
-        <div class="header on">
+        <div class="header active on" id="header">
             <div class="wrap-1200">
                 <a href="index.html" class="logo type-1"><img src="img/logo_1.png" alt=""></a>
                 <a href="index.html" class="logo type-2"><img src="img/logo_2.png" alt=""></a>
@@ -245,11 +245,11 @@
                                 <div class="number-type1 w250 mr5">
                                     <input type="text" value="수하물용" disabled>
                                     <div class="number-wrap">
-                                        <div class="minus">
+                                        <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
-                                        <input type="text" value="0" disabled>
-                                        <div class="plus">
+                                        <input type="number" min="0" value="0" disabled>
+                                        <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>
                                     </div>
@@ -257,11 +257,11 @@
                                 <div class="number-type1 w250">
                                     <input type="text" value="기내용" disabled>
                                     <div class="number-wrap">
-                                        <div class="minus">
+                                        <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
-                                        <input type="text" value="0" disabled>
-                                        <div class="plus">
+                                        <input type="number" min="0" value="0" disabled>
+                                        <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>
                                     </div>

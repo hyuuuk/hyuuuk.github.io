@@ -137,6 +137,12 @@ input::-ms-clear {
     display: none;
 }
 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .form-check input[type="checkbox"] {
     display: none;
 }
@@ -168,9 +174,11 @@ input::-ms-clear {
 .select {
     width: 100%;
 }
-button{
+
+button {
     outline: none;
 }
+
 select {
     background-image: url(../img/icon11.png);
     background-repeat: no-repeat;

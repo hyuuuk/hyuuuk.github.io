@@ -64,12 +64,13 @@
                     nav: true,
                     dots: false,
                     navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-                    autoplay: false,
-                    autoplayHoverPause: true,
-                    autoplayTimeout: 5000,
+                    autoplay: true,
+                    autoplayHoverPause: false,
+                    autoplayTimeout: 4000,
                     smartSpeed: 600,
                     mouseDrag: true,
-                    touchDrag: true
+                    touchDrag: true,
+                    animateOut: 'fadeOut'
                 })
                 owl.on('changed.owl.carousel', function (e) {
                     var count = e.item.count;
@@ -100,7 +101,7 @@
                 <a href="about.html">ABOUT</a>
                 <a href="collection.html">COLLECTION</a>
                 <a href="contact.html">CONTACT</a>
-                <a href="#!">
+                <a href="https://www.instagram.com/zisu_official/" target="_blank">
                     <img src="img/icon-instagram.png" alt="">
                 </a>
             </div>

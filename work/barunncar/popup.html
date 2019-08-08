@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>barunncar</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.min.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        body>a {
+            margin: 10px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#!" onclick="openPopup('pu-1');">휴대폰번호 변경</a>
+    <div id="popup-pu-1" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">휴대폰번호 변경</div>
+            </div>
+            <div class="con">
+                <div class="input-wrap">
+                    <label for="" class="tx2">휴대폰번호 입력</label>
+                    <div class="df">
+                        <input type="text">
+                        <a href="#!" class="btn">인증</a>
+                    </div>
+                    <div class="tx3">인증번호를 발송하였습니다.</div>
+                </div>
+                <div class="input-wrap">
+                    <label for="" class="tx2">인증번호</label>
+                    <div class="df">
+                        <input type="text">
+                        <a href="#!" class="btn">확인</a>
+                    </div>
+                    <div class="tx3">인증번호를 확인해주세요.</div>
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-2');">픽업장소 안내</a>
+    <div id="popup-pu-2" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">픽업장소 안내</div>
+            </div>
+            <div class="con">
+                <div class="tx2">
+                    공항에서 픽업 시 혼잡을 피하기 위해 3층 출국장에서 픽업을 진행하고 있습니다.
+                    이 점 양해 부탁드립니다.
+                </div>
+                <div class="con1">
+                    <div class="tx3">
+                        인천공항 제 1여객터미널 (3층 13번 출구 앞)
+                    </div>
+                    <img src="img/pop-img1.png" alt="">
+                    <div class="tx3">
+                        인천공항 제 2여객터미널 (3층 7번 출구 앞)
+                    </div>
+                    <img src="img/pop-img2.png" alt="">
+                </div>
+                <div class="con2">
+                    <div class="tx-t1 red">
+                        비행기 착륙 후 반드시 휴대폰을 켜주세요!<br>
+                        탑승시간 지연 시 기사님께 미리 연락 부탁드립니다.
+                    </div>
+                    <div class="tx-t1 red">
+                        차량 도착 후 10분 이내 미 탑승 시 차량이 출발할 수 있습니다.
+                    </div>
+                    <div class="tx-t1">
+                        김포공항은 별도 픽업 장소가 지정되어 있지 않습니다.<br>
+                        기사님과 통화 하실 때 픽업 장소 말씀 부탁드립니다.
+                    </div>
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-3');">쿠폰 불러오기</a>
+    <div id="popup-pu-3" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">쿠폰 불러오기</div>
+            </div>
+            <div class="con">
+                <div class="tx2">
+                    기본할인 쿠폰
+                </div>
+                <div class="cu-wrap">
+                    <div class="radio-type1">
+                        <input type="radio" name="pop-ra1" id="pop-ra-1">
+                        <label for="pop-ra-1">
+                            <div class="box">
+                                <div class="img">
+                                    <div class="txwrap">
+                                        <div class="tx4">단일쿠폰</div>
+                                        <div class="tx5">10,000원</div>
+                                    </div>
+                                </div>
+                                <div class="tx-wrap">
+                                    <div class="tx3">오픈 이벤트 쿠폰</div>
+                                    <div class="tx6">~2019-12-31 까지</div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="radio-type1">
+                        <input type="radio" name="pop-ra1" id="pop-ra-2">
+                        <label for="pop-ra-2">
+                            <div class="box">
+                                <div class="img">
+                                    <div class="txwrap">
+                                        <div class="tx4">단일쿠폰</div>
+                                        <div class="tx5">10,000원</div>
+                                    </div>
+                                </div>
+                                <div class="tx-wrap">
+                                    <div class="tx3">봄맞이 할인 쿠폰</div>
+                                    <div class="tx6">~2019-12-31 까지</div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="tx2 mt50">
+                    중복할인 쿠폰
+                </div>
+                <div class="cu-wrap">
+                    <div class="radio-type1">
+                        <input type="radio" name="pop-ra2" id="pop-ra-3">
+                        <label for="pop-ra-3">
+                            <div class="box">
+                                <div class="img type2">
+                                    <div class="txwrap">
+                                        <div class="tx4">중복쿠폰</div>
+                                        <div class="tx5">10% 할인</div>
+                                    </div>
+                                </div>
+                                <div class="tx-wrap">
+                                    <div class="tx3">봄맞이 할인 쿠폰</div>
+                                    <div class="tx6">~2019-12-31 까지</div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="bottom-wrap">
+                    <a href="#!" class="btn-bottom">적용하기</a>
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-4');">항공편명 안내</a>
+    <div id="popup-pu-4" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">항공편명 안내</div>
+            </div>
+            <div class="con">
+                <div class="tx2">항공편명이란?</div>
+                <div class="tx3">항공사들의 고유 영문 코드와 숫자의 조합으로 이루어진 코드</div>
+                <div class="con1">
+                    <div class="code-wrap">
+                        <div class="le blue">
+                            <div class="tx4">KE</div>
+                            <div class="tx5">항공사 코드</div>
+                        </div>
+                        <div class="ri">
+                            <div class="tx4">1234</div>
+                            <div class="tx5">비행기 코드</div>
+                        </div>
+                    </div>
+                    <div class="bottom-tx">
+                        <div class="tx6">
+                            &middot; <span class="bold">항공사 코드</span> : 영어와 숫자 2자
+                        </div>
+                        <div class="tx6">
+                            &middot; <span class="bold">편명</span> : 숫자 3~4자
+                        </div>
+                    </div>
+                </div>
+                <div class="tx7">
+                    입력하신 항공 편명은 비행기 출발시간 및 탑승 터미널 확인에 이용됩니다.
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-5');">차량보기</a>
+    <div id="popup-pu-5" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">차량보기</div>
+            </div>
+            <div class="con">
+                <div class="box">
+                    <div class="inner">
+                        <div class="top-2">
+                            <div class="tx2">더 뉴 카니발</div>
+                            <a href="#!" class="btn yellow">예약하기</a>
+                        </div>
+                        <div class="df">
+                            <div class="img">
+                                <img src="img/00/img3.png" alt="">
+                            </div>
+                            <div class="tx-wrap">
+                                <div class="tx3">더 뉴 카니발 (6인 권장)</div>
+                                <div class="tx4">정원 : 6명, 최대 짐 : 6개</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-wrap">
+                        <div class="owl-carousel owl-carousel-999">
+                            <div class="item">
+                                <img src="img/02/img13.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/02/img14.png" alt="">
+                            </div>
+                        </div>
+                        <script>
+                            $('.owl-carousel-999').owlCarousel({
+                                items: 1,
+                                loop: false,
+                                margin: 0,
+                                nav: false,
+                                dots: true,
+                                navText: ["<img src='img/bullet1.png'>", "<img src='img/bullet2.png'>"],
+                                autoplay: false,
+                                autoplayHoverPause: true,
+                                autoplayTimeout: 5000,
+                                URLhashListener: true,
+                                startPosition: 'URLhash',
+                                smartSpeed: 600,
+                                mouseDrag: true,
+                                touchDrag: true
+                            })
+                        </script>
+                    </div>
+                    <div class="bot-wrap">
+                        <a href="#!" class="bot">차량 상세보기 &nbsp;&nbsp;&nbsp; <img src="img/bullet13.png" alt=""></a>
+                        <a href="#!" class="bot">닫기 &nbsp;&nbsp;&nbsp; <img src="img/bullet14.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <div class="top-2">
+                            <div class="tx2">더 뉴 카니발</div>
+                            <a href="#!" class="btn blue">전화문의</a>
+                        </div>
+                        <div class="df">
+                            <div class="img">
+                                <img src="img/00/img3.png" alt="">
+                            </div>
+                            <div class="tx-wrap">
+                                <div class="tx3">더 뉴 카니발 (6인 권장)</div>
+                                <div class="tx4">정원 : 6명, 최대 짐 : 6개</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-wrap">
+                        <div class="owl-carousel owl-carousel-998">
+                            <div class="item">
+                                <img src="img/02/img13.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="img/02/img14.png" alt="">
+                            </div>
+                        </div>
+                        <script>
+                            $('.owl-carousel-998').owlCarousel({
+                                items: 1,
+                                loop: false,
+                                margin: 0,
+                                nav: false,
+                                dots: true,
+                                navText: ["<img src='img/bullet1.png'>", "<img src='img/bullet2.png'>"],
+                                autoplay: false,
+                                autoplayHoverPause: true,
+                                autoplayTimeout: 5000,
+                                URLhashListener: true,
+                                startPosition: 'URLhash',
+                                smartSpeed: 600,
+                                mouseDrag: true,
+                                touchDrag: true
+                            })
+                        </script>
+                    </div>
+                    <div class="bot-wrap">
+                        <a href="#!" class="bot">차량 상세보기 &nbsp;&nbsp;&nbsp; <img src="img/bullet13.png" alt=""></a>
+                        <a href="#!" class="bot">닫기 &nbsp;&nbsp;&nbsp; <img src="img/bullet14.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-6');">예약 취소</a>
+    <div id="popup-pu-6" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">예약 취소</div>
+            </div>
+            <div class="con">
+                <div class="tx-t1 red">
+                    배차 완료 후 고객 요청에 의해 취소할 경우,
+                    환불 규정에 따라 위약금이 발생할 수 있습니다.
+                </div>
+                <div class="img-wrap">
+                </div>
+                <div class="con1">
+                    <div class="tx">
+                        <img src="img/pop-img4.png" alt="">
+                        <div class="tx2">
+                            배차 전 취소
+                        </div>
+                        <div class="tx3">
+                            취소 수수료 없음
+                        </div>
+                    </div>
+                    <div class="tx">
+                        <img src="img/pop-img5.png" alt="">
+                        <div class="tx2">
+                            배차 후<br>
+                            이용 1일 전 취소
+                        </div>
+                        <div class="tx3">
+                            결제금액의<br>
+                            50% 수수료 발생
+                        </div>
+                    </div>
+                    <div class="tx">
+                        <img src="img/pop-img6.png" alt="">
+                        <div class="tx2 blue">
+                            배차 후 이용 당일 취소,
+                            노쇼포함
+                        </div>
+                        <div class="tx3">
+                            결제금액의<br>
+                            100% 수수료 발생
+                        </div>
+                    </div>
+                </div>
+                <div class="con2">
+                    <div class="check-type1">
+                        <input type="checkbox" id="check22">
+                        <label for="check22">바른카 환불 정책에 동의하고 <span class="bold">예약을 취소</span>하시겠습니까? </label>
+                    </div>
+                </div>
+                <div class="bottom-wrap">
+                    <a href="#!" class="btn-bottom">닫기</a>
+                    <a href="#!" class="btn-bottom">확인</a>
+                </div>
+            </div>
+            <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <a href="#!" onclick="openPopup('pu-7');">예약 인원</a>
+    <div id="popup-pu-7" class="popup">
+        <div class="popup_inner">
+            <div class="top">
+                <div class="tx1">이용 인원</div>
+            </div>
+            <div class="con">
+                <div class="con2">
+                    <div class="con1">
+                        <div class="df">
+                            <div class="tx-wrap">
+                                <div class="tx2">일반</div>
+                                <div class="tx3">만 6세 이상 어린이, 성인</div>
+                            </div>
+                            <div class="number-type2 ">
+                                <div class="number-wrap">
+                                    <div class="minus"
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <img src="img/bullet11.png" alt="">
+                                    </div>
+                                    <input type="number" min="0" value="0" disabled class="number-quantity">
+                                    <div class="plus"
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <img src="img/bullet12.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="con1">
+                        <div class="df">
+                            <div class="tx-wrap">
+                                <div class="tx2">유아</div>
+                                <div class="tx3">만 6세 미만 어린이</div>
+                            </div>
+                            <div class="number-type2 ">
+                                <div class="number-wrap">
+                                    <div class="minus"
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <img src="img/bullet11.png" alt="">
+                                    </div>
+                                    <input type="number" min="0" value="0" disabled class="number-quantity">
+                                    <div class="plus"
+                                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <img src="img/bullet12.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="con1">
+                            <div class="df">
+                                <div class="tx-wrap">
+                                    <div class="tx2">영아</div>
+                                    <div class="tx3">만 24개월 미만</div>
+                                </div>
+                                <div class="number-type2 ">
+                                    <div class="number-wrap">
+                                        <div class="minus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                            <img src="img/bullet11.png" alt="">
+                                        </div>
+                                        <input type="number" min="0" value="0" disabled class="number-quantity">
+                                        <div class="plus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                            <img src="img/bullet12.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tx5">
+                                24개월 미만 영아는 출생일을 확인할 수 있는
+                                서류 지참 시, 1인당 1명까지 무료로 동승할 수
+                                있습니다. (여권, 등본, 출생증명서 등)
+                            </div>
+                        </div>
+                        <div class="con1">
+                            <div class="df">
+                                <div class="tx-wrap">
+                                    <div class="tx2">카시트</div>
+                                </div>
+                                <div class="number-type2 ">
+                                    <div class="number-wrap">
+                                        <div class="minus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                            <img src="img/bullet11.png" alt="">
+                                        </div>
+                                        <input type="number" min="0" value="0" disabled class="number-quantity">
+                                        <div class="plus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                            <img src="img/bullet12.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-wrap">
+                        <a href="#!" class="btn-bottom">적용하기</a>
+                    </div>
+                </div>
+                <a href="#!" class="btn-popup-close" onclick="closePopup();">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                        </path>
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -45,22 +45,6 @@ $(function () {
     $(".rsv-con3 .item").click(function () {
         $(this).addClass('on').siblings().removeClass('on');
     })
-    var defaultValue = parseInt($('.number-wrap input').val()),
-        $plus = $('.number-wrap .plus'),
-        $minus = $('.number-wrap .minus');
-
-    $plus.click(function () {
-        defaultValue += 1;
-        $(this).prev().val(defaultValue);
-    });
-
-    $minus.click(function () {
-        defaultValue -= 1;
-        if (defaultValue <= 0) {
-            defaultValue = 0;
-        }
-        $(this).next().val(defaultValue);
-    });
     $('#place-pick').change(function () {
         var place = $('#place-pick').val();
         if (place == '1') {
@@ -96,4 +80,52 @@ $(function () {
     $('.mp-con1 .tx4-wrap .tx4').click(function () {
         $(this).closest('.con2').toggleClass('on');
     });
+    $('#popup-pu-5 .bot-wrap').click(function () {
+        $(this).closest('.box').toggleClass('on');
+    });
+});
+
+function openPopup(id, callback) {
+    var thisPopup = $('#popup-' + id);
+    thisPopup.after('<div class="popup_overlay"></div>')
+    thisPopup.fadeIn(200);
+    $('html, body').css({
+        overflow: 'hidden'
+    });
+    $('.popup_overlay').fadeIn(100);
+    $(document).on("click", function (e) {
+        if ($('.popup').is(e.target)) {
+            $('.popup').fadeOut(100);
+            $('.popup_overlay').fadeOut(200, function () {
+                $('.popup_overlay').remove();
+            });
+            $('html, body').removeAttr('style');
+        }
+    });
+};
+
+function closePopup() {
+    $('.popup').fadeOut(100);
+    $('.popup_overlay').fadeOut(200, function () {
+        $('.popup_overlay').remove();
+    });
+    $('html, body').removeAttr('style');
+};
+
+
+var prevScrollPos = window.pageYOffset;
+$(window).scroll(function () {
+    var currentScrollPos = window.pageYOffset;
+    var menu = $('#header');
+    if (currentScrollPos > 100) {
+        $("#header").addClass('active');
+    }
+    if (currentScrollPos < 100) {
+        $("#header").addClass('active');
+    } else if (prevScrollPos > currentScrollPos) {
+        $("#header").addClass('active');
+    } else {
+        $("#header").removeClass('active');
+    }
+    prevScrollPos = currentScrollPos;
 });
