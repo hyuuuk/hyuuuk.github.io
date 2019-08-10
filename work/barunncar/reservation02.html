@@ -113,7 +113,8 @@
                                 <option value="2">공항에서 → 원하는 장소로</option>
                             </select>
                             <div class="desc-1 ml5">
-                                &middot; 서울지역에서만 이용 가능합니다.
+                                &middot; 인천공항에서 출발 시 픽업자가 지정되어 있습니다. 
+                                <a href="#!">(픽업장소 확인하기)</a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +167,7 @@
                             상세지도
                         </div>
                         <div class="td">
-                            <div style="width: 750px;height: 300px;background-color: #f4f4f4;border: 1px solid #ccc;">
+                            <div style="width:100%;max-width: 750px;height: 300px;background-color: #f4f4f4;border: 1px solid #ccc;">
                             </div>
                         </div>
                     </div>
@@ -197,7 +198,7 @@
                             이용 인원<span>*</span>
                         </div>
                         <div class="td">
-                            <input type="text" class="w350">
+                            <input type="text" class="w350 select-bul" readonly>
                         </div>
                     </div>
                     <div class="tr">
@@ -213,7 +214,7 @@
                                 <option value="">더 뉴 카니발</option>
                                 <option value="">더 뉴 카니발</option>
                             </select>
-                            <a href="#" class="btn">차량보기</a>
+                            <a href="#" class="btn m-ml0">차량보기</a>
                         </div>
                     </div>
                     <div class="tr">
@@ -221,11 +222,11 @@
                             항공편명
                         </div>
                         <div class="td col">
-                            <div class="df">
-                                <input type="text" class="w250">
-                                <a href="#" class="btn">확인</a>
-                                <a href="#" class="btn">?</a>
-                            </div>
+                                <div class="df">
+                                    <input type="text" class="w250">
+                                    <a href="#" class="btn">확인</a>
+                                    <a href="#" class="btn">?</a>
+                                </div>
                             <div class="fc-red">
                                 칭다오발 21시 55분 도착 (제1여객터미널)
                             </div>
@@ -243,24 +244,24 @@
                         <div class="td col">
                             <div class="df jim-1">
                                 <div class="number-type1 w250 mr5">
-                                    <input type="text" value="수하물용" disabled>
+                                    <input type="text" value="수하물용" readonly>
                                     <div class="number-wrap">
                                         <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
-                                        <input type="number" min="0" value="0" disabled>
+                                        <input type="number" min="0" value="0" readonly>
                                         <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="number-type1 w250">
-                                    <input type="text" value="기내용" disabled>
+                                    <input type="text" value="기내용" readonly>
                                     <div class="number-wrap">
                                         <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
-                                        <input type="number" min="0" value="0" disabled>
+                                        <input type="number" min="0" value="0" readonly>
                                         <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>

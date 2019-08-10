@@ -58,6 +58,9 @@ $(function () {
     $('.table-2 tr').click(function () {
         $(this).toggleClass('on');
     });
+    $('.table-3 .top').click(function () {
+        $(this).toggleClass('on');
+    });
     $('.btn-menu').click(function () {
         $('.m-menu').addClass('on');
         $('.m-menu-bg').addClass('on');
@@ -70,18 +73,59 @@ $(function () {
         $(this).removeClass('on');
         $('.m-menu').removeClass('on');
     });
-    $("#check01-1").click(function () {
-        if ($("#check01-1").prop("checked")) {
-            $("input[type=checkbox]").prop("checked", true);
-        } else {
-            $("input[type=checkbox]").prop("checked", false);
+    // $("#check01-1").click(function () {
+    //     if ($("#check01-1").prop("checked")) {
+    //         $("input[type=checkbox]").prop("checked", true);
+    //     } else {
+    //         $("input[type=checkbox]").prop("checked", false);
+    //     }
+    // });
+    var $sportAll = $('#check01-1');
+    $sportAll.change(function () {
+        var $this = $(this);
+        var checked = $this.prop('checked'); // checked 문자열 참조(true, false)
+        // console.log(checked);
+        $('input[name="agr"]').prop('checked', checked);
+
+    });
+
+    var boxes = $('input[name="agr"]');
+    boxes.change(function () {
+        // 첫 번째 방법
+        /*
+        var selectAll = true;
+        var count = boxes.length;
+        var i = 0;
+        for (; i < count; i++) {
+            if (!boxes[i].checked) {
+                selectAll = false;
+                break;
+            }
         }
+        */
+
+        // 두 번째 방법
+        var boxLength = boxes.length;
+        // 체크된 체크박스 갯수를 확인하기 위해 :checked 필터를 사용하여 체크박스만 선택한 후 length 프로퍼티를 확인
+        var checkedLength = $('input[name="agr"]:checked').length;
+        var selectAll = (boxLength == checkedLength);
+
+        $sportAll.prop('checked', selectAll);
+
     });
     $('.mp-con1 .tx4-wrap .tx4').click(function () {
         $(this).closest('.con2').toggleClass('on');
     });
     $('#popup-pu-5 .bot-wrap').click(function () {
         $(this).closest('.box').toggleClass('on');
+    });
+    $('.number-type2 .minus, .number-type2 .plus').click(function () {
+        var thisJ = $(this).closest('.number-type2').find('.number-quantity');
+        if (thisJ.val() == 0) {
+            thisJ.removeClass('on');
+        } else {
+            thisJ.addClass('on');
+        }
     });
 });
 
