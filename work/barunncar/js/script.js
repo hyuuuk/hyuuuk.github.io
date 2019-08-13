@@ -50,9 +50,13 @@ $(function () {
         if (place == '1') {
             $('.place-type1').addClass('on');
             $('.place-type2').removeClass('on');
+            $('#place-pick + .desc-1 .type1').addClass('on');
+            $('#place-pick + .desc-1 .type2').removeClass('on');
         } else if (place == '2') {
             $('.place-type1').removeClass('on');
             $('.place-type2').addClass('on');
+            $('#place-pick + .desc-1 .type1').removeClass('on');
+            $('#place-pick + .desc-1 .type2').addClass('on');
         }
     });
     $('.table-2 tr').click(function () {

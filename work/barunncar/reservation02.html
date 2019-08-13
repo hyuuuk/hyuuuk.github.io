@@ -113,8 +113,13 @@
                                 <option value="2">공항에서 → 원하는 장소로</option>
                             </select>
                             <div class="desc-1 ml5">
-                                &middot; 인천공항에서 출발 시 픽업자가 지정되어 있습니다. 
-                                <a href="#!">(픽업장소 확인하기)</a>
+                                <div class="type1 on">
+                                    &middot; 서울지역에서만 이용 가능합니다.
+                                </div>
+                                <div class="type2">
+                                    &middot; 인천공항에서 출발 시 픽업자가 지정되어 있습니다.
+                                    <a href="#!">(픽업장소 확인하기)</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,7 +172,8 @@
                             상세지도
                         </div>
                         <div class="td">
-                            <div style="width:100%;max-width: 750px;height: 300px;background-color: #f4f4f4;border: 1px solid #ccc;">
+                            <div
+                                style="width:100%;max-width: 750px;height: 300px;background-color: #f4f4f4;border: 1px solid #ccc;">
                             </div>
                         </div>
                     </div>
@@ -222,11 +228,11 @@
                             항공편명
                         </div>
                         <div class="td col">
-                                <div class="df">
-                                    <input type="text" class="w250">
-                                    <a href="#" class="btn">확인</a>
-                                    <a href="#" class="btn">?</a>
-                                </div>
+                            <div class="df">
+                                <input type="text" class="w250">
+                                <a href="#" class="btn">확인</a>
+                                <a href="#" class="btn">?</a>
+                            </div>
                             <div class="fc-red">
                                 칭다오발 21시 55분 도착 (제1여객터미널)
                             </div>
@@ -246,11 +252,13 @@
                                 <div class="number-type1 w250 mr5">
                                     <input type="text" value="수하물용" readonly>
                                     <div class="number-wrap">
-                                        <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <div class="minus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
                                         <input type="number" min="0" value="0" readonly>
-                                        <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <div class="plus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>
                                     </div>
@@ -258,11 +266,13 @@
                                 <div class="number-type1 w250">
                                     <input type="text" value="기내용" readonly>
                                     <div class="number-wrap">
-                                        <div class="minus" onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                        <div class="minus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                                             <img src="img/bullet9.png" alt="">
                                         </div>
                                         <input type="number" min="0" value="0" readonly>
-                                        <div class="plus" onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                        <div class="plus"
+                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                                             <img src="img/bullet10.png" alt="">
                                         </div>
                                     </div>

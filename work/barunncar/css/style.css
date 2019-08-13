@@ -167,6 +167,10 @@ select {
 	margin-right: 0 !important;
 }
 
+.mt0 {
+	margin-top: 0 !important;
+}
+
 .ml5 {
 	margin-left: 7px;
 }
@@ -672,7 +676,7 @@ select {
 .btn-wrap-1.col {
 	width: 100%;
 	max-width: 450px;
-	margin: 80px auto 0;
+	margin: 30px auto 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -704,7 +708,16 @@ select {
 	border: 1px solid #cccccc;
 	color: #fff;
 }
-
+.btn-wrap-1 .btn-1.w-big{
+	max-width: 400px;
+	width: 100%;
+}
+#place-pick+.desc-1 > *{
+	display: none;
+}
+#place-pick+.desc-1 > *.on{
+	display: block;
+}
 
 
 
@@ -1694,12 +1707,10 @@ select {
 
 .jo-con1 .con1 .input-1 {
 	margin: 15px 0;
-	padding-bottom: 30px;
 	display: flex;
 	align-items: center;
 	position: relative;
 }
-
 .jo-con1 .con1 .flex-wrap-1>div {
 	display: flex;
 }
@@ -1721,9 +1732,6 @@ select {
 .jo-con1 .con1 .error-1 {
 	margin-left: 125px;
 	color: #0b356d;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 }
 
 .jo-con1 .con1 .input-1 .btn {
@@ -1781,7 +1789,7 @@ select {
 }
 
 .jo-con2 {
-	padding-top: 150px;
+	padding-top: 250px;
 	padding-bottom: 150px;
 	text-align: center;
 }
@@ -3583,5 +3591,14 @@ select {
 	}
 	.table-3 .down-con .td{
 		padding: 20px 0;
+	}
+	.m-ty1{
+		justify-content: space-between;
+	}
+}
+@media all and (max-width:425px) {
+	.m-mt5{
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 }
