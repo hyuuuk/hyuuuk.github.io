@@ -469,11 +469,13 @@ select {
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
 }
-.table-3 .tr.top .td >div:nth-child(2){
+
+.table-3 .tr.top .td>div:nth-child(2) {
 	width: 100%;
 	justify-content: space-between;
 }
-.table-3 .w100{
+
+.table-3 .w100 {
 	width: 100px;
 	text-align: center;
 }
@@ -523,6 +525,7 @@ select {
 .table-3 .top.on+.down-con {
 	display: flex;
 }
+
 .table-3 .w70 {
 	width: 70px;
 	text-align: center;
@@ -708,14 +711,17 @@ select {
 	border: 1px solid #cccccc;
 	color: #fff;
 }
-.btn-wrap-1 .btn-1.w-big{
+
+.btn-wrap-1 .btn-1.w-big {
 	max-width: 400px;
 	width: 100%;
 }
-#place-pick+.desc-1 > *{
+
+#place-pick+.desc-1>* {
 	display: none;
 }
-#place-pick+.desc-1 > *.on{
+
+#place-pick+.desc-1>*.on {
 	display: block;
 }
 
@@ -1711,6 +1717,7 @@ select {
 	align-items: center;
 	position: relative;
 }
+
 .jo-con1 .con1 .flex-wrap-1>div {
 	display: flex;
 }
@@ -3049,7 +3056,9 @@ select {
 	}
 
 	.main-visual .btn {
-		margin-top: 100px;
+		position: absolute;
+		bottom: 40px;
+		left: 20px;
 	}
 
 	.main-visual .item.type-2 {
@@ -3498,14 +3507,17 @@ select {
 		width: 50%;
 		text-align: center;
 	}
-	.mp-con1 .con1 .left .box a.on{
+
+	.mp-con1 .con1 .left .box a.on {
 		background-color: #f2f2f2;
 	}
+
 	.mp-con1 .con1 .left .box a:nth-child(1),
-	.mp-con1 .con1 .left .box a:nth-child(2){
+	.mp-con1 .con1 .left .box a:nth-child(2) {
 		border-bottom: 1px solid #ccc;
 	}
-	.mp-con1 .con1 .left .box a:nth-child(odd){
+
+	.mp-con1 .con1 .left .box a:nth-child(odd) {
 		border-right: 1px solid #ccc;
 	}
 
@@ -3585,27 +3597,39 @@ select {
 	#popup-pu-5 .tx3 {
 		line-height: 1.3;
 	}
-	.table-3 .td{
+
+	.table-3 .td {
 		flex-direction: column;
 		align-items: initial;
 	}
-	.table-3 .down{
+
+	.table-3 .down {
 		display: none;
 	}
-	.table-3 .tr.top .td >div:nth-child(2) >div:nth-child(1){
+
+	.table-3 .tr.top .td>div:nth-child(2)>div:nth-child(1) {
 		margin-top: 20px;
 		padding: 0 20px;
 	}
-	.table-3 .down-con .td{
+
+	.table-3 .down-con .td {
 		padding: 20px 0;
 	}
-	.m-ty1{
+
+	.m-ty1 {
 		justify-content: space-between;
 	}
 }
+
 @media all and (max-width:425px) {
-	.m-mt5{
+	.m-mt5 {
 		margin-top: 5px;
 		margin-bottom: 5px;
+	}
+}
+
+@media all and (max-width:375px) {
+	.table .td .tx33 input {
+		width: 240px;
 	}
 }
