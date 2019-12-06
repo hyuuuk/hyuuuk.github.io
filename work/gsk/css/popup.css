@@ -246,6 +246,7 @@
 
 .select-con select {
     width: 100%;
+    max-width: 100%;
     min-width: 160px;
     height: 26px;
     margin-bottom: 2px;
