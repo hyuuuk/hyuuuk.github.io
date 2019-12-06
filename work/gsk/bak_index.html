@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <title>gsk</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <a href="#!" onclick="openPopup('popCoon-1');">지출정보 요청</a>
+    <a href="#!" onclick="openPopup('popCoon-2');">정보확인</a>
+    <a href="#!" onclick="openPopup('popCoon-3');">개인정보활용 동의서</a>
+    <a href="#!" onclick="openPopup('popCoon-4');">Medicall 신청하기</a>
+    <a href="#!" onclick="openPopup('popCoon-5');">Medicall 신청완료</a>
+	 <a href="#!" onclick="openPopup('popCoon-6');">경제적이익 제공내역 </a>
+
+    <div id="popup-popCoon-1" class="popup pop1">
+        <div class="popup-inner">
+            <div class="tx1">
+                Home > 의료전문가 > HCP 지출보고 요청
+                <a href="#!" class="btn-close" onclick="closePopup();">
+                    <img src="img/icon-1.png" alt="">
+                </a>
+            </div>
+            <div class="tx2">
+                <img src="img/icon-4.png" alt="">
+                <div class="tx">HCP 지출보고 요청</div>
+            </div>
+            <div class="tx3">HCP 개인의 지출보고 정보를 보내 드립니다.</div>
+            <div class="tx4">정확한 정보를 입력하여 주세요.</div>
+            <div class="table">
+                <div class="tr">
+                    <div class="th">소속기관</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">전공과목</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">성함</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">이메일</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">휴대폰번호</div>
+                    <div class="td orange">
+                        <div class="tx">휴대폰 본인 인증이 필요합니다.</div>
+                        <a href="#!" class="btn-right">인증</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tx5">※ 본인명의의 휴대폰이 아닌 경우 인증이 불가할 수 있습니다.</div>
+            <div class="btn-bottom-wrap">
+                <a href="#!" class="btn-bottom">요청하기</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup-popCoon-2" class="popup pop2">
+        <div class="popup-inner">
+            <div class="img-1">
+                <img src="img/icon-3.png" alt="">
+            </div>
+            <div class="tx1">선생님 정보를 확인하였습니다.</div>
+            <div class="tx2">
+                00일 이내에 요청하신 <span class="orange">지출보고 내역</span>을<br>
+                <span class="orange">메일</span>로 전달해 드리겠습니다.
+            </div>
+            <a href="#!" class="btn-close" onclick="closePopup();">
+                <img src="img/icon-2.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div id="popup-popCoon-3" class="popup pop1 pop3">
+        <div class="popup-inner">
+            <div class="tx1">
+                Home > 의료전문가 > 개인정보활용 동의서
+                <a href="#!" class="btn-close" onclick="closePopup();">
+                    <img src="img/icon-1.png" alt="">
+                </a>
+            </div>
+            <div class="tx2">
+                <div class="tx">개인정보활용 동의서</div>
+            </div>
+            <div class="con1">
+                <div class="inner">
+                    <input type="checkbox" id="checkbox01-1">
+                    <label for="checkbox01-1">개인정보 활용 및 이용에 동의합니다.</label>
+                    <div class="btn">
+                        <img src="img/icon-7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="con2">
+                <div class="inner">
+                    GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.<br>
+                    GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.
+                </div>
+            </div>
+            <div class="table">
+                <div class="tr">
+                    <div class="th">근무지역</div>
+                    <div class="td select-con">
+                        <select name="" id="">
+                            <option value="">시/도</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">시/군/구</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">소속기관</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">전공과목</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">성함</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">이메일</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">휴대폰번호</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="btn-bottom-wrap">
+                <a href="#!" class="btn-bottom">동의하기</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup-popCoon-4" class="popup pop1 pop3 pop4">
+        <div class="popup-inner">
+            <div class="tx1">
+                Home > 의료전문가 > MediCall 신청하기
+                <a href="#!" class="btn-close" onclick="closePopup();">
+                    <img src="img/icon-1.png" alt="">
+                </a>
+            </div>
+            <div class="tx2">
+                <div class="tx">MediCall 신청하기</div>
+            </div>
+            <div class="tx6">
+                MediCall<span>이란?</span>
+            </div>
+            <div class="con3-1">
+                <div class="tx-1">
+                    <span>GSK 제품 및 질환과 관련된 최신 정보</span>는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 <span>온라인 서비스</span>입니다.
+                </div>
+                <div class="tx-2">&middot; MediCall의 주요서비스</div>
+                <div class="tx-3">
+                    <div class="le">1대1 화상 디테일</div>
+                    <div class="ri">
+                        선생님께서 선호 하시는 시간에 1대1로 진행되며 5~7분 정도
+                        전화나 화상 강의를 통해 실시간으로 정보를 전달 받으실 수 있습니다.
+                    </div>
+                </div>
+                <div class="tx-3">
+                    <div class="le">웹 심포지업</div>
+                    <div class="ri">
+                        매월 다양한 주제로 점심시간에 진행됩니다.
+                    </div>
+                </div>
+                <div class="tx-3">
+                    <div class="le">이메일</div>
+                    <div class="ri">
+                        최신 정보와 프로그램을 주기적으로 전달 받으실 수 있습니다.
+                    </div>
+                </div>
+            </div>
+            <div class="tx2">
+                <div class="tx">개인정보활용 동의서</div>
+            </div>
+            <div class="con1">
+                <div class="inner">
+                    <input type="checkbox" id="checkbox01-1">
+                    <label for="checkbox01-1">개인정보 활용 및 이용에 동의합니다.</label>
+                    <div class="btn">
+                        <img src="img/icon-7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="con2">
+                <div class="inner">
+                    GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.<br>
+                    GSK 제품 및 질환과 관련된 최신 정보는 물론 현재 진행 중인 다양한 프로그램까지
+                    빠르고 편리하게 전달 받으실 수 있는 온라인 서비스입니다.
+                </div>
+            </div>
+            <div class="table">
+                <div class="tr">
+                    <div class="th">근무지역</div>
+                    <div class="td select-con">
+                        <select name="" id="">
+                            <option value="">시/도</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">시/군/구</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">소속기관</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">전공과목</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">성함</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">이메일</div>
+                    <div class="td">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="tr">
+                    <div class="th">휴대폰번호</div>
+                    <div class="td1">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="btn-bottom-wrap">
+                <a href="#!" class="btn-bottom">확인</a>
+            </div>
+        </div>
+    </div>
+    <div id="popup-popCoon-5" class="popup pop2 pop5" style="display:block;">
+        <div class="popup-inner">
+            <div class="tx1">MediCall 신청 완료</div>
+            <div class="tx2">
+                MediCall서비스를 신청해 주셔서 감사합니다.
+            </div>
+            <div class="tx2">
+                빠른 시일 내에 담당자를 통해 연락 드리도록 하겠습니다.
+            </div>
+            <div class="tx3">MediCall서비스와 관련된 문의사항은 연락주세요.</div>
+            <div class="botm">
+                <div>
+                    <div class="le">TEL</div>
+                    <div class="ri">02-709-4434</div>
+                </div>
+                <div>
+                    <div class="le">Email</div>
+                    <div class="ri">kr.medicall@gsk.com</div>
+                </div>
+            </div>
+            <a href="#!" class="btn-close" onclick="closePopup();">
+                <img src="img/icon-2.png" alt="">
+            </a>
+        </div>
+    </div>
+	<div id="popup-popCoon-6" class="popup pop1 pop6">
+        <div class="popup-inner1">
+            <div class="tx1">
+                Home > 의료전문가 > 경제적이익 제공내역 
+                <a href="#!" class="btn-close" onclick="closePopup();">
+                    <img src="img/icon-1.png" alt="">
+                </a>
+            </div>
+            <div class="tx2">
+                <div class="tx">경제적이익 제공내역 </div>
+            </div>
+			 <div class="tx3">GSK Korea의 2019년 경재적이익 제공내역을 확인</div>
+               <div class="table">
+                <div class="tr">
+                    <div class="th">이름</div>
+                    <div class="td orange">
+                         <input type="text">
+                        <a href="#!" class="btn-right">인증</a>
+                    </div>
+                </div>
+				<div class="tr">
+                    <div class="th">소속</div>
+                    <div class="td select-con">
+                        <select name="" id="">
+                            <option value="">대학교</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">전공과</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+			 
+            <div class="btn-bottom-wrap">
+                <a href="#!" class="btn-bottom">확인하기</a>
+            </div>
+			 <div class="img-1">
+                <img src="img/icon-10.jpg" alt="">
+            </div>
+			<div class="tx5">※ TOV 관련하여 문의사항이 있으시면 해당 제품 담당자에게 연락바랍니다.</div>
+        </div>
+    </div>
+</body>
+
+</html>
